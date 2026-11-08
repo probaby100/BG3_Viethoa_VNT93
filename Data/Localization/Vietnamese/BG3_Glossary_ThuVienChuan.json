@@ -1469,7 +1469,7 @@
   {
     "id": "bg3-70-1",
     "termEnZh": "Mind Flayer",
-    "translationVi": "kẻ hút não",
+    "translationVi": "Kẻ Hút Não",
     "friendlyVi": "Tộc Nhân Illithid",
     "hostileVi": "kẻ hút não",
     "indifferentVi": "kẻ hút não",
@@ -1488,7 +1488,7 @@
       "Mindflayers",
       "Mindflayer"
     ],
-    "updatedAt": "2026-11-08 (QA v2)"
+    "updatedAt": "2026-11-08 (QA v3)"
   },
   {
     "id": "bg3-70-2",
@@ -6707,7 +6707,7 @@
     "indifferentVi": "Hiện Diện Tâm Linh",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-08 (QA v2)"
+    "updatedAt": "2026-11-08 (QA v3)"
   },
   {
     "id": "prescan-1793192679572-1ncb",
@@ -16243,7 +16243,7 @@
   {
     "id": "prescan-1793196286836-lkjz",
     "termEnZh": "Intellect Devourer",
-    "translationVi": "Ác Quỷ Nuốt Trí",
+    "translationVi": "Quái Nuốt Trí Não",
     "friendlyVi": "Sinh vật Nuốt Trí",
     "hostileVi": "Thứ quái vật não bộ",
     "indifferentVi": "Intellect Devourer",
@@ -16252,7 +16252,7 @@
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-08 (QA v2)"
+    "updatedAt": "2026-11-08 (QA v3)"
   },
   {
     "id": "prescan-1793196286836-eimy",
