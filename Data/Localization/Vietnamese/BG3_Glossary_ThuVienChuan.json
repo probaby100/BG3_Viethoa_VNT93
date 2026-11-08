@@ -3258,12 +3258,12 @@
     "category": "Kỹ năng / Chức năng",
     "description": "Hệ thống đo lường mối quan hệ giữa nhân vật chính và Companions trong BG3, ảnh hưởng đến romance và các lựa chọn cốt truyện.",
     "addedAt": "Pre-Scan Engine",
-    "friendlyVi": "Thiện Cảm",
-    "hostileVi": "Thiện Cảm",
+    "friendlyVi": "Tăng thiện cảm",
+    "hostileVi": "Giảm thiện cảm",
     "indifferentVi": "Thiện Cảm",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-08 (QA v2)"
+    "updatedAt": "2026-11-08 (QA Approval)"
   },
   {
     "id": "prescan-1793190865728-grxa",
@@ -8068,7 +8068,7 @@
   {
     "id": "prescan-1793193416390-19yy",
     "termEnZh": "Elf",
-    "translationVi": "Elf",
+    "translationVi": "Tộc Tiên / Người Tiên",
     "friendlyVi": "người bạn Tiên tộc / quý tộc Tiên tộc",
     "hostileVi": "lũ tai nhọn / đồ Tiên tộc",
     "indifferentVi": "Elf",
@@ -8078,14 +8078,10 @@
     "priority": "core",
     "uiFixed": true,
     "deprecatedVi": [
-      "Tiên tộc (Elf)",
-      "Tiên tộc",
-      "Elves",
-      "elves",
-      "Tiên Tộc",
-      "elf"
+      "Tinh Linh",
+      "tinh linh"
     ],
-    "updatedAt": "2026-11-08 (QA v2)"
+    "updatedAt": "2026-11-08 (QA Elf)"
   },
   {
     "id": "prescan-1793193416390-n8vi",
@@ -10434,7 +10430,7 @@
   {
     "id": "prescan-1793194318748-h2uo",
     "termEnZh": "Half-Elf",
-    "translationVi": "Bán Elf",
+    "translationVi": "Bán Tiên",
     "friendlyVi": "Bán Elf",
     "hostileVi": "Bán Elf",
     "indifferentVi": "Bán Elf",
@@ -10444,9 +10440,10 @@
     "priority": "core",
     "uiFixed": true,
     "deprecatedVi": [
-      "Bán Tiên"
+      "Bán Tinh Linh",
+      "bán tinh linh"
     ],
-    "updatedAt": "2026-11-08 (QA v2)"
+    "updatedAt": "2026-11-08 (QA Elf)"
   },
   {
     "id": "prescan-1793194318748-vvk0",
@@ -23253,7 +23250,7 @@
   {
     "id": "prescan-1793709347563-cvy2",
     "termEnZh": "Steam Cloud",
-    "translationVi": "Mây Hơi Nước",
+    "translationVi": "Steam Cloud",
     "category": "Kỹ năng / Chức năng",
     "description": "Hiệu ứng đám mây hơi nóng tạo vùng che khuất tầm nhìn, gây sát thương nhiệt nhẹ và làm ướt mục tiêu; thường sinh ra từ phép tạo nước gặp lửa hoặc từ bẫy hơi trong Grymforge, dùng để cắt tầm nhìn của kẻ địch.",
     "addedAt": "Pre-Scan Engine",
@@ -23262,7 +23259,7 @@
     "indifferentVi": "Mây Hơi Nước",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-08 (QA v2)"
+    "updatedAt": "2026-11-08 (QA Steam)"
   },
   {
     "id": "prescan-1793709347563-1wcw",
@@ -121721,5 +121718,15 @@
       "Blood War"
     ],
     "updatedAt": "2026-11-08 (QA v2)"
+  },
+  {
+    "id": "bg3-8265",
+    "termEnZh": "Elven Weapon Training / 精灵武器训练",
+    "translationVi": "Huấn Luyện Vũ Khí Tộc Tiên",
+    "category": "Nội tại / Kỹ năng chủng tộc",
+    "description": "Nội tại chủng tộc Elf: thông thạo Kiếm Dài, Kiếm Ngắn, Cung Ngắn, Cung Dài.",
+    "priority": "core",
+    "uiFixed": true,
+    "updatedAt": "2026-11-08 (QA Elf)"
   }
 ]
