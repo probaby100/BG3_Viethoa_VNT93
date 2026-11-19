@@ -938,7 +938,7 @@
   {
     "id": "bg3-51",
     "termEnZh": "Saving Throw",
-    "translationVi": "Kiểm Tra Cứu Mạng",
+    "translationVi": "Đổ Xúc Xắc Kháng Cự",
     "category": "Kỹ năng / Chức năng",
     "description": "Thuật ngữ chuẩn D&D 5e (Saving Throw): Đổ xúc xắc d20 cộng chỉ số để kháng lại phép thuật, độc tố, bẫy hoặc hiệu ứng bất lợi.",
     "addedAt": "Mặc định",
@@ -7924,7 +7924,7 @@
   {
     "id": "prescan-1793193292002-2ls4",
     "termEnZh": "Saving Throw Bonus",
-    "translationVi": "Điểm Thưởng Kiểm Tra Cứu Mạng",
+    "translationVi": "Điểm Thưởng Đổ Kháng Cự",
     "category": "Kỹ năng / Chức năng",
     "description": "Giá trị cộng thêm vào lần Cứu Mạng, giúp nhân vật chống lại hiệu ứng hoặc mối nguy trong cơ chế D&D 5e.",
     "addedAt": "Pre-Scan Engine",
@@ -15046,7 +15046,7 @@
   {
     "id": "prescan-1793195796418-yzu4",
     "termEnZh": "Death Saving Throw",
-    "translationVi": "Kiểm Tra Cứu Mạng Khi Hấp Hối",
+    "translationVi": "Đổ Xúc Xắc Cứu Mạng",
     "category": "Kỹ năng / Chức năng",
     "description": "Cơ chế D&D 5e quan trọng: khi nhân vật rơi xuống 0 HP, phải thực hiện kiểm tra d20 để quyết định sống hay chết. 3 lần thành công sống sót, 3 lần thất bại tử vong.",
     "addedAt": "Pre-Scan Engine",
@@ -27792,7 +27792,7 @@
   {
     "id": "prescan-1793710915783-dvcy",
     "termEnZh": "Concentration Saving Throw",
-    "translationVi": "Kiểm Tra Cứu Mạng Tập Trung",
+    "translationVi": "Đổ Kháng Cự Duy Trì Tập Trung",
     "friendlyVi": "Kiểm Tra Cứu Mạng Tập Trung",
     "hostileVi": "Kiểm Tra Cứu Mạng Tập Trung",
     "indifferentVi": "Kiểm Tra Cứu Mạng Tập Trung",
@@ -37962,7 +37962,7 @@
   {
     "id": "prescan-1793714639333-e5r6",
     "termEnZh": "Dexterity Saving Throw Proficiency",
-    "translationVi": "Thông Thạo Kiểm Tra Cứu Mạng Khéo Léo",
+    "translationVi": "Thông Thạo Đổ Kháng Cự Khéo Léo",
     "category": "Kỹ năng / Chức năng",
     "description": "Năng lực cộng điểm Proficiency Bonus vào Dexterity Saving Throw, giúp né tránh bẫy, phép thuật vùng và hiệu ứng AoE.",
     "addedAt": "Pre-Scan Engine",
@@ -49408,17 +49408,26 @@
     "id": "prescan-1793804539243-342q",
     "termEnZh": "Lady of Loss",
     "translationVi": "Phu Nhân Mất Mát",
-    "friendlyVi": "Thánh Mẫu Mất Mát",
+    "friendlyVi": "Phu Nhân Mất Mát",
     "hostileVi": "Con mụ Mất Mát",
     "indifferentVi": "Phu Nhân Mất Mát",
     "category": "Xưng hô / Thành ngữ",
-    "description": "Danh hiệu tôn kính dành cho Shar, nữ thần Bóng Tối và Mất Mát. Tín đồ Dark Justiciar cùng các Gauntlet of Shar hô khẩu hiệu 'For the Lady of Loss!' khi lao vào chiến đấu. Tín đồ gọi bằng sắc thái sùng kính; người ngoài hoặc tín đồ Selûne gọi với thái độ khinh miệt.",
+    "description": "Danh hiệu tôn kính dành cho Shar, nữ thần Bóng Tối và Mất Mát. Tín đồ Dark Justiciar cùng các Gauntlet of Shar hô khẩu hiệu 'For the Lady of Loss!' khi lao vào chiến đấu. Tín đồ gọi bằng sắc thái sùng kính; người ngoài hoặc tín đồ Selûne gọi với thái độ khinh miệt. Thống nhất duy nhất một cách gọi \"Phu Nhân Mất Mát\" trên toàn game (cả tín đồ lẫn người ngoài); sắc thái khinh miệt thể hiện bằng từ đi kèm (\"mụ\", \"ả\"), không đổi danh hiệu.",
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-08 (QA v2)",
+    "updatedAt": "2026-11-09 (Hợp nhất Lady of Loss)",
     "deprecatedVi": [
-      "Phu Nhân Mất Mát (danh hiệu của Shar)"
+      "Phu Nhân Mất Mát (danh hiệu của Shar)",
+      "Thánh Mẫu Mất Mát",
+      "Đức Mẹ Mất Mát",
+      "Đức Bà Mất Mát",
+      "Lệnh Bà Mất Mát",
+      "Quý Bà Mất Mát",
+      "Nữ Chúa Mất Mát",
+      "Quý Cô Mất Mát",
+      "Đức Bà Thất Thoát",
+      "Đức Mẹ Đánh Mất"
     ],
     "reviewNote": "QA v2: da_phuong_an"
   },
@@ -61458,7 +61467,7 @@
   {
     "id": "prescan-1793894032372-7cww",
     "termEnZh": "Lockpicking",
-    "translationVi": "Phá Khóa",
+    "translationVi": "Cạy Khóa",
     "category": "Kỹ năng / Chức năng",
     "description": "Cơ chế mở ổ khóa bằng Thieves' Tools, quyết định bởi kiểm tra Sleight of Hand. Thông báo 'Lockpicking Impossible' nghĩa là ổ khóa không thể phá, buộc tìm chìa khóa hoặc dùng phép như Knock.",
     "addedAt": "Pre-Scan Engine",
@@ -74296,7 +74305,7 @@
   {
     "id": "prescan-1793902359207-c4fs",
     "termEnZh": "Saving Throw Proficiency",
-    "translationVi": "Thông Thạo Kiểm Tra Cứu Mạng",
+    "translationVi": "Thông Thạo Đổ Kháng Cự",
     "category": "Kỹ năng / Chức năng",
     "description": "Cơ chế D&D 5e: mỗi Lớp nhân vật được cộng Điểm Thông Thạo vào hai loại Kiểm Tra Cứu Mạng nhất định. Xuất hiện trong bảng thông tin tạo nhân vật và màn hình nhân vật.",
     "addedAt": "Pre-Scan Engine",
@@ -97012,7 +97021,7 @@
   {
     "id": "prescan-1793920605786-jay6",
     "termEnZh": "Constitution Saving Throw",
-    "translationVi": "Cú Cứu Thể Chất",
+    "translationVi": "Đổ Kháng Cự Thể Chất",
     "category": "Kỹ năng / Chức năng",
     "description": "Phép thử cứu nguy dựa trên chỉ số Thể Chất trong D&D 5e; dòng thoại viết tắt là “CON Save”.",
     "addedAt": "Pre-Scan Engine",
@@ -102589,7 +102598,7 @@
   {
     "id": "prescan-1793925241857-qru3",
     "termEnZh": "Dexterity Saving Throw",
-    "translationVi": "Kiểm Tra Cứu Mạng Khéo Léo",
+    "translationVi": "Đổ Kháng Cự Khéo Léo",
     "category": "Kỹ năng / Chức năng",
     "description": "Phép thử cứu độ dựa trên Khéo Léo trong D&D 5e, dùng để tránh hoặc giảm tác động của hiểm họa.",
     "addedAt": "Pre-Scan Engine",
@@ -117115,18 +117124,26 @@
   {
     "id": "prescan-1793949011157-ou3n",
     "termEnZh": "Lady Loss",
-    "translationVi": "Quý Bà Mất Mát",
-    "friendlyVi": "Quý Bà Mất Mát",
-    "hostileVi": "Quý Bà Mất Mát",
-    "indifferentVi": "Quý Bà Mất Mát",
+    "translationVi": "Phu Nhân Mất Mát",
+    "friendlyVi": "Phu Nhân Mất Mát",
+    "hostileVi": "mụ Phu Nhân Mất Mát",
+    "indifferentVi": "Phu Nhân Mất Mát",
     "category": "Nhân vật",
-    "description": "Tên gọi khác của Shar trong ngữ cảnh dòng máu tối tăm, biểu tượng sự mất mát và tổn thương.",
+    "description": "Tên gọi khác của Shar trong ngữ cảnh dòng máu tối tăm, biểu tượng sự mất mát và tổn thương. Thống nhất duy nhất một cách gọi \"Phu Nhân Mất Mát\" trên toàn game (cả tín đồ lẫn người ngoài); sắc thái khinh miệt thể hiện bằng từ đi kèm (\"mụ\", \"ả\"), không đổi danh hiệu.",
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-08 (QA v2)",
+    "updatedAt": "2026-11-09 (Hợp nhất Lady of Loss)",
     "deprecatedVi": [
-      "Nữ Tước Tổn Thất"
+      "Nữ Tước Tổn Thất",
+      "Quý Bà Mất Mát",
+      "Đức Mẹ Mất Mát",
+      "Đức Bà Mất Mát",
+      "Lệnh Bà Mất Mát",
+      "Nữ Chúa Mất Mát",
+      "Quý Cô Mất Mát",
+      "Đức Bà Thất Thoát",
+      "Đức Mẹ Đánh Mất"
     ],
     "reviewNote": "QA v2: sai_nghia"
   },
@@ -121610,7 +121627,7 @@
   {
     "id": "core-spell-save-dc",
     "termEnZh": "Spell Save DC",
-    "translationVi": "Độ Khó Cứu Mạng Phép",
+    "translationVi": "Độ Khó Kháng Phép",
     "friendlyVi": "Độ Khó Cứu Mạng Phép",
     "hostileVi": "Độ Khó Cứu Mạng Phép",
     "indifferentVi": "Độ Khó Cứu Mạng Phép",
