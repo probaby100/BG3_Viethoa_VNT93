@@ -46,7 +46,7 @@ Khi dịch bất kỳ nội dung nào của Baldur's Gate 3, bạn BẮT BUỘC 
 
 ## 3. DỊCH NHÃN `[TAG]`, ĐOẠN SÁCH `[...]` & THÀNH NGỮ
 1. **Dịch nhãn `[TAG]`**:
-   - Lớp: `[BARBARIAN]` -> `[MAN BINH]`, `[BARD]` -> `[THI SĨ]`, `[CLERIC]` -> `[GIÁO SĨ]`, `[DRUID]` -> `[DRUID]`, `[FIGHTER]` -> `[CHIẾN BINH]`, `[MONK]` -> `[VÕ TĂNG]`, `[PALADIN]` -> `[HIỆP SĨ THÁNH]`, `[RANGER]` -> `[KIỂM LÂM]`, `[ROGUE]` -> `[KẺ TRỘM]`, `[SORCERER]` -> `[PHÙ THỦY]`, `[WARLOCK]` -> `[PHÁP SƯ KHẾ ƯỚC]`, `[WIZARD]` -> `[PHÁP SƯ]`.
+   - Lớp: `[BARBARIAN]` -> `[CUỒNG CHIẾN SĨ]`, `[BARD]` -> `[THI SĨ]`, `[CLERIC]` -> `[GIÁO SĨ]`, `[DRUID]` -> `[DRUID]`, `[FIGHTER]` -> `[CHIẾN BINH]`, `[MONK]` -> `[TU SĨ]`, `[PALADIN]` -> `[HIỆP SĨ THÁNH]`, `[RANGER]` -> `[KIỂM LÂM]`, `[ROGUE]` -> `[KẺ TRỘM]`, `[SORCERER]` -> `[PHÙ THỦY]`, `[WARLOCK]` -> `[PHÁP SƯ KHẾ ƯỚC]`, `[WIZARD]` -> `[PHÁP SƯ]`.
    - Xuất thân / Chủng tộc: `[BALDURIAN]` -> `[NGƯỜI BALDUR'S GATE]`, `[DARK URGE]` -> `[BẢN NĂNG HẮC ÁM]`, `[DROW]` -> `[DROW]`, `[GITHYANKI]` -> `[GITHYANKI]`, `[ELF]` -> `[ELF]`, `[HALF-ELF]` -> `[BÁN ELF]`, `[DWARF]` -> `[NGƯỜI LÙN]`, `[HUMAN]` -> `[CON NGƯỜI]`, `[TIEFLING]` -> `[TIEFLING]`.
    - Kỹ năng xúc xắc: `[PERSUASION]` -> `[THUYẾT PHỤC]`, `[DECEPTION]` -> `[LỪA PHỈNH]`, `[INTIMIDATION]` -> `[ĐE DỌA]`, `[INSIGHT]` -> `[THẤU CẢM]`, `[PERCEPTION]` -> `[NHẬN THỨC]`, `[INVESTIGATION]` -> `[ĐIỀU TRA]`, `[ARCANA]` -> `[BÍ THUẬT]`, `[HISTORY]` -> `[LỊCH SỬ]`, `[RELIGION]` -> `[TÔN GIÁO]`, `[MEDICINE]` -> `[Y THUẬT]`, `[STEALTH]` -> `[ẨN NẤP]`, `[ATHLETICS]` -> `[ĐIỀN KINH]`, `[SLEIGHT OF HAND]` -> `[NHANH TAY]`, `[DETECT THOUGHTS]` -> `[DÒ TÂM TRÍ]`.
 2. **Đoạn mô tả sách `[...]`**: Dịch toàn bộ nội dung bên trong, giữ cặp ngoặc vuông `[...]`.
@@ -96,9 +96,9 @@ Khi dịch bất kỳ nội dung nào của Baldur's Gate 3, bạn BẮT BUỘC 
 Luôn luôn tra cứu và đồng bộ tuyệt đối với thư viện thuật ngữ v2 (mỗi mục một tên chuẩn; mục `priority: core` thắng mọi nguồn khác; không dùng các cách dịch trong `deprecatedVi`). Xem bảng lõi ở mục 0 của `quy_tac_dich_bg3_google_antigravity.md`. File:
 `c:\Users\tuyen\OneDrive\Desktop\3 Baldur's Gate 3\BG3_Glossary_ThuVienChuan.json`
 - 6 chỉ số: Sức Mạnh / Khéo Léo / Thể Chất / Trí Tuệ / Thông Thái / Sức Hút
-- 12 lớp: Man Binh, Thi Sĩ, Giáo Sĩ, Druid, Chiến Binh, Võ Tăng, Hiệp Sĩ Thánh, Kiểm Lâm, Kẻ Trộm, Phù Thủy, Pháp Sư Khế Ước, Pháp Sư
+- 12 lớp: Cuồng Chiến Sĩ, Thi Sĩ, Giáo Sĩ, Druid, Chiến Binh, Tu Sĩ, Hiệp Sĩ Thánh, Kiểm Lâm, Kẻ Trộm, Phù Thủy, Pháp Sư Khế Ước, Pháp Sư
 - Underdark -> **Thế Giới Ngầm** · Flaming Fist -> **Nắm Đấm Lửa** · Weave -> **Mạng Lưới Ma Pháp** · Shadowfell -> **Cõi Bóng Tối**
-- Hạn chế Hán Việt nặng / kiếm hiệp (đa tạ, bằng hữu, đại nhân, thuộc hạ, sư phụ, giang hồ...): xem bảng 0.2 trong quy tắc dịch.
+- Hiện đại hóa Hán Việt (Phase 7): tránh từ Hán Việt cổ/kiếm hiệp (`đa tạ, bằng hữu, huynh đệ, tỷ muội, đại nhân, thuộc hạ, sư phụ, linh dược, độc dược, mũ trụ, hộ phù, chủy thủ, trường kiếm, võ tăng, man binh, hắc phán quan...`) ➔ dùng tiếng Việt hiện đại tự nhiên theo thư viện chuẩn. Xem bảng 0.2 trong quy tắc dịch.
 - `The Absolute` -> **Đấng Tuyệt Đối**
 - `True Soul` -> **Chân Hồn**
 - `Mind Flayer` -> **kẻ hút não** · `Illithid` -> **Illithid**
