@@ -5,7 +5,7 @@
         <node id="root">
             <children>
                 <node id="Font">
-                    <attribute id="FontPath" type="LSString" value="Assets/Fonts/BeVietnamPro-Regular.ttf#Be Vietnam Pro"/>
+                    <attribute id="FontPath" type="LSString" value="Assets/Fonts/QuadraatOffcPro/#Quadraat Offc Pro"/>
                 </node>
                 <node id="Font">
                     <attribute id="FontPath" type="LSString" value="Assets/Fonts/#Noto Serif SC"/>
