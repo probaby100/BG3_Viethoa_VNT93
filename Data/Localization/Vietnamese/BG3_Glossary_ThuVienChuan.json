@@ -7,7 +7,7 @@
     "hostileVi": "Tên Ma Cà Rồng Astarion",
     "indifferentVi": "Astarion",
     "category": "Nhân vật",
-    "description": "Ma cà rồng Spawn dòng dõi High Elf, cựu thẩm phán tại Baldur's Gate. Giọng điệu quý tộc, điệu đà, châm biếm sắc sảo, hay gọi người chơi là \"darling\" (\"cưng / người đẹp\"). Xưng \"tôi / ta\" - gọi \"bạn / cưng\" (khi thân mật/lãng mạn: \"ta / anh - em / cưng\"; khi hóa Vampire Ascendant hoặc thù địch: \"ta - ngươi\").",
+    "description": "Ma cà rồng hạ đẳng dòng dõi Elf Thượng Đẳng, cựu thẩm phán tại Baldur's Gate. Giọng điệu quý tộc, điệu đà, châm biếm sắc sảo, hay gọi người chơi là \"darling\" (\"cưng / người đẹp\"). Xưng \"tôi / ta\" - gọi \"bạn / cưng\" (khi thân mật/lãng mạn: \"ta / anh - em / cưng\"; khi hóa Vampire Ascendant hoặc thù địch: \"ta - ngươi\").",
     "addedAt": "Mặc định",
     "priority": "standard",
     "uiFixed": false,
@@ -21,7 +21,7 @@
     "hostileVi": "Ả Tín Đồ Shar Shadowheart",
     "indifferentVi": "Nữ Giáo Sĩ Shadowheart",
     "category": "Nhân vật",
-    "description": "Nữ giáo sĩ Bán Elf (Half-Elf) của Nữ thần Bóng Tối Shar, mang sứ mệnh hộ tống Khối Lăng Kính Tinh Giới. Kín tiếng, mỉa mai nhẹ nhưng giàu lòng trắc ẩn. Xưng \"tôi\" - gọi \"bạn / đằng ấy\" (khi thân thiết/lãng mạn: \"tôi / em - bạn / anh\"; khi cãi nhau với Lae'zel hoặc kẻ địch: \"ta / tôi - ngươi / ả\").",
+    "description": "Nữ giáo sĩ Bán Elf của Nữ thần Bóng Tối Shar, mang sứ mệnh hộ tống Khối Lăng Kính Tinh Giới. Kín tiếng, mỉa mai nhẹ nhưng giàu lòng trắc ẩn. Xưng \"tôi\" - gọi \"bạn / đằng ấy\" (khi thân thiết/lãng mạn: \"tôi / em - bạn / anh\"; khi cãi nhau với Lae'zel hoặc kẻ địch: \"ta / tôi - ngươi / ả\").",
     "addedAt": "Mặc định",
     "priority": "standard",
     "uiFixed": false,
@@ -377,9 +377,18 @@
     "category": "Nhân vật",
     "description": "Á thần bất tử (Aasimar), con gái của Nữ thần Mặt Trăng Selûne và là người tình của Giáo sĩ Isobel. Giọng hào sảng, thần thánh, uy dũng: xưng \"ta\" - gọi \"ngươi / chiến hữu / tình yêu của ta (với Isobel)\".",
     "addedAt": "Mặc định",
-    "priority": "standard",
+    "priority": "core",
     "uiFixed": false,
-    "updatedAt": "2026-11-08 (QA v2)"
+    "updatedAt": "2026-11-24 (Round 3)",
+    "deprecatedVi": [
+      "Bài Ca Đêm",
+      "Bài Ca Bóng Đêm",
+      "Khúc Ca Màn Đêm",
+      "Bài Ca Màn Đêm",
+      "Dạ Ca",
+      "Dạ Khúc",
+      "Ái Nữ Bóng Đêm"
+    ]
   },
   {
     "id": "bg3-22",
@@ -487,16 +496,20 @@
     "friendlyVi": "Bờ Biển Kiếm",
     "hostileVi": "Bờ Biển Kiếm",
     "indifferentVi": "Bờ Biển Kiếm",
-    "priority": "standard",
+    "priority": "core",
     "uiFixed": false,
-    "updatedAt": "2026-11-08 (QA v2)"
+    "updatedAt": "2026-11-24 (Round 3)",
+    "deprecatedVi": [
+      "Bờ Kiếm",
+      "Kiếm Ngạn"
+    ]
   },
   {
     "id": "bg3-28",
     "termEnZh": "Emerald Grove",
     "translationVi": "Rừng Ngọc Lục Bảo",
     "category": "Địa danh",
-    "description": "Thánh địa của các Druid (Druid) thờ thần Silvanus ở Hồi 1, nơi những người tị nạn Tiefling từ Elturel trú ẩn.",
+    "description": "Thánh địa của các Druid thờ thần Silvanus ở Hồi 1, nơi những người tị nạn Tiefling từ Elturel trú ẩn.",
     "addedAt": "Mặc định",
     "friendlyVi": "Rừng Ngọc Lục Bảo",
     "hostileVi": "Rừng Ngọc Lục Bảo",
@@ -573,7 +586,7 @@
   {
     "id": "bg3-32",
     "termEnZh": "Shadow-Cursed Lands",
-    "translationVi": "Vùng Đất Bóng Tối Nguyền Rủa",
+    "translationVi": "Vùng Đất Bị Nguyền Bóng Tối",
     "category": "Địa danh",
     "description": "Vùng đất quanh thị trấn Reithwin và Tháp Trăng Mọc ở Hồi 2, bị Lời Nguyền Hắc Ám của Nữ thần Shar bao phủ.",
     "addedAt": "Mặc định",
@@ -582,14 +595,19 @@
     "indifferentVi": "Vùng Đất Bóng Tối Nguyền Rủa",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 7 Modernize)"
+    "updatedAt": "2026-11-21 (Phase 7 Modernize)",
+    "deprecatedVi": [
+      "Vùng Đất Hắc Ám Nguyền Rủa",
+      "Vùng Đất Bóng Tối Nguyền Rủa",
+      "Vùng Đất Bị Lời Nguyền Bóng Tối"
+    ]
   },
   {
     "id": "bg3-33",
     "termEnZh": "Last Light Inn",
     "translationVi": "Quán Trọ Ánh Sáng Cuối Cùng",
     "category": "Địa danh",
-    "description": "Thành trì trú ẩn duy nhất còn giữ được vầng sáng bảo hộ của Selûne giữa Vùng Đất Hắc Ám Nguyền Rủa, nơi Jaheira và Hội Hạc Cầm đóng quân.",
+    "description": "Thành trì trú ẩn duy nhất còn giữ được vầng sáng bảo hộ của Selûne giữa Vùng Đất Bị Nguyền Bóng Tối, nơi Jaheira và Hội Hạc Cầm đóng quân.",
     "addedAt": "Mặc định",
     "friendlyVi": "Quán Trọ Ánh Sáng Cuối Cùng",
     "hostileVi": "Quán Trọ Ánh Sáng Cuối Cùng",
@@ -610,7 +628,12 @@
     "indifferentVi": "Tháp Trăng Mọc",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-08 (QA v2)"
+    "updatedAt": "2026-11-08 (QA v2)",
+    "deprecatedVi": [
+      "Tháp Moonrise",
+      "Moonrise Towers",
+      "Moonrise"
+    ]
   },
   {
     "id": "bg3-35",
@@ -873,7 +896,11 @@
     "indifferentVi": "Thánh Huyết Lathander",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-08 (QA v2)"
+    "updatedAt": "2026-11-08 (QA v2)",
+    "deprecatedVi": [
+      "Máu Của Lathander",
+      "Huyết Tích Lathander"
+    ]
   },
   {
     "id": "bg3-48",
@@ -945,9 +972,15 @@
     "friendlyVi": "Kiểm Tra Cứu Mạng",
     "hostileVi": "Kiểm Tra Cứu Mạng",
     "indifferentVi": "Kiểm Tra Cứu Mạng",
-    "priority": "standard",
-    "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "priority": "core",
+    "uiFixed": true,
+    "updatedAt": "2026-11-24 (Round 3)",
+    "deprecatedVi": [
+      "Kiểm tra cứu mạng",
+      "Cứu nguy",
+      "Đổ cứu nguy",
+      "Đổ kháng cự"
+    ]
   },
   {
     "id": "bg3-52",
@@ -1003,7 +1036,7 @@
   {
     "id": "bg3-55",
     "termEnZh": "Difficulty Class",
-    "translationVi": "Độ khó cứu mạng phép",
+    "translationVi": "Độ khó",
     "category": "Kỹ năng / Chức năng",
     "description": "Con số mục tiêu mà kết quả đổ xúc xắc phải đạt hoặc vượt qua để thành công.",
     "addedAt": "Mặc định",
@@ -1019,7 +1052,8 @@
     "deprecatedVi": [
       "Độ Khó (DC)",
       "Độ Khó",
-      "Độ Khó Cứu Nguy Phép Thuật"
+      "Độ Khó Cứu Nguy Phép Thuật",
+      "Độ khó cứu mạng phép"
     ],
     "updatedAt": "2026-11-21 (Phase 6 Caps)"
   },
@@ -1137,9 +1171,14 @@
     "friendlyVi": "Ô phép",
     "hostileVi": "Ô phép",
     "indifferentVi": "Ô phép",
-    "priority": "standard",
-    "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "priority": "core",
+    "uiFixed": true,
+    "updatedAt": "2026-11-24 (Round 3)",
+    "deprecatedVi": [
+      "Ô thần chú",
+      "Ô phép thuật",
+      "Khe cắm phép"
+    ]
   },
   {
     "id": "bg3-59-2",
@@ -1281,9 +1320,13 @@
     "friendlyVi": "Đòn đánh cơ hội",
     "hostileVi": "Đòn đánh cơ hội",
     "indifferentVi": "Đòn đánh cơ hội",
-    "priority": "standard",
-    "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 7 Modernize)"
+    "priority": "core",
+    "uiFixed": true,
+    "updatedAt": "2026-11-24 (Round 3)",
+    "deprecatedVi": [
+      "Đòn tấn công cơ hội",
+      "Đòn đánh đáp trả"
+    ]
   },
   {
     "id": "bg3-65-1",
@@ -1420,9 +1463,11 @@
     "priority": "core",
     "uiFixed": true,
     "deprecatedVi": [
-      "Bộ Pháp Sương Mù"
+      "Bộ Pháp Sương Mù",
+      "Bước đi trong sương",
+      "Bước đi sương mù"
     ],
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "updatedAt": "2026-11-24 (Round 3)"
   },
   {
     "id": "bg3-67-4",
@@ -1460,11 +1505,14 @@
     "hostileVi": "Tên Tay Sai Chân Hồn",
     "indifferentVi": "Chân Hồn",
     "category": "Xưng hô / Thành ngữ",
-    "description": "Những chỉ huy cấp cao của Giáo Phái Tuyệt Đối mang Nòng Nọc Illithid trong đầu. Khi Goblin hoặc tín đồ cấp dưới gọi người chơi là True Soul: dịch là \"Chân Hồn Đại Nhân / Ngài Chân Hồn\".",
+    "description": "Những chỉ huy cấp cao của Giáo Phái Tuyệt Đối mang Ấu Trùng Illithid trong đầu. Khi Goblin hoặc tín đồ cấp dưới gọi người chơi là True Soul: dịch là \"Chân Hồn Đại Nhân / Ngài Chân Hồn\".",
     "addedAt": "Mặc định",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 7 Modernize)"
+    "updatedAt": "2026-11-21 (Phase 7 Modernize)",
+    "deprecatedVi": [
+      "Chân Linh"
+    ]
   },
   {
     "id": "bg3-70-1",
@@ -1486,7 +1534,8 @@
       "Mind Flayers",
       "Mind Flayer",
       "Mindflayers",
-      "Mindflayer"
+      "Mindflayer",
+      "Tâm linh quái"
     ],
     "updatedAt": "2026-11-08 (QA v3)"
   },
@@ -1507,7 +1556,7 @@
   {
     "id": "bg3-71",
     "termEnZh": "Tadpole",
-    "translationVi": "Nòng nọc Illithid",
+    "translationVi": "Ấu trùng",
     "friendlyVi": "Ký Sinh Trùng",
     "hostileVi": "Con Giòi Đoạt Tâm",
     "indifferentVi": "Nòng nọc Illithid",
@@ -1519,7 +1568,10 @@
     ],
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "updatedAt": "2026-11-21 (Phase 6 Caps)",
+    "deprecatedVi": [
+      "Nòng nọc"
+    ]
   },
   {
     "id": "bg3-72-1",
@@ -1533,7 +1585,12 @@
     "addedAt": "Mặc định",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-08 (QA v2)"
+    "updatedAt": "2026-11-08 (QA v2)",
+    "deprecatedVi": [
+      "Não Cổ Đại",
+      "Đại não cổ đại",
+      "Não đại thụ"
+    ]
   },
   {
     "id": "bg3-72-2",
@@ -1547,7 +1604,11 @@
     "addedAt": "Mặc định",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-08 (QA v2)"
+    "updatedAt": "2026-11-08 (QA v2)",
+    "deprecatedVi": [
+      "Não Nether",
+      "Bộ não Nether"
+    ]
   },
   {
     "id": "bg3-73",
@@ -1592,7 +1653,11 @@
     "addedAt": "Mặc định",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-08 (QA v2)"
+    "updatedAt": "2026-11-08 (QA v2)",
+    "deprecatedVi": [
+      "Thôi Thúc Đen Tối",
+      "Dark Urge"
+    ]
   },
   {
     "id": "bg3-76",
@@ -1628,12 +1693,18 @@
     "addedAt": "Mặc định",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-08 (QA v2)"
+    "updatedAt": "2026-11-08 (QA v2)",
+    "deprecatedVi": [
+      "Hội Harper",
+      "Harpers",
+      "Hội Đàn Hạc",
+      "Đàn Hạc"
+    ]
   },
   {
     "id": "bg3-78-1",
     "termEnZh": "Steel Watch",
-    "translationVi": "Đội cảnh vệ thép",
+    "translationVi": "Đội Cảnh Vệ Thép",
     "friendlyVi": "Vệ Binh Bảo Hộ",
     "hostileVi": "Cỗ Máy Đồ Tể Của Gortash",
     "indifferentVi": "Đội cảnh vệ thép",
@@ -1642,7 +1713,11 @@
     "addedAt": "Mặc định",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "updatedAt": "2026-11-21 (Phase 6 Caps)",
+    "deprecatedVi": [
+      "Cận Vệ Thép",
+      "Steel Watch"
+    ]
   },
   {
     "id": "bg3-78-2",
@@ -1656,23 +1731,33 @@
     "addedAt": "Mặc định",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 7 Modernize)"
+    "updatedAt": "2026-11-21 (Phase 7 Modernize)",
+    "deprecatedVi": [
+      "Vệ Binh Thép Steel Watcher",
+      "Vệ Sĩ Thép",
+      "Steel Watcher"
+    ]
   },
   {
     "id": "bg3-79",
     "termEnZh": "Dark Justiciar",
-    "translationVi": "Thẩm phán bóng tối",
+    "translationVi": "Thẩm Phán Bóng Tối",
     "friendlyVi": "Thẩm phán Bóng tối của Đức Bà Shar",
     "hostileVi": "Tên Đồ Tể Của Shar",
     "indifferentVi": "Thẩm phán bóng tối",
     "category": "Xưng hô / Thành ngữ",
     "description": "Tầng lớp kỵ sĩ tinh nhuệ tối cao của Nữ thần Bóng Tối Shar mà Shadowheart luôn khao khát trở thành.",
     "addedAt": "Mặc định",
-    "priority": "standard",
+    "priority": "core",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 7 Modernize)",
+    "updatedAt": "2026-11-24 (Round 3)",
     "deprecatedVi": [
-      "Hắc Phán Quan"
+      "Hắc Phán Quan",
+      "Ám Pháp Quan",
+      "Ám Hiệp Phán",
+      "Ám Thẩm Phán",
+      "Thẩm Phán Bóng Đêm",
+      "Thẩm Phán Đen Tối"
     ],
     "reviewNote": "QA v2: hanviet"
   },
@@ -1696,19 +1781,21 @@
   {
     "id": "bg3-81",
     "termEnZh": "The Weave",
-    "translationVi": "Mạng lưới ma pháp",
+    "translationVi": "Mạng Lưới Ma Pháp",
     "category": "Xưng hô / Thành ngữ",
     "description": "Mạng lưới năng lượng ma thuật bao trùm vũ trụ do Nữ thần Mystra cai quản, giúp các pháp sư thi triển phép thuật.",
     "addedAt": "Mặc định",
     "friendlyVi": "Mạng lưới ma pháp",
     "hostileVi": "Mạng lưới ma pháp",
     "indifferentVi": "Mạng lưới ma pháp",
-    "priority": "standard",
+    "priority": "core",
     "uiFixed": false,
     "deprecatedVi": [
-      "Mạng Lưới Ma Pháp (The Weave)"
+      "Mạng Lưới Ma Pháp (The Weave)",
+      "Ma Võng",
+      "Sợi Dệt"
     ],
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "updatedAt": "2026-11-24 (Round 3)"
   },
   {
     "id": "bg3-82",
@@ -1768,9 +1855,9 @@
   {
     "id": "bg3-85",
     "termEnZh": "Ceremorphosis",
-    "translationVi": "Quá trình hóa Illithid",
+    "translationVi": "Quá trình hóa illithid",
     "category": "Xưng hô / Thành ngữ",
-    "description": "Quá trình biến đổi sinh học kinh hoàng khi Nòng Nọc Illithid ăn mòn não vật chủ và biến cơ thể họ thành một kẻ hút não hoàn chỉnh.",
+    "description": "Quá trình biến đổi sinh học kinh hoàng khi Ấu Trùng Illithid ăn mòn não vật chủ và biến cơ thể họ thành một kẻ hút não hoàn chỉnh.",
     "addedAt": "Mặc định",
     "friendlyVi": "Quá trình hóa Illithid",
     "hostileVi": "Quá trình hóa Illithid",
@@ -1778,9 +1865,12 @@
     "priority": "core",
     "uiFixed": false,
     "deprecatedVi": [
-      "Nghi Thức Hóa Đoạt Tâm"
+      "Nghi Thức Hóa Đoạt Tâm",
+      "Quá trình biến đổi tâm linh",
+      "Biến thái illithid",
+      "Biến dị thể thái"
     ],
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "updatedAt": "2026-11-24 (Round 3)"
   },
   {
     "id": "prescan-1793189899839-v01a",
@@ -1947,7 +2037,7 @@
   {
     "id": "prescan-1793189987857-ruzu",
     "termEnZh": "Sorcerous Sundries",
-    "translationVi": "Cửa hàng Pháp thuật Tạp hóa",
+    "translationVi": "Cửa Hàng Pháp Thuật Tạp Hóa",
     "category": "Địa danh",
     "description": "Cửa hàng phép thuật lớn tại Hạ Thành Baldur's Gate, sở hữu một hầm lưu trữ quan trọng trong tuyến truyện pháp sư.",
     "addedAt": "Pre-Scan Engine",
@@ -1956,7 +2046,12 @@
     "indifferentVi": "Cửa hàng Pháp thuật Tạp hóa",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-08 (QA v2)"
+    "updatedAt": "2026-11-08 (QA v2)",
+    "deprecatedVi": [
+      "Tạp Hóa Ma Pháp",
+      "Cửa Hiệu Tạp Phẩm Phép Thuật",
+      "Sorcerous Sundries"
+    ]
   },
   {
     "id": "prescan-1793190021902-3zry",
@@ -2091,7 +2186,7 @@
   {
     "id": "prescan-1793190093006-gort",
     "termEnZh": "Deep Gnome",
-    "translationVi": "Gnome sâu thẳm",
+    "translationVi": "Gnome Sâu Thẳm",
     "friendlyVi": "Đồng bào Svirfneblin",
     "hostileVi": "Lùn trong bóng tối",
     "indifferentVi": "Gnome sâu thẳm",
@@ -2102,9 +2197,15 @@
     "uiFixed": true,
     "deprecatedVi": [
       "Lùn Sâu Thẳm",
-      "Gnome Địa Tầng"
+      "Gnome Địa Tầng",
+      "Người lùn sâu",
+      "Người lùn gnome lòng đất",
+      "Deep Gnome",
+      "Gnome lòng đất",
+      "Gnome dưới lòng đất",
+      "Svirfneblin"
     ],
-    "updatedAt": "2026-11-21 (Phase 7 Modernize)"
+    "updatedAt": "2026-11-24 (Round 3)"
   },
   {
     "id": "prescan-1793190093006-jaa2",
@@ -2654,7 +2755,7 @@
     "termEnZh": "Enthralled",
     "translationVi": "Bị mê hoặc",
     "category": "Kỹ năng / Chức năng",
-    "description": "Trạng thái (Condition) mô tả nhân vật bị nắm giữ ý chí bởi phép thuật, nòng nọc Illithid hoặc quyền năng của Đấng Tuyệt Đối, khiến nạn nhân hành động trái ý muốn. Hiển thị trên thanh trạng thái và trong lời thoại tự sự.",
+    "description": "Trạng thái (Condition) mô tả nhân vật bị nắm giữ ý chí bởi phép thuật, ấu trùng Illithid hoặc quyền năng của Đấng Tuyệt Đối, khiến nạn nhân hành động trái ý muốn. Hiển thị trên thanh trạng thái và trong lời thoại tự sự.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Bị mê hoặc",
     "hostileVi": "Bị mê hoặc",
@@ -2750,7 +2851,14 @@
     "uiFixed": false,
     "updatedAt": "2026-11-08 (QA v2)",
     "deprecatedVi": [
-      "Nữ Thần Ca Dạ"
+      "Nữ Thần Ca Dạ",
+      "Dạ Ca Giả",
+      "Dạ Xướng Giả",
+      "Dạ Ca Nữ Thần",
+      "Đấng Dạ Ca",
+      "Đức Mẹ Dạ Ca",
+      "Nữ Ca Bóng Đêm",
+      "Kẻ Hát Đêm"
     ],
     "reviewNote": "QA v2: hanviet"
   },
@@ -2977,7 +3085,7 @@
     "termEnZh": "Shapeshifted",
     "translationVi": "Biến hình",
     "category": "Kỹ năng / Chức năng",
-    "description": "Trạng thái khi nhân vật hoặc NPC sử dụng khả năng biến đổi hình dạng thành sinh vật khác (Wild Shape của Druid, phép Polymorph, khả năng tự nhiên của Doppelganger/Changeling).",
+    "description": "Trạng thái khi nhân vật hoặc NPC sử dụng khả năng biến đổi hình dạng thành sinh vật khác (Hóa Thân Hoang Dã của Druid, phép Polymorph, khả năng tự nhiên của Kẻ Biến Hình).",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Biến hình",
     "hostileVi": "Biến hình",
@@ -3920,7 +4028,9 @@
     "uiFixed": true,
     "deprecatedVi": [
       "Tinh linh cao đẳng",
-      "Tinh Linh Cao Đẳng"
+      "Tinh Linh Cao Đẳng",
+      "High Elf",
+      "Elf Cao Đẳng"
     ],
     "updatedAt": "2026-11-21 (Phase 6 Caps)"
   },
@@ -4109,7 +4219,7 @@
     "termEnZh": "Nautiloid Tank",
     "translationVi": "Bể nuôi Nautiloid",
     "category": "Vật phẩm",
-    "description": "Thiết bị sinh học trên Nautiloid chứa nòng nọc Illithid hoặc tù nhân, là phần quan trọng trong quá trình chuyển hóa của Mind Flayer.",
+    "description": "Thiết bị sinh học trên Nautiloid chứa ấu trùng Illithid hoặc tù nhân, là phần quan trọng trong quá trình chuyển hóa của Mind Flayer.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Bể nuôi Nautiloid",
     "hostileVi": "Bể nuôi Nautiloid",
@@ -4967,7 +5077,7 @@
     "termEnZh": "Primal Stampede",
     "translationVi": "Cuồng giẫm nguyên thủy",
     "category": "Kỹ năng / Chức năng",
-    "description": "Đòn lao tới húc ngã của các dạng thú trong BG3, tiêu biểu là lợn lòi và nai sừng tấm khi Wild Shape hoặc triệu hồi. Gây sát thương và có thể đẩy lùi mục tiêu trên đường lao.",
+    "description": "Đòn lao tới húc ngã của các dạng thú trong BG3, tiêu biểu là lợn lòi và nai sừng tấm khi Hóa Thân Hoang Dã hoặc triệu hồi. Gây sát thương và có thể đẩy lùi mục tiêu trên đường lao.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Cuồng giẫm nguyên thủy",
     "hostileVi": "Cuồng giẫm nguyên thủy",
@@ -5061,9 +5171,10 @@
     "deprecatedVi": [
       "Long Nhân",
       "Dragonborns",
-      "Dragonborn"
+      "Dragonborn",
+      "Long Duệ"
     ],
-    "updatedAt": "2026-11-21 (Phase 7 Modernize)"
+    "updatedAt": "2026-11-24 (Round 3)"
   },
   {
     "id": "prescan-1793191824592-qsma",
@@ -5399,7 +5510,7 @@
     "hostileVi": "Mụ Z'rell",
     "indifferentVi": "Z'rell",
     "category": "Nhân vật",
-    "description": "Tướng cấp cao của Giáo phái Tuyệt Đối (Cult of the Absolute) trú đóng tại Tháp Moonrise, phụ tá đắc lực của Ketheric Thorm. Được nhắc đến với thái độ thiếu đức tin trong lời thoại.",
+    "description": "Tướng cấp cao của Giáo phái Tuyệt Đối (Cult of the Absolute) trú đóng tại Tháp Trăng Mọc, phụ tá đắc lực của Ketheric Thorm. Được nhắc đến với thái độ thiếu đức tin trong lời thoại.",
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
@@ -5872,7 +5983,10 @@
       "Thánh Kỵ Sĩ",
       "Hiệp Sĩ Thánh Chiến",
       "Paladins",
-      "Paladin"
+      "Paladin",
+      "Hiệp sĩ thánh chiến",
+      "Thánh hiệp sĩ",
+      "Chiến binh thánh chiến"
     ],
     "updatedAt": "2026-11-21 (Phase 6 Caps)"
   },
@@ -5891,7 +6005,9 @@
     "deprecatedVi": [
       "Giáo Sĩ (Cleric)",
       "Clerics",
-      "Cleric"
+      "Cleric",
+      "Mục sư",
+      "Mục Sư"
     ],
     "updatedAt": "2026-11-21 (Phase 6 Caps)"
   },
@@ -5970,7 +6086,7 @@
   {
     "id": "prescan-1793192327725-a9pn",
     "termEnZh": "Smokepowder Barrel",
-    "translationVi": "Thùng thuốc súng khói",
+    "translationVi": "Thùng thuốc nổ khói",
     "category": "Vật phẩm",
     "description": "Vật phẩm nổ đặt trong môi trường chiến đấu khắp Faerûn, phát nổ khi trúng lửa hoặc sát thương, gây sát thương lực diện rộng và hất văng mục tiêu. Thường được dùng để phá vỡ tường đá, kích hoạt bẫy hoặc mở lối đi bí mật trong các hầm ngục.",
     "addedAt": "Pre-Scan Engine",
@@ -6086,7 +6202,7 @@
   {
     "id": "prescan-1793192363044-udfj",
     "termEnZh": "Gondian",
-    "translationVi": "Người Gondian",
+    "translationVi": "Tín đồ Gond",
     "friendlyVi": "Tín đồ Gond",
     "hostileVi": "Bọn thợ máy Gond",
     "indifferentVi": "Người theo Gond",
@@ -6095,7 +6211,12 @@
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 7 Modernize)"
+    "updatedAt": "2026-11-21 (Phase 7 Modernize)",
+    "deprecatedVi": [
+      "Người Gondian",
+      "Gondian",
+      "Người Gond"
+    ]
   },
   {
     "id": "prescan-1793192363044-cucw",
@@ -6700,7 +6821,7 @@
     "termEnZh": "Psionic Presence",
     "translationVi": "Hiện diện tâm linh",
     "category": "Kỹ năng / Chức năng",
-    "description": "Năng lực Nòng Nọc Illithid tạo aura uy áp tâm linh, gây Frightened cho kẻ địch xung quanh. Thuộc cây kỹ năng Mind Flayer Powers.",
+    "description": "Năng lực Ấu Trùng Illithid tạo aura uy áp tâm linh, gây Frightened cho kẻ địch xung quanh. Thuộc cây kỹ năng Mind Flayer Powers.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Hiện diện tâm linh",
     "hostileVi": "Hiện diện tâm linh",
@@ -6756,7 +6877,7 @@
     "termEnZh": "Panther",
     "translationVi": "Báo Đen",
     "category": "Nhân vật",
-    "description": "Hình dạng biến hóa Wild Shape của Druid hoặc sinh vật triệu hồi. Có tốc độ cao, khả năng tàng hình và tấn công nhanh.",
+    "description": "Hình dạng biến hóa Hóa Thân Hoang Dã của Druid hoặc sinh vật triệu hồi. Có tốc độ cao, khả năng tàng hình và tấn công nhanh.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Báo Đen",
     "hostileVi": "Báo Đen",
@@ -6884,7 +7005,7 @@
   {
     "id": "prescan-1793192705993-7huy",
     "termEnZh": "Redcap",
-    "translationVi": "Yêu mũ đỏ",
+    "translationVi": "Yêu Mũ Đỏ",
     "friendlyVi": "Yêu mũ đỏ",
     "hostileVi": "Thằng Mũ Đỏ",
     "indifferentVi": "Sinh vật Mũ Đỏ",
@@ -6893,7 +7014,12 @@
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "updatedAt": "2026-11-21 (Phase 6 Caps)",
+    "deprecatedVi": [
+      "Redcap",
+      "Quỷ Mũ Đỏ",
+      "Mũ Đỏ"
+    ]
   },
   {
     "id": "prescan-1793192705993-ei6f",
@@ -7057,7 +7183,7 @@
     "hostileVi": "Mụ chủ quán già chết tiệt",
     "indifferentVi": "Thuyền trưởng Grisly",
     "category": "Nhân vật",
-    "description": "Nhân vật phụ tại quán Blushing Mermaid ở Lower City, Baldur's Gate, gắn với tuyến điều tra của Hội Harper và âm mưu của một mụ phù thủy đội lốt. Xưng hô theo chức danh hàng hải khi lịch sự, theo kiểu khinh miệt khi lật tẩy thân phận.",
+    "description": "Nhân vật phụ tại quán Blushing Mermaid ở Lower City, Baldur's Gate, gắn với tuyến điều tra của Hội Hạc Cầm và âm mưu của một mụ phù thủy đội lốt. Xưng hô theo chức danh hàng hải khi lịch sự, theo kiểu khinh miệt khi lật tẩy thân phận.",
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
@@ -7845,7 +7971,8 @@
     "indifferentVi": "Trường phái tử linh",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "updatedAt": "2026-11-21 (Phase 6 Caps)",
+    "deprecatedVi": []
   },
   {
     "id": "prescan-1793193247899-uvh9",
@@ -8068,18 +8195,20 @@
   {
     "id": "prescan-1793193416390-19yy",
     "termEnZh": "Elf",
-    "translationVi": "Tộc tiên / Người tiên",
+    "translationVi": "Elf",
     "friendlyVi": "người bạn Tiên tộc / quý tộc Tiên tộc",
     "hostileVi": "lũ tai nhọn / đồ Tiên tộc",
     "indifferentVi": "Elf",
     "category": "Xưng hô / Thành ngữ",
-    "description": "Một trong những chủng tộc nền tảng của Forgotten Realms, gồm các phân tộc như High Elf, Wood Elf và Drow. Trong Baldur's Gate 3, Elf là lựa chọn chủng tộc của người chơi và cũng là cách NPC nhận diện, đánh giá nhân vật. Xưng hô thay đổi theo thái độ: tôn trọng dùng danh xưng đầy đủ, khinh miệt dùng từ chỉ ngoại hình đặc trưng.",
+    "description": "Một trong những chủng tộc nền tảng của Forgotten Realms, gồm các phân tộc như Elf Thượng Đẳng, Elf Rừng và Drow. Trong Baldur's Gate 3, Elf là lựa chọn chủng tộc của người chơi và cũng là cách NPC nhận diện, đánh giá nhân vật. Xưng hô thay đổi theo thái độ: tôn trọng dùng danh xưng đầy đủ, khinh miệt dùng từ chỉ ngoại hình đặc trưng.",
     "addedAt": "Pre-Scan Engine",
     "priority": "core",
     "uiFixed": true,
     "deprecatedVi": [
       "Tinh Linh",
-      "tinh linh"
+      "tinh linh",
+      "Tộc tiên",
+      "Người tiên"
     ],
     "updatedAt": "2026-11-21 (Phase 6 Caps)"
   },
@@ -8130,7 +8259,7 @@
     "termEnZh": "Zenith Feur'sel",
     "translationVi": "Zenith Feur'sel",
     "category": "Nhân vật",
-    "description": "Lính đánh thuê đồng hành (Hireling) thuộc lớp Kiểm Lâm (Ranger) dòng dõi Thượng Tiên (High Elf), được Withers triệu hồi để hỗ trợ tổ đội của người chơi.",
+    "description": "Lính đánh thuê đồng hành (Hireling) thuộc lớp Kiểm Lâm (Ranger) dòng dõi Elf Thượng Đẳng, được Withers triệu hồi để hỗ trợ tổ đội của người chơi.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Chiến hữu Zenith Feur'sel",
     "hostileVi": "Tên Kiểm Lâm Zenith",
@@ -8244,16 +8373,20 @@
   {
     "id": "prescan-1793193465036-hwpi",
     "termEnZh": "Performance",
-    "translationVi": "Nghệ thuật biểu diễn",
+    "translationVi": "Biểu diễn",
     "category": "Kỹ năng / Chức năng",
     "description": "Kỹ năng Charisma trong D&D 5e dùng để ca hát, nhảy múa, chơi nhạc cụ hoặc biểu diễn giải trí, có thể dùng để gây ấn tượng hoặc lừa phỉnh người khác.",
     "addedAt": "Pre-Scan Engine",
-    "friendlyVi": "Nghệ thuật biểu diễn",
-    "hostileVi": "Nghệ thuật biểu diễn",
-    "indifferentVi": "Nghệ thuật biểu diễn",
+    "friendlyVi": "Biểu diễn",
+    "hostileVi": "Biểu diễn",
+    "indifferentVi": "Biểu diễn",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "updatedAt": "2026-11-21 (Phase 6 Caps)",
+    "deprecatedVi": [
+      "Nghệ thuật biểu diễn",
+      "Diễn xuất"
+    ]
   },
   {
     "id": "prescan-1793193465036-fgas",
@@ -8493,7 +8626,7 @@
   {
     "id": "prescan-1793193655264-98ui",
     "termEnZh": "Ironhand",
-    "translationVi": "Bàn tay sắt",
+    "translationVi": "Bàn Tay Sắt",
     "friendlyVi": "Bàn Tay Sắt đáng kính / những người bạn Bàn Tay Sắt",
     "hostileVi": "Lũ Gnome Bàn Tay Sắt khốn kiếp",
     "indifferentVi": "Bàn tay sắt",
@@ -8503,7 +8636,10 @@
     "priority": "standard",
     "uiFixed": false,
     "deprecatedVi": [
-      "Bàn Tay Sắt (Ironhand)"
+      "Bàn Tay Sắt (Ironhand)",
+      "Thiết Thủ",
+      "Tay Sắt",
+      "Ironhand"
     ],
     "updatedAt": "2026-11-21 (Phase 6 Caps)"
   },
@@ -8656,7 +8792,7 @@
     "termEnZh": "Fey Ancestry",
     "translationVi": "Dòng máu cõi tiên",
     "category": "Kỹ năng / Chức năng",
-    "description": "Đặc tính chủng tộc của Elf và Half-Elf: miễn nhiễm phép gây ngủ cùng lợi thế chống lại hiệu ứng mê hoặc (charm). Xuất hiện ở bảng đặc tính nhân vật khi tạo hoặc kiểm tra hồ sơ.",
+    "description": "Đặc tính chủng tộc của Elf và Bán Elf: miễn nhiễm phép gây ngủ cùng lợi thế chống lại hiệu ứng mê hoặc (charm). Xuất hiện ở bảng đặc tính nhân vật khi tạo hoặc kiểm tra hồ sơ.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Dòng máu cõi tiên",
     "hostileVi": "Dòng máu cõi tiên",
@@ -9442,7 +9578,7 @@
     "termEnZh": "Tentacle Whip",
     "translationVi": "Roi xúc tu",
     "category": "Kỹ năng / Chức năng",
-    "description": "Năng lực Illithid dùng xúc tu kéo hoặc quất mục tiêu; thuộc hệ thống sức mạnh Nòng Nọc trong Baldur's Gate 3, thể hiện quá trình biến đổi tâm trí của nhân vật theo hướng illithid.",
+    "description": "Năng lực Illithid dùng xúc tu kéo hoặc quất mục tiêu; thuộc hệ thống sức mạnh Ấu Trùng trong Baldur's Gate 3, thể hiện quá trình biến đổi tâm trí của nhân vật theo hướng illithid.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Roi xúc tu",
     "hostileVi": "Roi xúc tu",
@@ -9860,7 +9996,7 @@
     "termEnZh": "Omeluum's Boon",
     "translationVi": "Món quà của Omeluum",
     "category": "Kỹ năng / Chức năng",
-    "description": "Năng lực hoặc trạng thái đặc biệt ban tặng bởi Omeluum - Mind Flayer thân thiện trong Underdark. Thường liên quan đến khả năng kháng Nòng Nọc hoặc hỗ trợ tinh thần.",
+    "description": "Năng lực hoặc trạng thái đặc biệt ban tặng bởi Omeluum - Mind Flayer thân thiện trong Underdark. Thường liên quan đến khả năng kháng Ấu Trùng hoặc hỗ trợ tinh thần.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Món quà của Omeluum",
     "hostileVi": "Món quà của Omeluum",
@@ -10402,7 +10538,7 @@
   {
     "id": "prescan-1793194299417-oeer",
     "termEnZh": "Harper's Testimonial",
-    "translationVi": "Chứng thư Hội Harpers",
+    "translationVi": "Chứng thư Hội Hạc Cầms",
     "category": "Vật phẩm",
     "description": "Giấy tờ hoặc vật phẩm nhiệm vụ chứng minh danh tính thành viên hoặc đồng minh của tổ chức Harpers, dùng trong các nhiệm vụ liên quan phe phái.",
     "addedAt": "Pre-Scan Engine",
@@ -10430,7 +10566,7 @@
   {
     "id": "prescan-1793194318748-h2uo",
     "termEnZh": "Half-Elf",
-    "translationVi": "Bán tiên",
+    "translationVi": "Bán Elf",
     "friendlyVi": "Bán Elf",
     "hostileVi": "Bán Elf",
     "indifferentVi": "Bán Elf",
@@ -10441,7 +10577,15 @@
     "uiFixed": true,
     "deprecatedVi": [
       "Bán Tinh Linh",
-      "bán tinh linh"
+      "bán tinh linh",
+      "Bán tiên",
+      "Bán Tiên",
+      "Nửa Elf",
+      "nửa Elf",
+      "Nửa-Elf",
+      "Half-Elf",
+      "Half Elf",
+      "Nửa Tiên"
     ],
     "updatedAt": "2026-11-21 (Phase 6 Caps)"
   },
@@ -10509,7 +10653,7 @@
     "hostileVi": "Con Deep Gnome điên khùng đó",
     "indifferentVi": "Người gnome ở Grymforge",
     "category": "Nhân vật",
-    "description": "NPC Deep Gnome nổi loạn tại Grymforge, nắm giữ Bột Rune (Runepowder) quan trọng cho nhiệm vụ giải cứu nô lệ Ironhand. Thường kết thúc bi kịch nếu người chơi không can thiệp kịp thời.",
+    "description": "NPC Deep Gnome nổi loạn tại Grymforge, nắm giữ thuốc nổ cổ ngữ (Runepowder) quan trọng cho nhiệm vụ giải cứu nô lệ Ironhand. Thường kết thúc bi kịch nếu người chơi không can thiệp kịp thời.",
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
@@ -11702,7 +11846,7 @@
   {
     "id": "prescan-1793194742198-t21m",
     "termEnZh": "Transmuter's Stone",
-    "translationVi": "Đá pháp sư biến đổi",
+    "translationVi": "Đá pháp sư chuyển hóa",
     "category": "Kỹ năng / Chức năng",
     "description": "Năng lực của nhánh Transmutation thuộc lớp Wizard, tạo ra viên đá ma thuật có thể trao một lợi ích được lựa chọn cho người mang hoặc đồng minh.",
     "addedAt": "Pre-Scan Engine",
@@ -11713,7 +11857,10 @@
     "uiFixed": false,
     "updatedAt": "2026-11-21 (Phase 6 Caps)",
     "deprecatedVi": [
-      "Đá của Nhà Biến đổi"
+      "Đá của Nhà Biến đổi",
+      "Đá của nhà biến đổi",
+      "Đá pháp sư biến đổi",
+      "Đá biến dị sư"
     ],
     "reviewNote": "QA v2: sai_nghia"
   },
@@ -11738,7 +11885,7 @@
   {
     "id": "prescan-1793194742198-cw8o",
     "termEnZh": "Necromancy",
-    "translationVi": "Tử linh thuật",
+    "translationVi": "Tử linh",
     "category": "Kỹ năng / Chức năng",
     "description": "Một trường phái ma thuật liên quan đến cái chết, linh hồn và sự sống bị cưỡng ép, xuất hiện trong hệ thống phép thuật và cốt truyện BG3.",
     "addedAt": "Pre-Scan Engine",
@@ -11749,7 +11896,8 @@
     "uiFixed": false,
     "updatedAt": "2026-11-21 (Phase 7 Modernize)",
     "deprecatedVi": [
-      "Thuật Tử linh"
+      "Thuật Tử linh",
+      "Đoạt hồn"
     ],
     "reviewNote": "QA v2: hanviet"
   },
@@ -11822,7 +11970,9 @@
     "priority": "core",
     "uiFixed": true,
     "deprecatedVi": [
-      "Người Nửa Người"
+      "Người Nửa Người",
+      "Người bán nhân",
+      "Người tí hon"
     ],
     "updatedAt": "2026-11-08 (QA v2)"
   },
@@ -12737,7 +12887,7 @@
   {
     "id": "prescan-1793195047552-k02l",
     "termEnZh": "High Harper",
-    "translationVi": "Harper cấp cao",
+    "translationVi": "Thủ Lĩnh Hội Hạc Cầm",
     "friendlyVi": "Harper Cấp Cao kính mến",
     "hostileVi": "Tên tự xưng Harper Cấp Cao",
     "indifferentVi": "Harper cấp cao",
@@ -12748,7 +12898,9 @@
     "uiFixed": false,
     "updatedAt": "2026-11-21 (Phase 6 Caps)",
     "deprecatedVi": [
-      "Đại Nhạc Sư"
+      "Đại Nhạc Sư",
+      "Harper cấp cao",
+      "Thủ lĩnh Harper"
     ],
     "reviewNote": "QA v2: sai_nghia"
   },
@@ -13270,7 +13422,13 @@
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "updatedAt": "2026-11-21 (Phase 6 Caps)",
+    "deprecatedVi": [
+      "Vampire Spawn",
+      "Spawn ma cà rồng",
+      "Ma cà rồng con",
+      "Hậu duệ ma cà rồng"
+    ]
   },
   {
     "id": "prescan-1793195186765-t2oq",
@@ -13453,7 +13611,7 @@
     "termEnZh": "Zaith'isk",
     "translationVi": "Zaith'isk",
     "category": "Vật phẩm",
-    "description": "Thiết bị Githyanki được cho là có khả năng thanh lọc ký sinh trùng nòng nọc, nhưng thực chất là máy móc nguy hiểm có thể gây tổn thương não bộ nghiêm trọng. Xuất hiện tại Crèche Y'llek trong Act 1.",
+    "description": "Thiết bị Githyanki được cho là có khả năng thanh lọc ký sinh trùng ấu trùng, nhưng thực chất là máy móc nguy hiểm có thể gây tổn thương não bộ nghiêm trọng. Xuất hiện tại Crèche Y'llek trong Act 1.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Zaith'isk",
     "hostileVi": "Zaith'isk",
@@ -13727,7 +13885,10 @@
       "Thuật Sĩ",
       "Phù Thủy Huyết Mạch",
       "Sorcerers",
-      "Sorcerer"
+      "Sorcerer",
+      "Thuật sĩ",
+      "Pháp thuật sư",
+      "Ma pháp sư"
     ],
     "updatedAt": "2026-11-21 (Phase 6 Caps)"
   },
@@ -14776,7 +14937,7 @@
   {
     "id": "prescan-1793195725703-m6us",
     "termEnZh": "Radiant Damage",
-    "translationVi": "Sát thương thiêng liêng",
+    "translationVi": "Sát thương thánh quang",
     "category": "Kỹ năng / Chức năng",
     "description": "Loại sát thương phép thuật thuộc tính ánh sáng thánh thiện, hiệu quả cao chống lại undead và fiend, thường đến từ phép thuật Cleric, Paladin hoặc các nguồn năng lượng thần thánh trong D&D 5e.",
     "addedAt": "Pre-Scan Engine",
@@ -14785,7 +14946,14 @@
     "indifferentVi": "Sát thương thiêng liêng",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "updatedAt": "2026-11-21 (Phase 6 Caps)",
+    "deprecatedVi": [
+      "Sát thương thiêng liêng",
+      "Sát thương ánh sáng",
+      "Sát thương quang năng",
+      "Sát thương quang minh",
+      "Sát thương quang huy"
+    ]
   },
   {
     "id": "prescan-1793195725703-vsoq",
@@ -15053,9 +15221,15 @@
     "friendlyVi": "Kiểm Tra Cứu Mạng Khi Hấp Hối",
     "hostileVi": "Kiểm Tra Cứu Mạng Khi Hấp Hối",
     "indifferentVi": "Kiểm Tra Cứu Mạng Khi Hấp Hối",
-    "priority": "standard",
-    "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "priority": "core",
+    "uiFixed": true,
+    "updatedAt": "2026-11-24 (Round 3)",
+    "deprecatedVi": [
+      "Đổ xúc xắc kháng cự tử thần",
+      "Đổ xúc xắc kháng cự cận tử",
+      "Cứu nguy cái chết",
+      "Đổ xúc xắc cứu mạng tử vong"
+    ]
   },
   {
     "id": "prescan-1793195796418-ha4q",
@@ -15076,7 +15250,7 @@
     "termEnZh": "Elixir of Radiant Resistance",
     "translationVi": "Thuốc cường hóa kháng ánh sáng",
     "category": "Vật phẩm",
-    "description": "Thuốc cường hóa tiêu hao cấp kháng sát thương thiêng liêng (Radiant) tạm thời, hữu ích khi đối đầu với sinh vật thiên thần hoặc phép thuật ánh sáng.",
+    "description": "Thuốc cường hóa tiêu hao cấp kháng sát thương Thánh Quang (Radiant) tạm thời, hữu ích khi đối đầu với sinh vật thiên thần hoặc phép thuật ánh sáng.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Thuốc cường hóa kháng ánh sáng",
     "hostileVi": "Thuốc cường hóa kháng ánh sáng",
@@ -15372,16 +15546,21 @@
   {
     "id": "prescan-1793195932864-npyt",
     "termEnZh": "Doppelganger",
-    "translationVi": "Kẻ hóa hình",
+    "translationVi": "Kẻ biến hình",
     "friendlyVi": "Người bạn có khả năng hóa hình",
     "hostileVi": "Tên giả mạo",
     "indifferentVi": "Sinh vật hóa hình",
     "category": "Xưng hô / Thành ngữ",
-    "description": "Doppelganger - sinh vật có khả năng biến hình thành bất kỳ người nào, thường xuất hiện như kẻ giả mạo hoặc gián điệp. Trong BG3, chúng có thể ngụy trang thành đồng minh hoặc NPC để đánh lừa người chơi.",
+    "description": "Kẻ Biến Hình — sinh vật có khả năng biến hình thành bất kỳ người nào, thường xuất hiện như kẻ giả mạo hoặc gián điệp. Trong BG3, chúng có thể ngụy trang thành đồng minh hoặc NPC để đánh lừa người chơi.",
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "updatedAt": "2026-11-21 (Phase 6 Caps)",
+    "deprecatedVi": [
+      "Doppelganger",
+      "Song trùng",
+      "Kẻ song trùng"
+    ]
   },
   {
     "id": "prescan-1793195932864-dst9",
@@ -15400,7 +15579,7 @@
   {
     "id": "prescan-1793195932864-4xwi",
     "termEnZh": "Evocation",
-    "translationVi": "Triệu hồi năng lượng",
+    "translationVi": "Bộc phát",
     "friendlyVi": "Phép Triệu Hồi Năng Lượng",
     "hostileVi": "Phép hủy diệt",
     "indifferentVi": "Trường phái Evocation",
@@ -15409,7 +15588,15 @@
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 7 Modernize)"
+    "updatedAt": "2026-11-21 (Phase 7 Modernize)",
+    "deprecatedVi": [
+      "Triệu hồi năng lượng",
+      "Khai phóng",
+      "Kích phát",
+      "Bộc phép",
+      "Khởi năng",
+      "Khơi Gợi"
+    ]
   },
   {
     "id": "prescan-1793195932864-adjq",
@@ -15568,9 +15755,9 @@
   {
     "id": "prescan-1793196040897-aw4q",
     "termEnZh": "Tadpole Charm",
-    "translationVi": "Bùa hộ mệnh nòng nọc",
+    "translationVi": "Bùa hộ mệnh ấu trùng",
     "category": "Vật phẩm",
-    "description": "Vật phẩm đặc biệt trong BG3 liên quan đến sức mạnh Illithid, có thể mang lại hiệu ứng bảo vệ hoặc tăng cường năng lực liên kết với nòng nọc tâm linh.",
+    "description": "Vật phẩm đặc biệt trong BG3 liên quan đến sức mạnh Illithid, có thể mang lại hiệu ứng bảo vệ hoặc tăng cường năng lực liên kết với ấu trùng tâm linh.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Bùa hộ mệnh nòng nọc",
     "hostileVi": "Bùa hộ mệnh nòng nọc",
@@ -16044,7 +16231,7 @@
   {
     "id": "prescan-1793196229619-buq3",
     "termEnZh": "Thunder Damage",
-    "translationVi": "Sát thương sấm sét",
+    "translationVi": "Sát thương sấm",
     "category": "Kỹ năng / Chức năng",
     "description": "Loại sát thương theo D&D 5e, gây ra bởi sóng âm hoặc sấm nổ. Xuất hiện trong mô tả phép thuật, vũ khí và trạng thái.",
     "addedAt": "Pre-Scan Engine",
@@ -16053,7 +16240,12 @@
     "indifferentVi": "Sát thương sấm sét",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "updatedAt": "2026-11-21 (Phase 6 Caps)",
+    "deprecatedVi": [
+      "Sát thương sấm sét",
+      "Sát thương tiếng sấm",
+      "Sát thương sấm rền"
+    ]
   },
   {
     "id": "prescan-1793196254903-wos7",
@@ -16249,7 +16441,12 @@
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 7 Modernize)"
+    "updatedAt": "2026-11-21 (Phase 7 Modernize)",
+    "deprecatedVi": [
+      "Intellect Devourer",
+      "Kẻ nuốt trí tuệ",
+      "Thú ăn não"
+    ]
   },
   {
     "id": "prescan-1793196286836-eimy",
@@ -17369,8 +17566,13 @@
     "hostileVi": "Đòn tấn công tử thần",
     "indifferentVi": "Đòn tấn công tử thần",
     "priority": "standard",
-    "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 7 Modernize)"
+    "uiFixed": true,
+    "updatedAt": "2026-11-24 (Round 3)",
+    "deprecatedVi": [
+      "Tập kích tử thần",
+      "Đột kích đoạt mạng",
+      "Đột kích kẻ mang tử thần"
+    ]
   },
   {
     "id": "prescan-1793707735457-oric",
@@ -17387,7 +17589,9 @@
     "deprecatedVi": [
       "Đạo Sĩ Tự Nhiên",
       "Người Ẩn Tu",
-      "Tư Tế Tự Nhiên"
+      "Tư Tế Tự Nhiên",
+      "Tu sĩ rừng",
+      "Tu sĩ tự nhiên"
     ],
     "updatedAt": "2026-11-08 (QA v2)"
   },
@@ -17526,16 +17730,22 @@
   {
     "id": "prescan-1793707735457-40fw",
     "termEnZh": "Magic Missile",
-    "translationVi": "Tên lửa phép thuật",
+    "translationVi": "Mũi tên ma thuật",
     "category": "Kỹ năng / Chức năng",
     "description": "Phép thuật Evocation cấp 1 trong D&D 5e, bắn 3 tên lửa ma thuật tự động trúng mục tiêu (không cần Attack Roll), mỗi quả gây 1d4+1 Force damage.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Tên lửa phép thuật",
     "hostileVi": "Tên lửa phép thuật",
     "indifferentVi": "Tên lửa phép thuật",
-    "priority": "standard",
-    "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 7 Modernize)"
+    "priority": "core",
+    "uiFixed": true,
+    "updatedAt": "2026-11-24 (Round 3)",
+    "deprecatedVi": [
+      "Tên lửa phép thuật",
+      "Phi đạn ma thuật",
+      "Phi tiễn ma pháp",
+      "Tiễn ma thuật"
+    ]
   },
   {
     "id": "prescan-1793707735457-ka6u",
@@ -17975,9 +18185,12 @@
     "friendlyVi": "Hoa mắt",
     "hostileVi": "Hoa mắt",
     "indifferentVi": "Hoa mắt",
-    "priority": "standard",
-    "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "priority": "core",
+    "uiFixed": true,
+    "updatedAt": "2026-11-24 (Round 3)",
+    "deprecatedVi": [
+      "Choáng váng"
+    ]
   },
   {
     "id": "prescan-1793707847030-cqgx",
@@ -17987,7 +18200,7 @@
     "hostileVi": "Tên lai Tiên kia",
     "indifferentVi": "Người lai Tiên",
     "category": "Xưng hô / Thành ngữ",
-    "description": "Phân nhánh chủng tộc Half-Elf mang dòng máu High Elf, có thêm Cantrip ma thuật và khả năng tri giác cao. Kết hợp sự linh hoạt của Half-Elf với tri thức phép thuật của High Elf.",
+    "description": "Phân nhánh chủng tộc Bán Elf mang dòng máu Elf Thượng Đẳng, có thêm Cantrip ma thuật và khả năng tri giác cao. Kết hợp sự linh hoạt của Bán Elf với tri thức phép thuật của Elf Thượng Đẳng.",
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
@@ -18014,9 +18227,9 @@
   {
     "id": "prescan-1793707888067-v91b",
     "termEnZh": "Supreme Tadpole",
-    "translationVi": "Nòng nọc tối cao",
+    "translationVi": "Ấu trùng tối cao",
     "category": "Vật phẩm",
-    "description": "Biến thể đặc biệt của Nòng Nọc Illithid, mang năng lực vượt trội so với Tadpole thông thường. Xuất hiện trong ngữ cảnh liên quan đến The Absolute và các True Soul, hàm ý một cấp độ kiểm soát hay tiến hóa cao hơn trong chuỗi nhiễm ký sinh của người chơi.",
+    "description": "Biến thể đặc biệt của Ấu Trùng Illithid, mang năng lực vượt trội so với Tadpole thông thường. Xuất hiện trong ngữ cảnh liên quan đến The Absolute và các True Soul, hàm ý một cấp độ kiểm soát hay tiến hóa cao hơn trong chuỗi nhiễm ký sinh của người chơi.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Nòng nọc tối cao",
     "hostileVi": "Nòng nọc tối cao",
@@ -18049,9 +18262,10 @@
     "friendlyVi": "Choáng váng",
     "hostileVi": "Choáng váng",
     "indifferentVi": "Choáng váng",
-    "priority": "standard",
-    "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "priority": "core",
+    "uiFixed": true,
+    "updatedAt": "2026-11-24 (Round 3)",
+    "deprecatedVi": []
   },
   {
     "id": "prescan-1793707888067-ficm",
@@ -18581,7 +18795,7 @@
   {
     "id": "prescan-1793708034741-gq8h",
     "termEnZh": "Bhaalspawn",
-    "translationVi": "Dòng dõi Bhaal",
+    "translationVi": "Dòng Dõi Bhaal",
     "friendlyVi": "người mang dòng máu Bhaal",
     "hostileVi": "đồ giết chóc mang máu Bhaal",
     "indifferentVi": "Bhaalspawn",
@@ -18590,7 +18804,12 @@
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 7 Modernize)"
+    "updatedAt": "2026-11-21 (Phase 7 Modernize)",
+    "deprecatedVi": [
+      "Hậu Duệ Bhaal",
+      "Đứa Con Bhaal",
+      "Bhaalspawn"
+    ]
   },
   {
     "id": "prescan-1793708034741-gxgv",
@@ -18962,7 +19181,7 @@
     "termEnZh": "Druid Headwear",
     "translationVi": "Mũ Druid",
     "category": "Vật phẩm",
-    "description": "Mũ/Circlet dành cho class Druid, thường làm từ gỗ, dây leo, sừng hoặc lông vũ, có thể tăng Wisdom, bổ sung Spell Slot hoặc năng lực Wild Shape.",
+    "description": "Mũ/Circlet dành cho class Druid, thường làm từ gỗ, dây leo, sừng hoặc lông vũ, có thể tăng Wisdom, bổ sung Spell Slot hoặc năng lực Hóa Thân Hoang Dã.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Mũ Druid",
     "hostileVi": "Mũ Druid",
@@ -18976,7 +19195,7 @@
     "termEnZh": "Druid Spells",
     "translationVi": "Phép thuật Druid",
     "category": "Kỹ năng / Chức năng",
-    "description": "Danh sách phép thuật dành cho class Druid, tập trung vào kiểm soát thiên nhiên, hồi máu, triệu hồi sinh vật, và biến hình (Wild Shape), bao gồm Entangle, Goodberry, Spike Growth, Moonbeam, Call Lightning.",
+    "description": "Danh sách phép thuật dành cho class Druid, tập trung vào kiểm soát thiên nhiên, hồi máu, triệu hồi sinh vật, và biến hình (Hóa Thân Hoang Dã), bao gồm Entangle, Goodberry, Spike Growth, Moonbeam, Call Lightning.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Phép thuật Druid",
     "hostileVi": "Phép thuật Druid",
@@ -19383,7 +19602,7 @@
     "termEnZh": "Mind Tax",
     "translationVi": "Thuế tâm trí",
     "category": "Kỹ năng / Chức năng",
-    "description": "Năng lực Nòng Nọc Illithid khai thác trí tuệ kẻ địch để trục lợi cho người dùng, phản ánh hệ thống sức mạnh Illithid mở khóa dần trong hành trình; sắc thái xưng hô trung tính, mang giọng điệu thực dụng.",
+    "description": "Năng lực Ấu Trùng Illithid khai thác trí tuệ kẻ địch để trục lợi cho người dùng, phản ánh hệ thống sức mạnh Illithid mở khóa dần trong hành trình; sắc thái xưng hô trung tính, mang giọng điệu thực dụng.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Thuế tâm trí",
     "hostileVi": "Thuế tâm trí",
@@ -19421,7 +19640,9 @@
     "deprecatedVi": [
       "Nửa Orc",
       "Half-Orcs",
-      "Half-Orc"
+      "Half-Orc",
+      "Nửa-Orc",
+      "Half Orc"
     ],
     "updatedAt": "2026-11-21 (Phase 7 Modernize)"
   },
@@ -19441,7 +19662,10 @@
       "Tăng Lữ",
       "Võ Sư",
       "Monks",
-      "Monk"
+      "Monk",
+      "Nhà sư",
+      "Nhà Sư",
+      "Hòa thượng"
     ],
     "updatedAt": "2026-11-21 (Phase 7 Modernize)"
   },
@@ -20091,7 +20315,8 @@
       "Tiên Tộc Rừng (Wood Elf)",
       "Tiên Tộc Rừng",
       "Tiên Rừng (Wood Elf)",
-      "Tiên Rừng"
+      "Tiên Rừng",
+      "Wood Elf"
     ],
     "updatedAt": "2026-11-21 (Phase 7 Modernize)"
   },
@@ -20463,7 +20688,13 @@
     "indifferentVi": "Điểm phù phép",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "updatedAt": "2026-11-21 (Phase 6 Caps)",
+    "deprecatedVi": [
+      "Điểm pháp thuật",
+      "Điểm ma thuật",
+      "Điểm phù thủy",
+      "Điểm Pháp Thuật Sorcery Point"
+    ]
   },
   {
     "id": "prescan-1793708500420-177f",
@@ -20580,16 +20811,19 @@
   {
     "id": "prescan-1793708563730-4x7v",
     "termEnZh": "Vulnerable",
-    "translationVi": "Dễ bị tổn thương",
+    "translationVi": "Dễ tổn thương",
     "category": "Kỹ năng / Chức năng",
     "description": "Trạng thái tiêu cực (Condition), khiến mục tiêu nhận thêm sát thương từ một hoặc nhiều loại sát thương cụ thể (Bludgeoning, Slashing, Fire, Cold...)",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Dễ bị tổn thương",
     "hostileVi": "Dễ bị tổn thương",
     "indifferentVi": "Dễ bị tổn thương",
-    "priority": "standard",
-    "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "priority": "core",
+    "uiFixed": true,
+    "updatedAt": "2026-11-24 (Round 3)",
+    "deprecatedVi": [
+      "Nhiễm tổn thương"
+    ]
   },
   {
     "id": "prescan-1793708563730-iz20",
@@ -20836,16 +21070,20 @@
   {
     "id": "prescan-1793708641377-xnge",
     "termEnZh": "Construct",
-    "translationVi": "Vật tạo",
-    "friendlyVi": "Vật tạo",
+    "translationVi": "Sinh vật kiến tạo",
+    "friendlyVi": "Sinh vật kiến tạo",
     "hostileVi": "Đồ Vô Hồn",
-    "indifferentVi": "Sinh Vật Cấu Trúc",
+    "indifferentVi": "Sinh vật kiến tạo",
     "category": "Xưng hô / Thành ngữ",
     "description": "Hạng sinh vật phi sinh học được tạo bởi phép thuật hoặc cơ học (Golems, Animated Armour, Steel Watcher), miễn dịch độc và tâm trí.",
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "updatedAt": "2026-11-21 (Phase 6 Caps)",
+    "deprecatedVi": [
+      "Sinh vật kiến tạo construct",
+      "Vật tạo"
+    ]
   },
   {
     "id": "prescan-1793708641377-kx5m",
@@ -21028,7 +21266,7 @@
     "termEnZh": "Shunt Through Space",
     "translationVi": "Dịch chuyển xuyên không",
     "category": "Kỹ năng / Chức năng",
-    "description": "Năng lực Nòng Nọc Illithid cho phép bẻ cong không gian để dịch chuyển tức thời một đoạn ngắn, tiêu hao tài nguyên Illithid. Xuất hiện trong bảng kỹ năng của nhân vật đã nuốt ấu trùng, dùng để vượt địa hình hoặc thoát vây.",
+    "description": "Năng lực Ấu Trùng Illithid cho phép bẻ cong không gian để dịch chuyển tức thời một đoạn ngắn, tiêu hao tài nguyên Illithid. Xuất hiện trong bảng kỹ năng của nhân vật đã nuốt ấu trùng, dùng để vượt địa hình hoặc thoát vây.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Dịch chuyển xuyên không",
     "hostileVi": "Dịch chuyển xuyên không",
@@ -21258,9 +21496,9 @@
   {
     "id": "prescan-1793708757486-m8jk",
     "termEnZh": "Dead Mind Flayer Tadpole",
-    "translationVi": "Xác nòng nọc Illithid chết",
+    "translationVi": "Xác ấu trùng Illithid chết",
     "category": "Vật phẩm",
-    "description": "Nòng nọc Illithid đã chết, vật phẩm nhiệm vụ hoặc nguyên liệu nghiên cứu, không còn khả năng lây nhiễm nhưng có giá trị nghiên cứu.",
+    "description": "Ấu trùng Illithid đã chết, vật phẩm nhiệm vụ hoặc nguyên liệu nghiên cứu, không còn khả năng lây nhiễm nhưng có giá trị nghiên cứu.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Xác nòng nọc Illithid chết",
     "hostileVi": "Xác nòng nọc Illithid chết",
@@ -21637,7 +21875,7 @@
     "termEnZh": "Keen Senses",
     "translationVi": "Giác quan nhạy bén",
     "category": "Kỹ năng / Chức năng",
-    "description": "Đặc tính chủng tộc của Elf/Half-Elf, mang lại Proficiency trong kỹ năng Perception, giúp phát hiện bẫy, kẻ địch ẩn nấp và vật thể bí mật dễ dàng hơn.",
+    "description": "Đặc tính chủng tộc của Elf/Bán Elf, mang lại Proficiency trong kỹ năng Perception, giúp phát hiện bẫy, kẻ địch ẩn nấp và vật thể bí mật dễ dàng hơn.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Giác quan nhạy bén",
     "hostileVi": "Giác quan nhạy bén",
@@ -21709,7 +21947,7 @@
   {
     "id": "prescan-1793708872446-i16k",
     "termEnZh": "Ceremorph",
-    "translationVi": "Quái nòng nọc",
+    "translationVi": "Quái ấu trùng",
     "friendlyVi": "Sinh vật biến dị / Nạn nhân biến hình",
     "hostileVi": "Quái vật Ceremorphosis / Thứ ghê tởm",
     "indifferentVi": "Ceremorph / Sinh vật Illithid hóa",
@@ -22020,7 +22258,7 @@
     "termEnZh": "Dismiss Wild Shape",
     "translationVi": "Hủy hình hài hoang dã",
     "category": "Kỹ năng / Chức năng",
-    "description": "Hành động chấm dứt khả năng Wild Shape của Druid, khiến nhân vật trở về hình dạng con người ban đầu, kết thúc các lợi ích và hạn chế của dạng thú.",
+    "description": "Hành động chấm dứt khả năng Hóa Thân Hoang Dã của Druid, khiến nhân vật trở về hình dạng con người ban đầu, kết thúc các lợi ích và hạn chế của dạng thú.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Hủy hình hài hoang dã",
     "hostileVi": "Hủy hình hài hoang dã",
@@ -22108,7 +22346,7 @@
     "termEnZh": "Power Generator",
     "translationVi": "Máy phát điện",
     "category": "Vật phẩm",
-    "description": "Thiết bị cơ khí có khả năng tạo ra năng lượng, thường gắn liền với công nghệ của người Gondian hoặc Steel Watch trong Act 3, thể hiện sự kết hợp giữa ma thuật và cơ khí học.",
+    "description": "Thiết bị cơ khí có khả năng tạo ra năng lượng, thường gắn liền với công nghệ của tín đồ Gond hoặc Steel Watch trong Act 3, thể hiện sự kết hợp giữa ma thuật và cơ khí học.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Máy phát điện",
     "hostileVi": "Máy phát điện",
@@ -22210,7 +22448,7 @@
     "termEnZh": "Brine Pool",
     "translationVi": "Hồ Nước Muối",
     "category": "Địa danh",
-    "description": "Ao nước muối đặc biệt trong Underdark, thường là nơi Mind Flayer nuôi dưỡng Nòng Nọc hoặc chứa sinh vật dưới nước nguy hiểm.",
+    "description": "Ao nước muối đặc biệt trong Underdark, thường là nơi Mind Flayer nuôi dưỡng Ấu Trùng hoặc chứa sinh vật dưới nước nguy hiểm.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Hồ Nước Muối",
     "hostileVi": "Hồ Nước Muối",
@@ -22382,7 +22620,7 @@
     "termEnZh": "Fungal Infestation Charge",
     "translationVi": "Năng lượng nhiễm nấm",
     "category": "Kỹ năng / Chức năng",
-    "description": "Năng lượng tích lũy để kích hoạt khả năng Fungal Infestation (Nhiễm Nấm), liên quan đến Druid Circle of Spores hoặc các kỹ năng Nòng Nọc Illithid.",
+    "description": "Năng lượng tích lũy để kích hoạt khả năng Fungal Infestation (Nhiễm Nấm), liên quan đến Druid Circle of Spores hoặc các kỹ năng Ấu Trùng Illithid.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Năng lượng nhiễm nấm",
     "hostileVi": "Năng lượng nhiễm nấm",
@@ -22572,7 +22810,7 @@
     "termEnZh": "Mind Flayer Colony",
     "translationVi": "Thuộc Địa Kẻ Hút Não",
     "category": "Địa danh",
-    "description": "Hang ổ Illithid dưới Moonrise Towers, trung tâm nuôi cấy Nòng Nọc và biến đổi con người, kết nối trực tiếp với Elder Brain của Cult of the Absolute.",
+    "description": "Hang ổ Illithid dưới Moonrise Towers, trung tâm nuôi cấy Ấu Trùng và biến đổi con người, kết nối trực tiếp với Elder Brain của Cult of the Absolute.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Thuộc Địa Kẻ Hút Não",
     "hostileVi": "Thuộc Địa Kẻ Hút Não",
@@ -22630,7 +22868,8 @@
     "priority": "core",
     "uiFixed": true,
     "deprecatedVi": [
-      "Quái Dị"
+      "Quái Dị",
+      "Dị chủng aberration"
     ],
     "updatedAt": "2026-11-21 (Phase 6 Caps)"
   },
@@ -22685,7 +22924,7 @@
     "termEnZh": "Skill Versatility",
     "translationVi": "Linh hoạt kỹ năng",
     "category": "Kỹ năng / Chức năng",
-    "description": "Đặc tính chủng tộc Half-Elf, được chọn thêm 2 Skill proficiency bất kỳ khi tạo nhân vật, tăng tính đa năng build.",
+    "description": "Đặc tính chủng tộc Bán Elf, được chọn thêm 2 Skill proficiency bất kỳ khi tạo nhân vật, tăng tính đa năng build.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Linh hoạt kỹ năng",
     "hostileVi": "Linh hoạt kỹ năng",
@@ -23151,7 +23390,7 @@
   {
     "id": "prescan-1793709305070-hump",
     "termEnZh": "Divination",
-    "translationVi": "Thuật tiên tri",
+    "translationVi": "Tiên tri",
     "category": "Kỹ năng / Chức năng",
     "description": "Trường phái phép thuật trong D&D 5e cho phép pháp sư nhìn thấy tương lai, khám phá bí mật và thao túng vận mệnh, là subclass của Wizard.",
     "addedAt": "Pre-Scan Engine",
@@ -23162,7 +23401,9 @@
     "uiFixed": false,
     "updatedAt": "2026-11-21 (Phase 6 Caps)",
     "deprecatedVi": [
-      "Tiên Tri Thuật"
+      "Tiên Tri Thuật",
+      "Chiêm bốc",
+      "Bói toán"
     ],
     "reviewNote": "QA v2: hanviet"
   },
@@ -23819,7 +24060,7 @@
     "hostileVi": "Bọn nhiễm Nòng Nọc",
     "indifferentVi": "Các nạn nhân Nautiloid",
     "category": "Xưng hô / Thành ngữ",
-    "description": "Xưng hô chung cho nhóm nhân vật chính (Player & Companions) - những người sống sót sau vụ bắt cóc trên Chiến Hạm Nautiloid và bị cấy Nòng Nọc Illithid.",
+    "description": "Xưng hô chung cho nhóm nhân vật chính (Player & Companions) - những người sống sót sau vụ bắt cóc trên Chiến Hạm Nautiloid và bị cấy Ấu Trùng Illithid.",
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
@@ -23872,7 +24113,7 @@
     "termEnZh": "Psychic Resonance",
     "translationVi": "Cộng hưởng tâm linh",
     "category": "Kỹ năng / Chức năng",
-    "description": "Hiệu ứng hoặc trạng thái liên quan đến sức mạnh tâm linh (Psychic), thường xuất hiện khi sử dụng năng lực Nòng Nọc Illithid hoặc tương tác với Astral Prism. Có thể tăng sát thương Psychic hoặc tạo kết nối tâm trí.",
+    "description": "Hiệu ứng hoặc trạng thái liên quan đến sức mạnh tâm linh (Psychic), thường xuất hiện khi sử dụng năng lực Ấu Trùng Illithid hoặc tương tác với Astral Prism. Có thể tăng sát thương Psychic hoặc tạo kết nối tâm trí.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Cộng hưởng tâm linh",
     "hostileVi": "Cộng hưởng tâm linh",
@@ -24387,7 +24628,7 @@
     "hostileVi": "Tên Drow Ver'yll",
     "indifferentVi": "Ver'yll Wenkiir",
     "category": "Nhân vật",
-    "description": "Lính đánh thuê đồng hành (Hireling) thuộc lớp Đạo Tặc (Rogue) phân tộc Drow Seldarine, được Withers triệu hồi để hỗ trợ tổ đội.",
+    "description": "Lính đánh thuê đồng hành (Hireling) thuộc lớp Kẻ Trộm (Rogue) phân tộc Drow Seldarine, được Withers triệu hồi để hỗ trợ tổ đội.",
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
@@ -25300,7 +25541,7 @@
     "termEnZh": "Psionic Ward",
     "translationVi": "Lá chắn tâm linh",
     "category": "Kỹ năng / Chức năng",
-    "description": "Hộ giáp bảo vệ khỏi tấn công tâm linh (psionic), thường liên quan đến sức mạnh của Mind Flayer. Xuất hiện trong các tình huống đối đầu với Illithid hoặc khi sử dụng năng lực Nòng Nọc.",
+    "description": "Hộ giáp bảo vệ khỏi tấn công tâm linh (psionic), thường liên quan đến sức mạnh của Mind Flayer. Xuất hiện trong các tình huống đối đầu với Illithid hoặc khi sử dụng năng lực Ấu Trùng.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Lá chắn tâm linh",
     "hostileVi": "Lá chắn tâm linh",
@@ -25715,7 +25956,7 @@
     "termEnZh": "Preserved Mind Flayer Parasite",
     "translationVi": "Ấu trùng Kẻ Hút Não được bảo quản",
     "category": "Vật phẩm",
-    "description": "Ký sinh trùng Illithid được bảo quản nguyên vẹn, có thể tiêu thụ để mở khóa thêm năng lực Nòng Nọc (Illithid Powers) trong cây kỹ năng đặc biệt.",
+    "description": "Ký sinh trùng Illithid được bảo quản nguyên vẹn, có thể tiêu thụ để mở khóa thêm năng lực Ấu Trùng (Illithid Powers) trong cây kỹ năng đặc biệt.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Ấu trùng Kẻ Hút Não được bảo quản",
     "hostileVi": "Ấu trùng Kẻ Hút Não được bảo quản",
@@ -25876,11 +26117,12 @@
     "friendlyVi": "Chuyên sâu",
     "hostileVi": "Chuyên sâu",
     "indifferentVi": "Chuyên sâu",
-    "priority": "standard",
-    "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 7 Modernize)",
+    "priority": "core",
+    "uiFixed": true,
+    "updatedAt": "2026-11-24 (Round 3)",
     "deprecatedVi": [
-      "Chuyên Tinh"
+      "Chuyên Tinh",
+      "Chuyên nghiệp"
     ],
     "reviewNote": "QA v2: hanviet"
   },
@@ -26326,7 +26568,7 @@
     "termEnZh": "Fey Presence",
     "translationVi": "Hào quang tiên linh",
     "category": "Kỹ năng / Chức năng",
-    "description": "Kỹ năng chủng tộc của Elf và Half-Elf trong D&D 5e, cho phép tạo hiệu ứng quyến rũ hoặc gây sợ hãi cho các sinh vật xung quanh. Phiên bản 'Disturbing' tập trung vào khả năng gây Frightened.",
+    "description": "Kỹ năng chủng tộc của Elf và Bán Elf trong D&D 5e, cho phép tạo hiệu ứng quyến rũ hoặc gây sợ hãi cho các sinh vật xung quanh. Phiên bản 'Disturbing' tập trung vào khả năng gây Frightened.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Hào quang tiên linh",
     "hostileVi": "Hào quang tiên linh",
@@ -27850,7 +28092,10 @@
     "uiFixed": true,
     "deprecatedVi": [
       "Bards",
-      "Bard"
+      "Bard",
+      "Thi nhân",
+      "Thi nhân hát rong",
+      "Người hát rong"
     ],
     "updatedAt": "2026-11-21 (Phase 6 Caps)"
   },
@@ -27913,7 +28158,7 @@
   {
     "id": "prescan-1793710949015-66xt",
     "termEnZh": "Gondian Hostage",
-    "translationVi": "Con tin người Gondian",
+    "translationVi": "Con tin tín đồ Gond",
     "friendlyVi": "Người Gondian bị giam giữ / Nạn nhân Gondian",
     "hostileVi": "Tên con tin Gondian / Đồ thừa Gondian",
     "indifferentVi": "Con tin thuộc tộc Gondian / Người Gondian bị bắt",
@@ -28395,7 +28640,7 @@
     "termEnZh": "Mind Sanctuary",
     "translationVi": "Thánh địa tâm trí",
     "category": "Kỹ năng / Chức năng",
-    "description": "Năng lực Illithid mở khoá từ ấu trùng nòng nọc, tạo vùng không gian tinh thần nơi đồng minh dùng hành động và phép thuật nhanh hơn hẳn. Xuất hiện trong bảng kỹ năng của kẻ mang sức mạnh Illithid; tên dịch nhấn vào khía cạnh 'nơi trú ẩn của tâm trí'.",
+    "description": "Năng lực Illithid mở khoá từ ấu trùng ấu trùng, tạo vùng không gian tinh thần nơi đồng minh dùng hành động và phép thuật nhanh hơn hẳn. Xuất hiện trong bảng kỹ năng của kẻ mang sức mạnh Illithid; tên dịch nhấn vào khía cạnh 'nơi trú ẩn của tâm trí'.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Thánh địa tâm trí",
     "hostileVi": "Thánh địa tâm trí",
@@ -28476,7 +28721,7 @@
     "termEnZh": "Psionic Empowerment",
     "translationVi": "Tăng cường tâm linh",
     "category": "Kỹ năng / Chức năng",
-    "description": "Hiệu ứng gia tăng sức mạnh tinh thần bắt nguồn từ năng lực Illithid / Nòng Nọc, đẩy khả năng psionic của người mang lên mức cao hơn. Thường xuất hiện khi nhân vật nuốt thêm nòng nọc hoặc chạm vào các nguồn linh năng cổ đại, và được xem là dấu hiệu nguy hiểm cho thân phận con người của kẻ sở hữu.",
+    "description": "Hiệu ứng gia tăng sức mạnh tinh thần bắt nguồn từ năng lực Illithid / Ấu Trùng, đẩy khả năng psionic của người mang lên mức cao hơn. Thường xuất hiện khi nhân vật nuốt thêm ấu trùng hoặc chạm vào các nguồn linh năng cổ đại, và được xem là dấu hiệu nguy hiểm cho thân phận con người của kẻ sở hữu.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Tăng cường tâm linh",
     "hostileVi": "Tăng cường tâm linh",
@@ -28635,7 +28880,7 @@
   {
     "id": "prescan-1793711354467-ukgc",
     "termEnZh": "Runepowder",
-    "translationVi": "Bột rune",
+    "translationVi": "Thuốc nổ cổ ngữ",
     "category": "Vật phẩm",
     "description": "Chất nổ ma thuật đặc biệt được Wulbren Bongle và nhóm Ironhand Gnomes sử dụng để phá hủy Foundry và Steel Watch trong Act 2-3. Vật phẩm nhiệm vụ quan trọng liên quan đến cốt truyện giải phóng Gnomes.",
     "addedAt": "Pre-Scan Engine",
@@ -28644,7 +28889,14 @@
     "indifferentVi": "Bột rune",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "updatedAt": "2026-11-21 (Phase 6 Caps)",
+    "deprecatedVi": [
+      "Bột rune",
+      "Bột cổ ngữ",
+      "Thuốc súng cổ ngữ",
+      "Thuốc nổ rune",
+      "Runepowder"
+    ]
   },
   {
     "id": "prescan-1793711354467-i9ue",
@@ -28767,7 +29019,7 @@
     "termEnZh": "Fleet of Foot",
     "translationVi": "Bàn chân nhanh nhẹn",
     "category": "Kỹ năng / Chức năng",
-    "description": "Kỹ năng thụ động hoặc đặc điểm chủng tộc (thường của Wood Elf) giúp tăng tốc độ di chuyển cơ bản trong chiến đấu và thám hiểm.",
+    "description": "Kỹ năng thụ động hoặc đặc điểm chủng tộc (thường của Elf Rừng) giúp tăng tốc độ di chuyển cơ bản trong chiến đấu và thám hiểm.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Bàn chân nhanh nhẹn",
     "hostileVi": "Bàn chân nhanh nhẹn",
@@ -28924,7 +29176,7 @@
     "hostileVi": "Thằng Xúc Tu giả danh anh hùng",
     "indifferentVi": "Kẻ Xúc Tu tự xưng anh hùng",
     "category": "Xưng hô / Thành ngữ",
-    "description": "Danh hiệu mỉa mai hoặc tôn vinh (tùy ngữ cảnh) dành cho nhân vật chính khi sử dụng năng lực Illithid (Mind Flayer). Phản ánh sự hòa trộn giữa hình hài người và sức mạnh Nòng Nọc.",
+    "description": "Danh hiệu mỉa mai hoặc tôn vinh (tùy ngữ cảnh) dành cho nhân vật chính khi sử dụng năng lực Illithid (Mind Flayer). Phản ánh sự hòa trộn giữa hình hài người và sức mạnh Ấu Trùng.",
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
@@ -29089,7 +29341,7 @@
     "termEnZh": "Synaptic Consumption",
     "translationVi": "Tiêu thụ khớp thần kinh",
     "category": "Kỹ năng / Chức năng",
-    "description": "Năng lực Illithid rút năng lượng thần kinh từ kẻ địch để gây sát thương Tâm Linh và hồi phục bản thân. Mở khóa qua cây năng lực Nòng Nọc, gắn chặt với hành trình của True Soul.",
+    "description": "Năng lực Illithid rút năng lượng thần kinh từ kẻ địch để gây sát thương Tâm Linh và hồi phục bản thân. Mở khóa qua cây năng lực Ấu Trùng, gắn chặt với hành trình của True Soul.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Tiêu thụ khớp thần kinh",
     "hostileVi": "Tiêu thụ khớp thần kinh",
@@ -32172,7 +32424,7 @@
     "termEnZh": "Countercharm",
     "translationVi": "Kháng mê hoặc",
     "category": "Kỹ năng / Chức năng",
-    "description": "Năng lực cấp 6 của lớp Thi Nhân (Bard) trong D&D 5e và BG3; dùng như một hành động để bảo vệ đồng minh quanh mình khỏi bị Kinh Sợ hay Mê Hoặc.",
+    "description": "Năng lực cấp 6 của lớp Thi Sĩ (Bard) trong D&D 5e và BG3; dùng như một hành động để bảo vệ đồng minh quanh mình khỏi bị Kinh Sợ hay Mê Hoặc.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Kháng mê hoặc",
     "hostileVi": "Kháng mê hoặc",
@@ -33190,7 +33442,7 @@
   {
     "id": "prescan-1793713049075-9hf9",
     "termEnZh": "Transmuter's Stone: Fire Resistance",
-    "translationVi": "Đá của nhà biến đổi: Kháng lửa",
+    "translationVi": "Đá pháp sư chuyển hóa: Kháng lửa",
     "category": "Kỹ năng / Chức năng",
     "description": "Phiên bản đặc biệt của Transmuter's Stone cấp khả năng kháng sát thương lửa cho người mang. Là năng lực đặc trưng của phân nhánh Transmutation Wizard.",
     "addedAt": "Pre-Scan Engine",
@@ -33201,7 +33453,8 @@
     "uiFixed": false,
     "updatedAt": "2026-11-21 (Phase 7 Modernize)",
     "deprecatedVi": [
-      "Đá của Nhà Biến Đổi: Kháng Hỏa"
+      "Đá của Nhà Biến Đổi: Kháng Hỏa",
+      "Đá của nhà biến đổi: Kháng lửa"
     ],
     "reviewNote": "QA v2: hanviet"
   },
@@ -33213,7 +33466,7 @@
     "hostileVi": "Gã Druid Rath",
     "indifferentVi": "Druid Rath",
     "category": "Nhân vật",
-    "description": "Druid (Druid) điềm đạm và trung thành nhất với Đại Tư tế Halsin tại Rừng Ngọc Lục Bảo (Hồi 1), người phản đối chính sách cực đoan của Kagha và trao Viên Đá Rune Sói cho người chơi khi giải cứu Halsin.",
+    "description": "Druid điềm đạm và trung thành nhất với Đại Druid Halsin tại Rừng Ngọc Lục Bảo (Hồi 1), người phản đối chính sách cực đoan của Kagha và trao Viên Đá Rune Sói cho người chơi khi giải cứu Halsin.",
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
@@ -33418,7 +33671,7 @@
     "termEnZh": "Dominated",
     "translationVi": "Bị chi phối",
     "category": "Kỹ năng / Chức năng",
-    "description": "Trạng thái (Condition) trong D&D 5e và BG3 khi sinh vật bị kiểm soát tinh thần hoàn toàn bởi kẻ khác, buộc phải tuân theo mệnh lệnh của kẻ thống trị. Thường xuất hiện qua phép Dominate Person/Beast/Monster hoặc năng lực Nòng Nọc Illithid.",
+    "description": "Trạng thái (Condition) trong D&D 5e và BG3 khi sinh vật bị kiểm soát tinh thần hoàn toàn bởi kẻ khác, buộc phải tuân theo mệnh lệnh của kẻ thống trị. Thường xuất hiện qua phép Dominate Person/Beast/Monster hoặc năng lực Ấu Trùng Illithid.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Bị chi phối",
     "hostileVi": "Bị chi phối",
@@ -33492,7 +33745,7 @@
     "termEnZh": "Fire Myrmidon",
     "translationVi": "Chiến Binh Lửa Nguyên Tố",
     "category": "Nhân vật",
-    "description": "Sinh vật nguyên tố lửa mạnh mẽ, có thể được triệu hồi thông qua phép Wild Shape đặc biệt hoặc phép Conjure Elemental, sở hữu khả năng chiến đấu và kháng lửa cao",
+    "description": "Sinh vật nguyên tố lửa mạnh mẽ, có thể được triệu hồi thông qua phép Hóa Thân Hoang Dã đặc biệt hoặc phép Conjure Elemental, sở hữu khả năng chiến đấu và kháng lửa cao",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Chiến Binh Lửa Nguyên Tố",
     "hostileVi": "Chiến Binh Lửa Nguyên Tố",
@@ -34006,7 +34259,10 @@
       "Man Tộc",
       "Chiến Binh Man Tộc",
       "Barbarians",
-      "Barbarian"
+      "Barbarian",
+      "Dã man nhân",
+      "Chiến binh man rợ",
+      "Chiến binh cuồng nộ"
     ],
     "updatedAt": "2026-11-21 (Phase 7 Modernize)"
   },
@@ -34417,7 +34673,7 @@
     "termEnZh": "Moonlight Glaive",
     "translationVi": "Thương dài ánh trăng",
     "category": "Vật phẩm",
-    "description": "Vũ khí Glaive phát sáng với năng lượng trăng tròn (Selûnite hoặc Radiant magic), thường có hiệu ứng 'Glowing' chiếu sáng vùng tối và gây sát thương thiêng liêng.",
+    "description": "Vũ khí Glaive phát sáng với năng lượng trăng tròn (Selûnite hoặc Radiant magic), thường có hiệu ứng 'Glowing' chiếu sáng vùng tối và gây sát thương Thánh Quang.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Thương dài ánh trăng",
     "hostileVi": "Thương dài ánh trăng",
@@ -35053,7 +35309,7 @@
     "termEnZh": "Alternate Form",
     "translationVi": "Dạng biến đổi",
     "category": "Kỹ năng / Chức năng",
-    "description": "Cơ chế cho phép nhân vật hoặc sinh vật biến đổi sang hình dạng khác (ví dụ Druid Wild Shape), thay đổi bộ chỉ số, kỹ năng và ngoại hình. Mỗi hình thái có bộ hành động và HP riêng.",
+    "description": "Cơ chế cho phép nhân vật hoặc sinh vật biến đổi sang hình dạng khác (ví dụ Druid Hóa Thân Hoang Dã), thay đổi bộ chỉ số, kỹ năng và ngoại hình. Mỗi hình thái có bộ hành động và HP riêng.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Dạng biến đổi",
     "hostileVi": "Dạng biến đổi",
@@ -35119,7 +35375,7 @@
     "hostileVi": "Đồ lai tạp Rừng / Thằng nửa máu",
     "indifferentVi": "Bán Elf rừng",
     "category": "Xưng hô / Thành ngữ",
-    "description": "Phân tộc Half-Elf có dòng máu Wood Elf, tăng tốc di chuyển và khả năng ẩn trong địa hình tự nhiên, phổ biến ở Sword Coast.",
+    "description": "Phân tộc Bán Elf có dòng máu Elf Rừng, tăng tốc di chuyển và khả năng ẩn trong địa hình tự nhiên, phổ biến ở Sword Coast.",
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
@@ -35300,7 +35556,7 @@
   {
     "id": "prescan-1793713680826-dofd",
     "termEnZh": "Runepowder Vial",
-    "translationVi": "Lọ bột rune",
+    "translationVi": "Lọ thuốc nổ cổ ngữ",
     "category": "Vật phẩm",
     "description": "Vật phẩm chứa Runepowder dạng lỏng hoặc tinh chất, có thể gây nổ mạnh khi kích hoạt. Thường dùng trong chiến đấu hoặc phá hủy chướng ngại vật.",
     "addedAt": "Pre-Scan Engine",
@@ -35386,7 +35642,7 @@
     "termEnZh": "Dismiss Form",
     "translationVi": "Hủy biến hình",
     "category": "Kỹ năng / Chức năng",
-    "description": "Hành động kết thúc Wild Shape (Hóa Thân Hoang Dã) hoặc các hình thái biến hình khác trong D&D 5e/Baldur's Gate 3, đưa nhân vật trở về dạng gốc.",
+    "description": "Hành động kết thúc Hóa Thân Hoang Dã (Hóa Thân Hoang Dã) hoặc các hình thái biến hình khác trong D&D 5e/Baldur's Gate 3, đưa nhân vật trở về dạng gốc.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Hủy biến hình",
     "hostileVi": "Hủy biến hình",
@@ -35402,7 +35658,7 @@
   {
     "id": "prescan-1793713719908-x7ai",
     "termEnZh": "Wild Shape",
-    "translationVi": "Hóa thân hoang dã",
+    "translationVi": "Hóa Thân Hoang Dã",
     "category": "Kỹ năng / Chức năng",
     "description": "Năng lực đặc trưng của lớp Druid trong D&D 5e/Baldur's Gate 3, cho phép biến hình thành các sinh vật hoang dã với thống kê và kỹ năng riêng. Halsin sử dụng kỹ năng này.",
     "addedAt": "Pre-Scan Engine",
@@ -35411,7 +35667,11 @@
     "indifferentVi": "Hóa thân hoang dã",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 7 Modernize)"
+    "updatedAt": "2026-11-21 (Phase 7 Modernize)",
+    "deprecatedVi": [
+      "Hình Dạng Hoang Dã",
+      "Biến Hình Hoang Dã"
+    ]
   },
   {
     "id": "prescan-1793713719908-jq7c",
@@ -35472,16 +35732,20 @@
   {
     "id": "prescan-1793713735775-45zk",
     "termEnZh": "Superior Darkvision",
-    "translationVi": "Nhìn đêm siêu việt",
+    "translationVi": "Nhìn trong bóng tối tầm xa",
     "category": "Kỹ năng / Chức năng",
     "description": "Khả năng chủng tộc cho phép nhìn trong bóng tối tuyệt đối lên tới 24m (thay vì 12m của Darkvision thường), đặc trưng của Drow và một số chủng tộc Underdark.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Nhìn đêm siêu việt",
     "hostileVi": "Nhìn đêm siêu việt",
     "indifferentVi": "Nhìn đêm siêu việt",
-    "priority": "standard",
-    "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "priority": "core",
+    "uiFixed": true,
+    "updatedAt": "2026-11-24 (Round 3)",
+    "deprecatedVi": [
+      "Nhìn đêm siêu việt",
+      "Thị giác bóng đêm cấp cao"
+    ]
   },
   {
     "id": "prescan-1793713735775-945b",
@@ -35772,7 +36036,7 @@
     "termEnZh": "Half-Elven Vigour",
     "translationVi": "Sinh lực bán Elf",
     "category": "Kỹ năng / Chức năng",
-    "description": "Đặc tính hoặc hiệu ứng đặc trưng của chủng tộc Half-Elf, thể hiện sức bền và sức sống lai tạo giữa Elf và Human.",
+    "description": "Đặc tính hoặc hiệu ứng đặc trưng của chủng tộc Bán Elf, thể hiện sức bền và sức sống lai tạo giữa Elf và Human.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Sinh lực bán Elf",
     "hostileVi": "Sinh lực bán Elf",
@@ -36372,7 +36636,7 @@
     "termEnZh": "Sacred Munitions",
     "translationVi": "Đạn dược thần thánh",
     "category": "Kỹ năng / Chức năng",
-    "description": "Năng lực hoặc hành động trong BG3 cho phép imbue vũ khí hoặc đạn dược với sức mạnh thần thánh, thường gắn với Paladin hoặc Cleric. Gây thêm sát thương thiêng liêng (radiant) khi tấn công.",
+    "description": "Năng lực hoặc hành động trong BG3 cho phép imbue vũ khí hoặc đạn dược với sức mạnh thần thánh, thường gắn với Paladin hoặc Cleric. Gây thêm sát thương Thánh Quang (Radiant) khi tấn công.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Đạn dược thần thánh",
     "hostileVi": "Đạn dược thần thánh",
@@ -36384,16 +36648,21 @@
   {
     "id": "prescan-1793714193475-h4bg",
     "termEnZh": "Hexblade's Curse",
-    "translationVi": "Lời nguyền kiếm sĩ ma thuật",
+    "translationVi": "Lời nguyền kiếm ma",
     "category": "Kỹ năng / Chức năng",
     "description": "Năng lực đặc trưng của Phân nhánh Hexblade (Warlock) trong D&D 5e. Cho phép nguyền rủa một mục tiêu, tăng xác suất chí mạng và cộng thêm điểm giá trị hấp thụ khi hạ gục mục tiêu đó. Xuất hiện trong BG3 khi nhân vật chọn Pact of the Blade.",
     "addedAt": "Pre-Scan Engine",
-    "friendlyVi": "Lời nguyền kiếm sĩ ma thuật",
-    "hostileVi": "Lời nguyền kiếm sĩ ma thuật",
-    "indifferentVi": "Lời nguyền kiếm sĩ ma thuật",
+    "friendlyVi": "Lời nguyền kiếm ma",
+    "hostileVi": "Lời nguyền kiếm ma",
+    "indifferentVi": "Lời nguyền kiếm ma",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 7 Modernize)"
+    "updatedAt": "2026-11-21 (Phase 7 Modernize)",
+    "deprecatedVi": [
+      "Lời nguyền kiếm sĩ ma thuật",
+      "Lời nguyền hexblade",
+      "Lời nguyền của pháp kiếm sư"
+    ]
   },
   {
     "id": "prescan-1793714193475-2inz",
@@ -37757,7 +38026,7 @@
   {
     "id": "prescan-1793714597026-jst7",
     "termEnZh": "School of Abjuration",
-    "translationVi": "Phái phòng hộ",
+    "translationVi": "Trường phái hộ thân",
     "category": "Kỹ năng / Chức năng",
     "description": "Phân nhánh (Subclass) của lớp Wizard trong D&D 5e và BG3, chuyên về phép thuật phòng thủ, tạo lá chắn phép thuật (Arcane Ward) và vô hiệu hóa phép của kẻ địch.",
     "addedAt": "Pre-Scan Engine",
@@ -37766,7 +38035,10 @@
     "indifferentVi": "Phái phòng hộ",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "updatedAt": "2026-11-21 (Phase 6 Caps)",
+    "deprecatedVi": [
+      "Phái phòng hộ"
+    ]
   },
   {
     "id": "prescan-1793714597026-fd5k",
@@ -38250,9 +38522,9 @@
   {
     "id": "prescan-1793714705833-jzj3",
     "termEnZh": "Runepowder Bomb",
-    "translationVi": "Bom bột rune",
+    "translationVi": "Bom thuốc nổ cổ ngữ",
     "category": "Vật phẩm",
-    "description": "Vật phẩm nổ được chế tạo từ Runepowder (Bột Rune), có thể được kích hoạt để gây sát thương diện rộng, thường xuất hiện trong các nhiệm vụ giải cứu hoặc phá hoại.",
+    "description": "Vật phẩm nổ được chế tạo từ Runepowder (thuốc nổ cổ ngữ), có thể được kích hoạt để gây sát thương diện rộng, thường xuất hiện trong các nhiệm vụ giải cứu hoặc phá hoại.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Bom bột rune",
     "hostileVi": "Bom bột rune",
@@ -38446,16 +38718,24 @@
   {
     "id": "prescan-1793714768633-m00w",
     "termEnZh": "Darkvision",
-    "translationVi": "Nhìn xuyên bóng tối",
+    "translationVi": "Nhìn trong bóng tối",
     "category": "Kỹ năng / Chức năng",
     "description": "Khả năng chủng tộc hoặc phép thuật cho phép nhân vật nhìn rõ trong bóng tối và ánh sáng mờ trong phạm vi nhất định (thường 12m), chuyển tối thành ánh sáng mờ và ánh sáng mờ thành ánh sáng thường.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Nhìn xuyên bóng tối",
     "hostileVi": "Nhìn xuyên bóng tối",
     "indifferentVi": "Nhìn xuyên bóng tối",
-    "priority": "standard",
-    "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "priority": "core",
+    "uiFixed": true,
+    "updatedAt": "2026-11-24 (Round 3)",
+    "deprecatedVi": [
+      "Nhãn quan đêm",
+      "Thị giác bóng đêm",
+      "Thị giác trong bóng tối",
+      "Thị giác bóng tối",
+      "Tầm nhìn trong tối",
+      "Nhìn xuyên bóng tối"
+    ]
   },
   {
     "id": "prescan-1793714768633-76yc",
@@ -38658,7 +38938,7 @@
     "termEnZh": "Circle of the Moon",
     "translationVi": "Vòng tròn mặt trăng",
     "category": "Kỹ năng / Chức năng",
-    "description": "Subclass của Druid tập trung vào Wild Shape chiến đấu. Có thể biến hình thành sinh vật mạnh mẽ hơn (Dire Wolf, Owlbear...) và sử dụng Combat Wild Shape như Bonus Action.",
+    "description": "Subclass của Druid tập trung vào Hóa Thân Hoang Dã chiến đấu. Có thể biến hình thành sinh vật mạnh mẽ hơn (Dire Wolf, Owlbear...) và sử dụng Combat Hóa Thân Hoang Dã như Bonus Action.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Vòng tròn mặt trăng",
     "hostileVi": "Vòng tròn mặt trăng",
@@ -39243,7 +39523,7 @@
     "termEnZh": "Mind Flayer Form",
     "translationVi": "Dạng Kẻ Hút Não",
     "category": "Kỹ năng / Chức năng",
-    "description": "Hình dạng biến hóa thành Mind Flayer, khả năng đặc biệt liên quan đến Illithid Powers và cốt truyện về ký sinh trùng nòng nọc.",
+    "description": "Hình dạng biến hóa thành Mind Flayer, khả năng đặc biệt liên quan đến Illithid Powers và cốt truyện về ký sinh trùng ấu trùng.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Dạng Kẻ Hút Não",
     "hostileVi": "Dạng Kẻ Hút Não",
@@ -39278,7 +39558,7 @@
     "hostileVi": "Con mụ Ghustil / Ghustil khốn kiếp",
     "indifferentVi": "Ghustil Stornugoss",
     "category": "Nhân vật",
-    "description": "NPC Githyanki tại Crèche Y'llek, đóng vai trò thầy thuốc (ghustil) phụ trách kiểm tra và điều trị ký sinh trùng nòng nọc cho nhóm.",
+    "description": "NPC Githyanki tại Crèche Y'llek, đóng vai trò thầy thuốc (ghustil) phụ trách kiểm tra và điều trị ký sinh trùng ấu trùng cho nhóm.",
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
@@ -40186,7 +40466,7 @@
     "hostileVi": "Tên Biggs",
     "indifferentVi": "Người Gondian Lanpos Biggs",
     "category": "Nhân vật",
-    "description": "NPC thuộc phe phái Gondian trong Baldur's Gate 3. Là một trong những thợ thủ công người Gondian bị Gortash bắt giữ hoặc kiểm soát.",
+    "description": "NPC thuộc phe phái Gondian trong Baldur's Gate 3. Là một trong những thợ thủ công tín đồ Gond bị Gortash bắt giữ hoặc kiểm soát.",
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
@@ -41581,7 +41861,7 @@
     "termEnZh": "Subsurface Vessel",
     "translationVi": "Tàu ngầm",
     "category": "Vật phẩm",
-    "description": "Bản thiết kế (Schematics) cho một loại phương tiện di chuyển dưới lòng đất, liên quan đến người Gondian và Steel Watch. Vật phẩm nhiệm vụ xuất hiện ở Act 3, gắn với chuỗi nhiệm vụ của Gond.",
+    "description": "Bản thiết kế (Schematics) cho một loại phương tiện di chuyển dưới lòng đất, liên quan đến tín đồ Gond và Steel Watch. Vật phẩm nhiệm vụ xuất hiện ở Act 3, gắn với chuỗi nhiệm vụ của Gond.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Tàu ngầm",
     "hostileVi": "Tàu ngầm",
@@ -42473,7 +42753,7 @@
   {
     "id": "prescan-1793800413488-hupa",
     "termEnZh": "Abjuration",
-    "translationVi": "Trường phái hộ thân",
+    "translationVi": "Hộ thân",
     "category": "Kỹ năng / Chức năng",
     "description": "Một trong tám trường phái phép thuật Arcane của D&D 5e, chuyên về khiên chắn, giải trừ và phong ấn. Xuất hiện trong mô tả phép, sách phép tại Sorcerous Sundries và lựa chọn chuyên môn của Wizard (Abjuration School).",
     "addedAt": "Pre-Scan Engine",
@@ -42484,14 +42764,16 @@
     "uiFixed": false,
     "updatedAt": "2026-11-21 (Phase 6 Caps)",
     "deprecatedVi": [
-      "Phép Trấn Áp (Trường phái Hộ Thân)"
+      "Phép Trấn Áp (Trường phái Hộ Thân)",
+      "Phòng hộ",
+      "Bảo hộ"
     ],
     "reviewNote": "QA v2: da_phuong_an"
   },
   {
     "id": "prescan-1793800413488-cz74",
     "termEnZh": "Conjuration",
-    "translationVi": "Trường phái triệu hồi",
+    "translationVi": "Triệu hồi",
     "category": "Kỹ năng / Chức năng",
     "description": "Trường phái phép thuật tạo vật thể, sinh vật hoặc dịch chuyển không gian. Dùng khi phân loại phép như Misty Step, Find Familiar; cũng là nhánh chuyên môn của Wizard.",
     "addedAt": "Pre-Scan Engine",
@@ -42502,14 +42784,15 @@
     "uiFixed": false,
     "updatedAt": "2026-11-21 (Phase 6 Caps)",
     "deprecatedVi": [
-      "Phép Triệu Vật (Trường phái Triệu Hồi)"
+      "Phép Triệu Vật (Trường phái Triệu Hồi)",
+      "Phép triệu vật"
     ],
     "reviewNote": "QA v2: da_phuong_an"
   },
   {
     "id": "prescan-1793800413488-b5ia",
     "termEnZh": "Enchantment",
-    "translationVi": "Trường phái mê hoặc",
+    "translationVi": "Mê hoặc",
     "category": "Kỹ năng / Chức năng",
     "description": "Trường phái phép thuật tác động tâm trí: Charm Person, Sleep, Hold Person. Trong BG3 còn là nhánh chuyên môn Wizard và từ dùng cho vật phẩm được phù phép.",
     "addedAt": "Pre-Scan Engine",
@@ -42527,7 +42810,7 @@
   {
     "id": "prescan-1793800413488-dc27",
     "termEnZh": "Transmutation",
-    "translationVi": "Trường phái biến đổi",
+    "translationVi": "Chuyển hóa",
     "category": "Kỹ năng / Chức năng",
     "description": "Trường phái phép thuật biến đổi hình dạng và bản chất vật chất, như Polymorph hay Enhance Ability. Là nhánh chuyên môn Wizard và nhãn phân loại phép trong bảng mô tả.",
     "addedAt": "Pre-Scan Engine",
@@ -42538,7 +42821,10 @@
     "uiFixed": false,
     "updatedAt": "2026-11-21 (Phase 6 Caps)",
     "deprecatedVi": [
-      "Phép Biến Hóa (Trường phái Chuyển Hóa)"
+      "Phép Biến Hóa (Trường phái Chuyển Hóa)",
+      "Biến đổi",
+      "Biến hóa",
+      "Biến dung"
     ],
     "reviewNote": "QA v2: da_phuong_an"
   },
@@ -42805,7 +43091,7 @@
     "termEnZh": "Psionic Suggestion: Grovel",
     "translationVi": "Gợi ý tâm linh: Quỳ rạp",
     "category": "Kỹ năng / Chức năng",
-    "description": "Năng lực thần giao cách cảm (psionic) buộc mục tiêu quỳ rạp phục tùng. Thường do Mind Flayer, True Soul hoặc nhân vật mang Nòng Nọc Illithid sử dụng trong hội thoại và chiến đấu để áp chế ý chí đối phương.",
+    "description": "Năng lực thần giao cách cảm (psionic) buộc mục tiêu quỳ rạp phục tùng. Thường do Mind Flayer, True Soul hoặc nhân vật mang Ấu Trùng Illithid sử dụng trong hội thoại và chiến đấu để áp chế ý chí đối phương.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Gợi ý tâm linh: Quỳ rạp",
     "hostileVi": "Gợi ý tâm linh: Quỳ rạp",
@@ -42937,7 +43223,7 @@
   {
     "id": "prescan-1793800646201-42kh",
     "termEnZh": "Transmuter's Stone: Depleted Magic",
-    "translationVi": "Đá pháp sư biến đổi: Cạn kiệt ma pháp",
+    "translationVi": "Đá pháp sư chuyển hóa: Cạn kiệt ma pháp",
     "category": "Vật phẩm",
     "description": "Trạng thái của Transmuter's Stone khi năng lượng phép thuật đã bị sử dụng hết. Đá này là vật phẩm đặc trưng của phân nhánh Transmutation Wizard trong BG3.",
     "addedAt": "Pre-Scan Engine",
@@ -42948,7 +43234,9 @@
     "uiFixed": false,
     "updatedAt": "2026-11-21 (Phase 6 Caps)",
     "deprecatedVi": [
-      "Đá của Nhà Biến đổi: Cạn kiệt Ma lực"
+      "Đá của Nhà Biến đổi: Cạn kiệt Ma lực",
+      "Đá của nhà biến đổi: Cạn kiệt ma lực",
+      "Đá pháp sư biến đổi: Cạn kiệt ma pháp"
     ],
     "reviewNote": "QA v2: thong_nhat"
   },
@@ -43447,7 +43735,7 @@
   {
     "id": "prescan-1793800822838-tzpm",
     "termEnZh": "Runepowder Barrel Explosion",
-    "translationVi": "Vụ nổ thùng bột rune",
+    "translationVi": "Vụ nổ thùng thuốc nổ cổ ngữ",
     "category": "Kỹ năng / Chức năng",
     "description": "Hiệu ứng nổ diện rộng khi thùng Runepowder bị kích hoạt, gây sát thương lớn trong phạm vi.",
     "addedAt": "Pre-Scan Engine",
@@ -43538,7 +43826,11 @@
       "Thuật Sĩ Huyết Ước",
       "Pháp Sư Giao Ước",
       "Warlocks",
-      "Warlock"
+      "Warlock",
+      "Tà thuật sư",
+      "Thuật sĩ",
+      "Hiệp sĩ khế ước",
+      "Vu sư"
     ],
     "updatedAt": "2026-11-21 (Phase 6 Caps)"
   },
@@ -44201,7 +44493,7 @@
     "hostileVi": "Thứ Não Kinh Tởm",
     "indifferentVi": "Sinh Vật Não",
     "category": "Nhân vật",
-    "description": "Sinh vật liên quan đến Mind Flayer hoặc Nòng Nọc Illithid, có khả năng hấp thụ trí tuệ và ký ức.",
+    "description": "Sinh vật liên quan đến Mind Flayer hoặc Ấu Trùng Illithid, có khả năng hấp thụ trí tuệ và ký ức.",
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
@@ -44648,7 +44940,7 @@
     "hostileVi": "Con ác phụ Bonedaughter",
     "indifferentVi": "Kressa Bonedaughter",
     "category": "Nhân vật",
-    "description": "True Soul phụ trách khu thí nghiệm của Giáo phái Absolute tại Moonrise Towers, chuyên mổ xẻ tù nhân và nghiên cứu nòng nọc Illithid. Thân thiện gọi 'Pháp sư Kressa', thù địch gọi 'con ác phụ Bonedaughter', trung tính giữ nguyên tên riêng.",
+    "description": "True Soul phụ trách khu thí nghiệm của Giáo phái Absolute tại Moonrise Towers, chuyên mổ xẻ tù nhân và nghiên cứu ấu trùng Illithid. Thân thiện gọi 'Pháp sư Kressa', thù địch gọi 'con ác phụ Bonedaughter', trung tính giữ nguyên tên riêng.",
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
@@ -45074,7 +45366,7 @@
     "hostileVi": "Kẻ Biến Dị",
     "indifferentVi": "Bán-Illithid",
     "category": "Xưng hô / Thành ngữ",
-    "description": "Trạng thái nhân vật đã tiếp nhận một phần sức mạnh Illithid nhưng chưa hoàn toàn biến thành Mind Flayer, thể hiện trong cây nâng cấp Nòng Nọc.",
+    "description": "Trạng thái nhân vật đã tiếp nhận một phần sức mạnh Illithid nhưng chưa hoàn toàn biến thành Mind Flayer, thể hiện trong cây nâng cấp Ấu Trùng.",
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
@@ -45249,16 +45541,22 @@
   {
     "id": "prescan-1793801961020-7o72",
     "termEnZh": "Channel Divinity",
-    "translationVi": "Khai thông thần lực",
+    "translationVi": "Dẫn truyền thần lực",
     "category": "Kỹ năng / Chức năng",
     "description": "Tài nguyên lớp Cleric và Paladin trong D&D 5e, hồi lại sau Short Rest, dùng để kích hoạt các năng lực thần thánh theo Domain hoặc Oath: Guided Strike, Turn Undead, Sacred Weapon, Sear Undead. Trong văn bản game luôn hiển thị dạng 'Channel Divinity: <tên năng lực>', giữ đúng cấu trúc hai tầng khi dịch.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Khai thông thần lực",
     "hostileVi": "Khai thông thần lực",
     "indifferentVi": "Khai thông thần lực",
-    "priority": "standard",
-    "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "priority": "core",
+    "uiFixed": true,
+    "updatedAt": "2026-11-24 (Round 3)",
+    "deprecatedVi": [
+      "Dẫn kênh thần lực",
+      "Khai thông thần lực",
+      "Truyền dẫn thần lực",
+      "Dẫn lực thần thánh"
+    ]
   },
   {
     "id": "prescan-1793801961020-wh2d",
@@ -45919,7 +46217,7 @@
     "termEnZh": "High Elf Cantrip",
     "translationVi": "Phép cơ bản Elf thượng đẳng",
     "category": "Kỹ năng / Chức năng",
-    "description": "Cantrip đặc biệt từ chủng tộc High Elf, cho phép sử dụng một phép thuật cấp thấp không giới hạn.",
+    "description": "Cantrip đặc biệt từ chủng tộc Elf Thượng Đẳng, cho phép sử dụng một phép thuật cấp thấp không giới hạn.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Phép cơ bản Elf thượng đẳng",
     "hostileVi": "Phép cơ bản Elf thượng đẳng",
@@ -46806,7 +47104,7 @@
     "hostileVi": "Thứ nửa quái Illithid",
     "indifferentVi": "Kẻ bán Illithid",
     "category": "Xưng hô / Thành ngữ",
-    "description": "Danh xưng chỉ sinh thể lai giữa người và kẻ hút não, hoặc kẻ đã dùng quá nhiều năng lực nòng nọc nên biến dạng dở dang. Phe Githyanki và dân Baldur's Gate dùng từ này với hàm ý ghê sợ.",
+    "description": "Danh xưng chỉ sinh thể lai giữa người và kẻ hút não, hoặc kẻ đã dùng quá nhiều năng lực ấu trùng nên biến dạng dở dang. Phe Githyanki và dân Baldur's Gate dùng từ này với hàm ý ghê sợ.",
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
@@ -47229,7 +47527,7 @@
     "hostileVi": "lũ nhện xuyên không khốn khiếp",
     "indifferentVi": "con nhện dịch không",
     "category": "Xưng hô / Thành ngữ",
-    "description": "Loài nhện ma thuật có thể dịch chuyển giữa Vật Chất Giới và Cõi Ether, nên đòn tấn công của chúng thường tới từ hư không. Trong BG3 chúng canh giữ Whispering Depths dưới Emerald Grove và rải rác trong Underdark; Druid dùng Wild Shape để 'assume the form of a phase spider'. Gọi theo loài khi nói chung, thêm sắc thái khinh miệt khi nhân vật đang bị chúng vây đánh.",
+    "description": "Loài nhện ma thuật có thể dịch chuyển giữa Vật Chất Giới và Cõi Ether, nên đòn tấn công của chúng thường tới từ hư không. Trong BG3 chúng canh giữ Whispering Depths dưới Emerald Grove và rải rác trong Underdark; Druid dùng Hóa Thân Hoang Dã để 'assume the form of a phase spider'. Gọi theo loài khi nói chung, thêm sắc thái khinh miệt khi nhân vật đang bị chúng vây đánh.",
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
@@ -47240,7 +47538,7 @@
     "termEnZh": "Psionic Revenge",
     "translationVi": "Phản đòn tâm linh",
     "category": "Kỹ năng / Chức năng",
-    "description": "Năng lực tâm linh phản kích, giáng sát thương Psychic lên kẻ vừa ra tay với vật chủ. Thuộc mạch sức mạnh psionic của Illithid và Githyanki, cùng họ với Psionic Backlash và Psionic Overload trong cây Nòng Nọc. Giữ chữ 'Tâm Linh' cho mọi thuật ngữ psionic để thống nhất bản dịch.",
+    "description": "Năng lực tâm linh phản kích, giáng sát thương Psychic lên kẻ vừa ra tay với vật chủ. Thuộc mạch sức mạnh psionic của Illithid và Githyanki, cùng họ với Psionic Backlash và Psionic Overload trong cây Ấu Trùng. Giữ chữ 'Tâm Linh' cho mọi thuật ngữ psionic để thống nhất bản dịch.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Phản đòn tâm linh",
     "hostileVi": "Phản đòn tâm linh",
@@ -47797,7 +48095,7 @@
     "hostileVi": "Quy phục cái thứ Tuyệt Đối ấy đi",
     "indifferentVi": "Trở thành Tuyệt Đối",
     "category": "Xưng hô / Thành ngữ",
-    "description": "Khẩu hiệu truyền giáo của Cult of the Absolute, thường vang lên trong giấc mộng hoặc lời thì thầm của nòng nọc Illithid thúc nhân vật đầu hàng Đấng Tuyệt Đối. Tín đồ nói với giọng tôn thờ, kẻ chống lại nhắc lại với giọng mỉa mai, văn bản mô tả giữ sắc thái lạnh và mệnh lệnh.",
+    "description": "Khẩu hiệu truyền giáo của Cult of the Absolute, thường vang lên trong giấc mộng hoặc lời thì thầm của ấu trùng Illithid thúc nhân vật đầu hàng Đấng Tuyệt Đối. Tín đồ nói với giọng tôn thờ, kẻ chống lại nhắc lại với giọng mỉa mai, văn bản mô tả giữ sắc thái lạnh và mệnh lệnh.",
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
@@ -47850,7 +48148,7 @@
     "termEnZh": "Mental Debilitation",
     "translationVi": "Suy nhược tâm trí",
     "category": "Kỹ năng / Chức năng",
-    "description": "Trạng thái bào mòn trí lực do tấn công tâm linh của Illithid hoặc lạm dụng năng lực nòng nọc, làm giảm chỉ số tinh thần và các Ability Check liên quan. Cùng họ hiệu ứng với Mental Fatigue trong BG3.",
+    "description": "Trạng thái bào mòn trí lực do tấn công tâm linh của Illithid hoặc lạm dụng năng lực ấu trùng, làm giảm chỉ số tinh thần và các Ability Check liên quan. Cùng họ hiệu ứng với Mental Fatigue trong BG3.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Suy nhược tâm trí",
     "hostileVi": "Suy nhược tâm trí",
@@ -48123,7 +48421,7 @@
     "termEnZh": "Form of Artifice",
     "translationVi": "Dạng thể giả tạo",
     "category": "Kỹ năng / Chức năng",
-    "description": "Khả năng biến hình đặc biệt, có thể liên quan đến Wild Shape của Druid hoặc năng lực đặc thù của sinh vật tạo.",
+    "description": "Khả năng biến hình đặc biệt, có thể liên quan đến Hóa Thân Hoang Dã của Druid hoặc năng lực đặc thù của sinh vật tạo.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Dạng thể giả tạo",
     "hostileVi": "Dạng thể giả tạo",
@@ -49028,7 +49326,7 @@
     "termEnZh": "Impact Protocol: Hellfire Barrage",
     "translationVi": "Giao thức tấn công: Loạt pháo lửa Địa Ngục",
     "category": "Kỹ năng / Chức năng",
-    "description": "Năng lực tấn công diện rộng của Steel Watch - đội binh khí giới do Gortash và người Gondian chế tạo tại Baldur's Gate. Trút mưa đạn lửa địa ngục lên khu vực, buộc mục tiêu thực hiện Saving Throw để giảm sát thương.",
+    "description": "Năng lực tấn công diện rộng của Steel Watch - đội binh khí giới do Gortash và tín đồ Gond chế tạo tại Baldur's Gate. Trút mưa đạn lửa địa ngục lên khu vực, buộc mục tiêu thực hiện Saving Throw để giảm sát thương.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Giao thức tấn công: Loạt pháo lửa Địa Ngục",
     "hostileVi": "Giao thức tấn công: Loạt pháo lửa Địa Ngục",
@@ -49287,16 +49585,23 @@
   {
     "id": "prescan-1793804497871-i4sq",
     "termEnZh": "Find Familiar",
-    "translationVi": "Triệu hồn thú đồng hành",
+    "translationVi": "Triệu hồi thú đồng hành",
     "category": "Kỹ năng / Chức năng",
     "description": "Phép thuật nghi lễ bậc 1 (Conjuration) trong D&D 5e và BG3, triệu hồi một linh thú đồng hành (mèo, dơi, nhện, quạ...) làm trinh sát và hỗ trợ. Là phép ritual nên có thể niệm ngoài chiến đấu mà không tốn Spell Slot.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Triệu hồn thú đồng hành",
     "hostileVi": "Triệu hồn thú đồng hành",
     "indifferentVi": "Triệu hồn thú đồng hành",
-    "priority": "standard",
-    "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 7 Modernize)"
+    "priority": "core",
+    "uiFixed": true,
+    "updatedAt": "2026-11-24 (Round 3)",
+    "deprecatedVi": [
+      "Triệu hồn thú đồng hành",
+      "Tìm linh thú",
+      "Tìm linh thú đồng hành",
+      "Tìm ma thú đồng hành",
+      "Tìm thú cưng"
+    ]
   },
   {
     "id": "prescan-1793804497871-5rzs",
@@ -49478,7 +49783,7 @@
     "termEnZh": "Beak Attack",
     "translationVi": "Tấn công mổ mỏ",
     "category": "Kỹ năng / Chức năng",
-    "description": "Hành động tấn công cận chiến tự nhiên của sinh vật có mỏ (quạ, owlbear, harpy...), thường gặp khi người chơi dùng Wild Shape hoặc điều khiển thú đồng hành. Gây sát thương vật lý xuyên phá kèm Attack Roll thông thường.",
+    "description": "Hành động tấn công cận chiến tự nhiên của sinh vật có mỏ (quạ, owlbear, harpy...), thường gặp khi người chơi dùng Hóa Thân Hoang Dã hoặc điều khiển thú đồng hành. Gây sát thương vật lý xuyên phá kèm Attack Roll thông thường.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Tấn công mổ mỏ",
     "hostileVi": "Tấn công mổ mỏ",
@@ -51603,7 +51908,7 @@
     "termEnZh": "Infested",
     "translationVi": "Bị ký sinh",
     "category": "Kỹ năng / Chức năng",
-    "description": "Trạng thái cho biết sinh vật đang bị ấu trùng hoặc ký sinh trùng chiếm giữ cơ thể, mở ra các lựa chọn hội thoại và hậu quả riêng trong tuyến Nòng Nọc Illithid.",
+    "description": "Trạng thái cho biết sinh vật đang bị ấu trùng hoặc ký sinh trùng chiếm giữ cơ thể, mở ra các lựa chọn hội thoại và hậu quả riêng trong tuyến Ấu Trùng Illithid.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Bị ký sinh",
     "hostileVi": "Bị ký sinh",
@@ -51679,7 +51984,7 @@
   {
     "id": "prescan-1793805692817-g79g",
     "termEnZh": "School of Divination",
-    "translationVi": "Học phái tiên tri",
+    "translationVi": "Trường phái tiên tri",
     "category": "Kỹ năng / Chức năng",
     "description": "Một trong các phân nhánh (Subclass) của lớp Wizard trong Baldur's Gate 3. Pháp sư theo Học Phái Tiên Tri nhận năng lực Portent, cho phép thay thế kết quả xúc xắc đã định trước. Xuất hiện khi chọn phân nhánh lúc lên cấp 2 hoặc trong hội thoại về trường phái pháp thuật tại Sorcerous Sundries.",
     "addedAt": "Pre-Scan Engine",
@@ -51688,7 +51993,10 @@
     "indifferentVi": "Học phái tiên tri",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "updatedAt": "2026-11-21 (Phase 6 Caps)",
+    "deprecatedVi": [
+      "Học phái tiên tri"
+    ]
   },
   {
     "id": "prescan-1793805692817-6qnz",
@@ -52655,7 +52963,7 @@
     "termEnZh": "Harp-Shaped Pin",
     "translationVi": "Trâm cài hình đàn hạc",
     "category": "Vật phẩm",
-    "description": "Vật phẩm nhỏ mang biểu tượng đàn hạc, dấu hiệu nhận diện của hội Harpers; dùng làm bằng chứng liên hệ với phe Harpers trong các nhiệm vụ điều tra.",
+    "description": "Vật phẩm nhỏ mang biểu tượng đàn hạc, dấu hiệu nhận diện của Hội Hạc Cầms; dùng làm bằng chứng liên hệ với phe Harpers trong các nhiệm vụ điều tra.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Trâm cài hình đàn hạc",
     "hostileVi": "Trâm cài hình đàn hạc",
@@ -54834,9 +55142,9 @@
   {
     "id": "prescan-1793807684635-vs5x",
     "termEnZh": "Runepowder Explosive Detonator",
-    "translationVi": "Kíp nổ bột rune",
+    "translationVi": "Kíp nổ thuốc nổ cổ ngữ",
     "category": "Vật phẩm",
-    "description": "Thiết bị kích nổ gắn với thùng Bột Rune của người Ironhand Gnome tại Grymforge. Dùng để phá đá hoặc tạo vụ nổ diện rộng trong nhiệm vụ; mô tả kỹ thuật nên giữ giọng trung tính, không xưng hô.",
+    "description": "Thiết bị kích nổ gắn với thùng thuốc nổ cổ ngữ của người Ironhand Gnome tại Grymforge. Dùng để phá đá hoặc tạo vụ nổ diện rộng trong nhiệm vụ; mô tả kỹ thuật nên giữ giọng trung tính, không xưng hô.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Kíp nổ bột rune",
     "hostileVi": "Kíp nổ bột rune",
@@ -55168,7 +55476,7 @@
     "termEnZh": "Tadpole Power Point",
     "translationVi": "Điểm năng lực ấu trùng",
     "category": "Kỹ năng / Chức năng",
-    "description": "Đơn vị tài nguyên dùng để mở khóa các Năng Lực Illithid trong cây năng lực nòng nọc. Người chơi tích lũy bằng cách hấp thụ nòng nọc tìm được khắp Faerûn; mỗi điểm đổi lấy một năng lực tâm linh, kèm rủi ro bị biến thành Mind Flayer.",
+    "description": "Đơn vị tài nguyên dùng để mở khóa các Năng Lực Illithid trong cây năng lực ấu trùng. Người chơi tích lũy bằng cách hấp thụ ấu trùng tìm được khắp Faerûn; mỗi điểm đổi lấy một năng lực tâm linh, kèm rủi ro bị biến thành Mind Flayer.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Điểm năng lực ấu trùng",
     "hostileVi": "Điểm năng lực ấu trùng",
@@ -55549,7 +55857,7 @@
     "termEnZh": "Mindreader",
     "translationVi": "Kẻ đọc tâm trí",
     "category": "Kỹ năng / Chức năng",
-    "description": "Trạng thái và năng lực gắn với ấu trùng Illithid, cho phép thâm nhập suy nghĩ của người đối diện để mở lựa chọn hội thoại riêng. Trong BG3 đây là dấu hiệu sức mạnh Nòng Nọc đang lớn dần, đôi khi bị NPC nhận ra và phản ứng e dè.",
+    "description": "Trạng thái và năng lực gắn với ấu trùng Illithid, cho phép thâm nhập suy nghĩ của người đối diện để mở lựa chọn hội thoại riêng. Trong BG3 đây là dấu hiệu sức mạnh Ấu Trùng đang lớn dần, đôi khi bị NPC nhận ra và phản ứng e dè.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Kẻ đọc tâm trí",
     "hostileVi": "Kẻ đọc tâm trí",
@@ -56199,7 +56507,7 @@
     "termEnZh": "Psionic Drain",
     "translationVi": "Hút cạn tâm linh",
     "category": "Kỹ năng / Chức năng",
-    "description": "Năng lực tâm linh (psionic) gắn với sức mạnh Illithid, rút cạn năng lượng tinh thần của mục tiêu. Xuất hiện trong nhóm năng lực Nòng Nọc và các đòn tấn công của Mind Flayer; giữ dạng tên kỹ năng, không chia sắc thái xưng hô.",
+    "description": "Năng lực tâm linh (psionic) gắn với sức mạnh Illithid, rút cạn năng lượng tinh thần của mục tiêu. Xuất hiện trong nhóm năng lực Ấu Trùng và các đòn tấn công của Mind Flayer; giữ dạng tên kỹ năng, không chia sắc thái xưng hô.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Hút cạn tâm linh",
     "hostileVi": "Hút cạn tâm linh",
@@ -56227,7 +56535,7 @@
     "termEnZh": "Stricken With Seizures",
     "translationVi": "Bị cơn co giật",
     "category": "Kỹ năng / Chức năng",
-    "description": "Trạng thái (condition) khiến mục tiêu co giật mất kiểm soát, thường do nòng nọc Illithid hoặc độc tố tác động lên hệ thần kinh. Ghi dưới dạng tên trạng thái trong bảng hiệu ứng.",
+    "description": "Trạng thái (condition) khiến mục tiêu co giật mất kiểm soát, thường do ấu trùng Illithid hoặc độc tố tác động lên hệ thần kinh. Ghi dưới dạng tên trạng thái trong bảng hiệu ứng.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Bị cơn co giật",
     "hostileVi": "Bị cơn co giật",
@@ -56795,7 +57103,7 @@
     "termEnZh": "Sabre-Toothed Tiger",
     "translationVi": "Hổ răng kiếm",
     "category": "Kỹ năng / Chức năng",
-    "description": "Một hình dạng Wild Shape cao cấp của Druid trong BG3, mạnh về sát thương vật lý và khả năng vật ngã mục tiêu. Hiện trong danh sách biến hình khi chọn Wild Shape.",
+    "description": "Một hình dạng Hóa Thân Hoang Dã cao cấp của Druid trong BG3, mạnh về sát thương vật lý và khả năng vật ngã mục tiêu. Hiện trong danh sách biến hình khi chọn Hóa Thân Hoang Dã.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Hổ răng kiếm",
     "hostileVi": "Hổ răng kiếm",
@@ -57053,7 +57361,7 @@
     "termEnZh": "Retributive Brainquake",
     "translationVi": "Chấn não phục thù",
     "category": "Kỹ năng / Chức năng",
-    "description": "Năng lực phản đòn hệ tâm linh illithid: khi bị tổn hại, chủ thể giải phóng xung động não gây sát thương Psychic lên kẻ tấn công. Gắn với sức mạnh nòng nọc và các thực thể mind flayer.",
+    "description": "Năng lực phản đòn hệ tâm linh illithid: khi bị tổn hại, chủ thể giải phóng xung động não gây sát thương Psychic lên kẻ tấn công. Gắn với sức mạnh ấu trùng và các thực thể mind flayer.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Chấn não phục thù",
     "hostileVi": "Chấn não phục thù",
@@ -59723,11 +60031,14 @@
     "friendlyVi": "Mây tử thần",
     "hostileVi": "Mây tử thần",
     "indifferentVi": "Mây tử thần",
-    "priority": "standard",
-    "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 6 Caps)",
+    "priority": "core",
+    "uiFixed": true,
+    "updatedAt": "2026-11-24 (Round 3)",
     "deprecatedVi": [
-      "Vân Sát Độc Chướng"
+      "Vân Sát Độc Chướng",
+      "Mây chết chóc",
+      "Mây hơi chết chóc",
+      "Mây độc tử thần"
     ],
     "reviewNote": "QA v2: hanviet"
   },
@@ -59827,7 +60138,7 @@
     "hostileVi": "Con mụ Hunna",
     "indifferentVi": "Nữ Tu Hunna",
     "category": "Nhân vật",
-    "description": "NPC tu sĩ mang danh xưng 'Sister' (Tu Nữ), xuất hiện trong các tuyến thoại liên quan đến giáo đoàn và việc cứu chữa người bị nhiễm nòng nọc. Khi thân thiện gọi kèm danh xưng tôn kính 'Tu nữ'; khi thù địch lược bỏ danh xưng và dùng lối gọi khinh miệt; khi khách quan chỉ nêu tên kèm chức sắc.",
+    "description": "NPC tu sĩ mang danh xưng 'Sister' (Tu Nữ), xuất hiện trong các tuyến thoại liên quan đến giáo đoàn và việc cứu chữa người bị nhiễm ấu trùng. Khi thân thiện gọi kèm danh xưng tôn kính 'Tu nữ'; khi thù địch lược bỏ danh xưng và dùng lối gọi khinh miệt; khi khách quan chỉ nêu tên kèm chức sắc.",
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
@@ -59874,7 +60185,7 @@
     "termEnZh": "Harper Finery",
     "translationVi": "Trang phục Harper",
     "category": "Vật phẩm",
-    "description": "Trang phục mang dấu hiệu của hội Harpers, nhóm điệp viên bảo vệ Sword Coast. Thường tìm thấy tại Last Light Inn hoặc trên thi thể thành viên Harper, dùng để nhận diện phe phái.",
+    "description": "Trang phục mang dấu hiệu của Hội Hạc Cầms, nhóm điệp viên bảo vệ Sword Coast. Thường tìm thấy tại Last Light Inn hoặc trên thi thể thành viên Harper, dùng để nhận diện phe phái.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Trang phục Harper",
     "hostileVi": "Trang phục Harper",
@@ -60627,7 +60938,7 @@
   {
     "id": "prescan-1793811162167-jp3x",
     "termEnZh": "Transmuter's Stone: Cold Resistance",
-    "translationVi": "Đá của nhà biến đổi: Kháng băng giá",
+    "translationVi": "Đá pháp sư chuyển hóa: Kháng băng giá",
     "friendlyVi": "Đá Kháng Băng",
     "hostileVi": "Viên đá phù phép kia",
     "indifferentVi": "Đá Biến đổi kháng Băng",
@@ -60636,7 +60947,10 @@
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "updatedAt": "2026-11-21 (Phase 6 Caps)",
+    "deprecatedVi": [
+      "Đá của nhà biến đổi: Kháng băng giá"
+    ]
   },
   {
     "id": "prescan-1793811162167-l2qz",
@@ -61771,7 +62085,7 @@
     "termEnZh": "Mighty Impel",
     "translationVi": "Thúc đẩy mạnh mẽ",
     "category": "Kỹ năng / Chức năng",
-    "description": "Một năng lực illithid dùng sức mạnh tâm linh để tác động hoặc đẩy mục tiêu, thuộc nhóm quyền năng Nòng Nọc.",
+    "description": "Một năng lực illithid dùng sức mạnh tâm linh để tác động hoặc đẩy mục tiêu, thuộc nhóm quyền năng Ấu Trùng.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Thúc đẩy mạnh mẽ",
     "hostileVi": "Thúc đẩy mạnh mẽ",
@@ -61940,7 +62254,9 @@
     "deprecatedVi": [
       "Ranger",
       "Du Hiệp",
-      "Rangers"
+      "Rangers",
+      "Du Khách",
+      "du binh"
     ],
     "updatedAt": "2026-11-21 (Phase 6 Caps)"
   },
@@ -61961,9 +62277,9 @@
   {
     "id": "prescan-1793894331970-qicf",
     "termEnZh": "Tadpole Powers",
-    "translationVi": "Năng lực nòng nọc",
+    "translationVi": "Năng lực ấu trùng",
     "category": "Kỹ năng / Chức năng",
-    "description": "Nhóm năng lực illithid được mở khóa thông qua nòng nọc trong não nhân vật.",
+    "description": "Nhóm năng lực illithid được mở khóa thông qua ấu trùng trong não nhân vật.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Năng lực nòng nọc",
     "hostileVi": "Năng lực nòng nọc",
@@ -62131,7 +62447,8 @@
     "deprecatedVi": [
       "Người lùn",
       "Dwarves",
-      "Dwarf"
+      "Dwarf",
+      "Ải nhân"
     ],
     "updatedAt": "2026-11-21 (Phase 6 Caps)"
   },
@@ -62738,7 +63055,7 @@
   {
     "id": "prescan-1793894991042-cckx",
     "termEnZh": "Material Plane",
-    "translationVi": "Cõi Vật chất",
+    "translationVi": "Cõi Vật Chất",
     "category": "Địa danh",
     "description": "Cõi tồn tại vật chất trong vũ trụ Dungeons & Dragons; được nhắc đến khi nói về việc trở về từ một cõi khác.",
     "addedAt": "Pre-Scan Engine",
@@ -62747,7 +63064,11 @@
     "indifferentVi": "Cõi Vật chất",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-08 (QA v2)"
+    "updatedAt": "2026-11-08 (QA v2)",
+    "deprecatedVi": [
+      "Bình Diện Vật Chất",
+      "Mặt Phẳng Vật Chất"
+    ]
   },
   {
     "id": "prescan-1793894991042-ms4j",
@@ -63521,7 +63842,7 @@
     "termEnZh": "Gloves of Cinder and Sizzle",
     "translationVi": "Găng tay tàn than nhiệt bỏng",
     "category": "Vật phẩm",
-    "description": "Trang bị tay phụ trợ gây hiệu ứng lửa khi tấn công cận chiến, thường dùng cho tuyến build Thuật Sĩ (Sorcerer) hệ Lửa hoặc Tu Sĩ (Monk). Tên dịch bảo lưu cặp hình ảnh than đỏ và tiếng xèo của nhiệt.",
+    "description": "Trang bị tay phụ trợ gây hiệu ứng lửa khi tấn công cận chiến, thường dùng cho tuyến build Phù Thủy (Sorcerer) hệ Lửa hoặc Tu Sĩ (Monk). Tên dịch bảo lưu cặp hình ảnh than đỏ và tiếng xèo của nhiệt.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Găng tay tàn than nhiệt bỏng",
     "hostileVi": "Găng tay tàn than nhiệt bỏng",
@@ -63533,9 +63854,9 @@
   {
     "id": "prescan-1793895354763-05nc",
     "termEnZh": "Tadpole Elixir",
-    "translationVi": "Thuốc cường hóa nòng nọc",
+    "translationVi": "Thuốc cường hóa ấu trùng",
     "category": "Vật phẩm",
-    "description": "Thuốc độc chế từ nòng nọc Illithid, liên quan tới chuỗi nhiệm vụ biến đổi ký sinh trong não nhân vật. Giữ thuật ngữ 'Nòng Nọc' thống nhất với Tadpole trong thư viện.",
+    "description": "Thuốc độc chế từ ấu trùng Illithid, liên quan tới chuỗi nhiệm vụ biến đổi ký sinh trong não nhân vật. Giữ thuật ngữ 'Ấu Trùng' thống nhất với Tadpole trong thư viện.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Thuốc cường hóa nòng nọc",
     "hostileVi": "Thuốc cường hóa nòng nọc",
@@ -64131,7 +64452,7 @@
     "termEnZh": "Absorb Intellect",
     "translationVi": "Hấp thụ trí tuệ",
     "category": "Kỹ năng / Chức năng",
-    "description": "Năng lực Illithid cho phép nuốt trí tuệ nạn nhân để tăng chỉ số; xuất hiện trong bảng năng lực Nòng Nọc.",
+    "description": "Năng lực Illithid cho phép nuốt trí tuệ nạn nhân để tăng chỉ số; xuất hiện trong bảng năng lực Ấu Trùng.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Hấp thụ trí tuệ",
     "hostileVi": "Hấp thụ trí tuệ",
@@ -64348,7 +64669,7 @@
   {
     "id": "prescan-1793895989683-ah8h",
     "termEnZh": "Smokepowder",
-    "translationVi": "Thuốc súng khói",
+    "translationVi": "Thuốc nổ khói",
     "category": "Vật phẩm",
     "description": "Chất nổ giả kim dùng để phá hủy chướng ngại vật và gây sát thương.",
     "addedAt": "Pre-Scan Engine",
@@ -64357,7 +64678,12 @@
     "indifferentVi": "Thuốc súng khói",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-08 (QA v2)"
+    "updatedAt": "2026-11-08 (QA v2)",
+    "deprecatedVi": [
+      "Thuốc súng khói",
+      "Bột khói",
+      "Smokepowder"
+    ]
   },
   {
     "id": "prescan-1793895989683-7uhq",
@@ -64438,7 +64764,7 @@
     "termEnZh": "Synaptic Discharge",
     "translationVi": "Phóng xung thần kinh",
     "category": "Kỹ năng / Chức năng",
-    "description": "Năng lực tâm linh (psionic) phóng xung lực tấn công trực tiếp vào thần kinh mục tiêu, gây sát thương tinh thần hoặc gây choáng. Thuộc nhóm hiệu ứng liên quan tới sức mạnh Illithid và nòng nọc trong Baldur's Gate 3; mục tiêu thường phải thực hiện Saving Throw để chống đỡ. Dịch cố định là 'Phóng Xung Thần Kinh' trong mô tả kỹ năng và log chiến đấu.",
+    "description": "Năng lực tâm linh (psionic) phóng xung lực tấn công trực tiếp vào thần kinh mục tiêu, gây sát thương tinh thần hoặc gây choáng. Thuộc nhóm hiệu ứng liên quan tới sức mạnh Illithid và ấu trùng trong Baldur's Gate 3; mục tiêu thường phải thực hiện Saving Throw để chống đỡ. Dịch cố định là 'Phóng Xung Thần Kinh' trong mô tả kỹ năng và log chiến đấu.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Phóng xung thần kinh",
     "hostileVi": "Phóng xung thần kinh",
@@ -65565,7 +65891,7 @@
     "termEnZh": "Illithid Persuasion",
     "translationVi": "Thuyết phục Illithid",
     "category": "Kỹ năng / Chức năng",
-    "description": "Năng lực ngoại cảm của Nòng Nọc Illithid, dùng sức mạnh tâm trí để thuyết phục đối phương.",
+    "description": "Năng lực ngoại cảm của Ấu Trùng Illithid, dùng sức mạnh tâm trí để thuyết phục đối phương.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Thuyết phục Illithid",
     "hostileVi": "Thuyết phục Illithid",
@@ -65725,7 +66051,7 @@
   {
     "id": "prescan-1793896947837-omve",
     "termEnZh": "Displacer Beast",
-    "translationVi": "Thú xê dịch",
+    "translationVi": "Quái thú dịch chuyển",
     "friendlyVi": "Thú xê dịch",
     "hostileVi": "Con thú Xê Dịch",
     "indifferentVi": "Thú xê dịch",
@@ -65734,7 +66060,12 @@
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "updatedAt": "2026-11-21 (Phase 6 Caps)",
+    "deprecatedVi": [
+      "Displacer Beast",
+      "Dị thú xê dịch",
+      "Dã thú dịch chuyển"
+    ]
   },
   {
     "id": "prescan-1793896961418-dqz9",
@@ -65843,7 +66174,7 @@
     "termEnZh": "Moon Druid",
     "translationVi": "Druid mặt trăng",
     "category": "Kỹ năng / Chức năng",
-    "description": "Phân nhánh của Druid tập trung vào Wild Shape, cho phép biến hình thành các dạng thú chiến đấu mạnh hơn.",
+    "description": "Phân nhánh của Druid tập trung vào Hóa Thân Hoang Dã, cho phép biến hình thành các dạng thú chiến đấu mạnh hơn.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Druid mặt trăng",
     "hostileVi": "Druid mặt trăng",
@@ -67275,7 +67606,7 @@
     "termEnZh": "Illithid Jar with Larvae",
     "translationVi": "Lọ Illithid chứa ấu trùng",
     "category": "Vật phẩm",
-    "description": "Vật phẩm chứa ấu trùng nòng nọc Illithid, xuất hiện trong bối cảnh liên quan đến sự biến đổi và sức mạnh Illithid.",
+    "description": "Vật phẩm chứa ấu trùng ấu trùng Illithid, xuất hiện trong bối cảnh liên quan đến sự biến đổi và sức mạnh Illithid.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Lọ Illithid chứa ấu trùng",
     "hostileVi": "Lọ Illithid chứa ấu trùng",
@@ -67287,9 +67618,9 @@
   {
     "id": "prescan-1793897844967-wste",
     "termEnZh": "Runepowder Barrel",
-    "translationVi": "Thùng bột rune",
+    "translationVi": "Thùng thuốc nổ cổ ngữ",
     "category": "Vật phẩm",
-    "description": "Thùng chứa bột rune dễ phát nổ, xuất hiện như vật phẩm tương tác trong môi trường.",
+    "description": "Thùng chứa thuốc nổ cổ ngữ dễ phát nổ, xuất hiện như vật phẩm tương tác trong môi trường.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Thùng bột rune",
     "hostileVi": "Thùng bột rune",
@@ -69245,7 +69576,7 @@
     "termEnZh": "Human Form",
     "translationVi": "Hình hài loài người",
     "category": "Kỹ năng / Chức năng",
-    "description": "Hành động biến hình trả sinh vật đang mang lốt khác trở về dáng người nguyên bản, song hành với các dạng biến hóa như Hình Hài Tinh Tú hay Wild Shape. Xuất hiện trên thanh kỹ năng của nhân vật và NPC có khả năng đổi lốt.",
+    "description": "Hành động biến hình trả sinh vật đang mang lốt khác trở về dáng người nguyên bản, song hành với các dạng biến hóa như Hình Hài Tinh Tú hay Hóa Thân Hoang Dã. Xuất hiện trên thanh kỹ năng của nhân vật và NPC có khả năng đổi lốt.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Hình hài loài người",
     "hostileVi": "Hình hài loài người",
@@ -70814,7 +71145,7 @@
     "termEnZh": "Volo's Ersatz Eye",
     "translationVi": "Mắt giả của Volo",
     "category": "Vật phẩm",
-    "description": "Con mắt kim loại thay thế mà Volothamp Geddarm lắp cho nhân vật sau màn 'phẫu thuật' moi nòng nọc bằng kẹp gắp. Trao vĩnh viễn khả năng See Invisibility, là một trong các vật phẩm trứ danh nhất Baldur's Gate 3.",
+    "description": "Con mắt kim loại thay thế mà Volothamp Geddarm lắp cho nhân vật sau màn 'phẫu thuật' moi ấu trùng bằng kẹp gắp. Trao vĩnh viễn khả năng See Invisibility, là một trong các vật phẩm trứ danh nhất Baldur's Gate 3.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Mắt giả của Volo",
     "hostileVi": "Mắt giả của Volo",
@@ -71006,7 +71337,7 @@
     "hostileVi": "con mụ tư tế goblin",
     "indifferentVi": "nữ tư tế goblin",
     "category": "Xưng hô / Thành ngữ",
-    "description": "Danh hiệu chỉ Priestess Gut tại Goblin Camp trong Shattered Sanctum, một trong ba thủ lĩnh phụng sự Đấng Tuyệt Đối và tự nhận có thể chữa ký sinh nòng nọc. Môn đồ True Soul gọi kính trọng, phe Druid và Tiefling gọi khinh miệt, người ngoài gọi trung tính.",
+    "description": "Danh hiệu chỉ Priestess Gut tại Goblin Camp trong Shattered Sanctum, một trong ba thủ lĩnh phụng sự Đấng Tuyệt Đối và tự nhận có thể chữa ký sinh ấu trùng. Môn đồ True Soul gọi kính trọng, phe Druid và Tiefling gọi khinh miệt, người ngoài gọi trung tính.",
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
@@ -71403,7 +71734,7 @@
     "termEnZh": "Mental Mark",
     "translationVi": "Dấu ấn tâm trí",
     "category": "Kỹ năng / Chức năng",
-    "description": "Trạng thái đánh dấu tâm linh do năng lực psionic hoặc Nòng Nọc Illithid áp lên mục tiêu, giúp theo dấu hoặc tăng hiệu quả các đòn tấn công tâm trí tiếp theo.",
+    "description": "Trạng thái đánh dấu tâm linh do năng lực psionic hoặc Ấu Trùng Illithid áp lên mục tiêu, giúp theo dấu hoặc tăng hiệu quả các đòn tấn công tâm trí tiếp theo.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Dấu ấn tâm trí",
     "hostileVi": "Dấu ấn tâm trí",
@@ -72239,9 +72570,9 @@
   {
     "id": "prescan-1793900724692-qquk",
     "termEnZh": "Tadpole Solidarity",
-    "translationVi": "Đồng cảm nòng nọc",
+    "translationVi": "Đồng cảm ấu trùng",
     "category": "Kỹ năng / Chức năng",
-    "description": "Hiệu ứng/tùy chọn phát sinh từ việc mang Nòng Nọc Illithid, cho phép nhân vật đồng cảm và tạo liên kết tâm trí với kẻ cùng bị nhiễm nòng nọc trong hội thoại.",
+    "description": "Hiệu ứng/tùy chọn phát sinh từ việc mang Ấu Trùng Illithid, cho phép nhân vật đồng cảm và tạo liên kết tâm trí với kẻ cùng bị nhiễm ấu trùng trong hội thoại.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Đồng cảm nòng nọc",
     "hostileVi": "Đồng cảm nòng nọc",
@@ -72835,16 +73166,21 @@
   {
     "id": "prescan-1793901262040-b30a",
     "termEnZh": "Channel Oath",
-    "translationVi": "Khai dẫn lời thề",
+    "translationVi": "Dẫn truyền lời thề",
     "category": "Kỹ năng / Chức năng",
     "description": "Tài nguyên lớp Paladin: tiêu hao điểm Channel Oath để thi triển các năng lực riêng của từng Lời thề (Oath of Devotion, Ancients, Vengeance, Oathbreaker). Hồi lại sau Short Rest hoặc Long Rest.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Khai dẫn lời thề",
     "hostileVi": "Khai dẫn lời thề",
     "indifferentVi": "Khai dẫn lời thề",
-    "priority": "standard",
-    "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "priority": "core",
+    "uiFixed": true,
+    "updatedAt": "2026-11-24 (Round 3)",
+    "deprecatedVi": [
+      "Khai dẫn lời thề",
+      "Dẫn lực lời thề",
+      "Nạp năng lượng lời thề"
+    ]
   },
   {
     "id": "prescan-1793901262040-lflu",
@@ -73065,7 +73401,7 @@
     "termEnZh": "Whispers of Madness",
     "translationVi": "Lời thì thầm điên loạn",
     "category": "Kỹ năng / Chức năng",
-    "description": "Hiệu ứng tâm lý khiến mục tiêu nghe thấy tiếng nói trong đầu, gây mất kiểm soát hoặc bất lợi cho Ability Check; gắn với ảnh hưởng của Nòng Nọc Illithid và Đấng Tuyệt Đối.",
+    "description": "Hiệu ứng tâm lý khiến mục tiêu nghe thấy tiếng nói trong đầu, gây mất kiểm soát hoặc bất lợi cho Ability Check; gắn với ảnh hưởng của Ấu Trùng Illithid và Đấng Tuyệt Đối.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Lời thì thầm điên loạn",
     "hostileVi": "Lời thì thầm điên loạn",
@@ -73339,7 +73675,7 @@
     "termEnZh": "Illithid Powers",
     "translationVi": "Năng lực Illithid",
     "category": "Kỹ năng / Chức năng",
-    "description": "Hệ thống năng lực đặc biệt do nòng nọc Mind Flayer cấp cho nhân vật chính, bao gồm các kỹ năng tâm linh mạnh mẽ như thao túng tâm trí, tấn công thần kinh, và kiểm soát sinh vật. Sử dụng nhiều có thể ảnh hưởng đến kết thúc câu chuyện.",
+    "description": "Hệ thống năng lực đặc biệt do ấu trùng Mind Flayer cấp cho nhân vật chính, bao gồm các kỹ năng tâm linh mạnh mẽ như thao túng tâm trí, tấn công thần kinh, và kiểm soát sinh vật. Sử dụng nhiều có thể ảnh hưởng đến kết thúc câu chuyện.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Năng lực Illithid",
     "hostileVi": "Năng lực Illithid",
@@ -74135,7 +74471,7 @@
     "termEnZh": "Mind Flayer Domination",
     "translationVi": "Thống trị tâm trí của Kẻ Hút Não",
     "category": "Kỹ năng / Chức năng",
-    "description": "Năng lực illithid khống chế tâm trí mục tiêu, buộc nạn nhân hành động theo ý kẻ thi triển. Gặp ở trùm kẻ hút não và năng lực nòng nọc liên quan.",
+    "description": "Năng lực illithid khống chế tâm trí mục tiêu, buộc nạn nhân hành động theo ý kẻ thi triển. Gặp ở trùm kẻ hút não và năng lực ấu trùng liên quan.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Thống trị tâm trí của Kẻ Hút Não",
     "hostileVi": "Thống trị tâm trí của Kẻ Hút Não",
@@ -74391,7 +74727,7 @@
     "termEnZh": "Improved Wild Strike",
     "translationVi": "Đòn đánh hoang dã cải tiến",
     "category": "Kỹ năng / Chức năng",
-    "description": "Năng lực nâng cấp của hình dạng Wild Shape (Druid), cho phép thực hiện thêm một lần đánh trong cùng hành động khi ở dạng thú. Xuất hiện trên thanh kỹ năng khi Druid đạt cấp cao và biến hình.",
+    "description": "Năng lực nâng cấp của hình dạng Hóa Thân Hoang Dã (Druid), cho phép thực hiện thêm một lần đánh trong cùng hành động khi ở dạng thú. Xuất hiện trên thanh kỹ năng khi Druid đạt cấp cao và biến hình.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Đòn đánh hoang dã cải tiến",
     "hostileVi": "Đòn đánh hoang dã cải tiến",
@@ -74565,16 +74901,20 @@
   {
     "id": "prescan-1793902467392-fe81",
     "termEnZh": "Difficult Terrain",
-    "translationVi": "Địa hình khó khăn",
+    "translationVi": "Địa hình khó đi",
     "category": "Kỹ năng / Chức năng",
     "description": "Cơ chế D&D 5e: Địa hình khó khăn (Difficult Terrain) khiến tốc độ di chuyển giảm một nửa, thường do Mạng Nhện (Web), băng tuyết, hoặc cây cối rậm rạp gây ra.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Địa hình khó khăn",
     "hostileVi": "Địa hình khó khăn",
     "indifferentVi": "Địa hình khó khăn",
-    "priority": "standard",
-    "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "priority": "core",
+    "uiFixed": true,
+    "updatedAt": "2026-11-24 (Round 3)",
+    "deprecatedVi": [
+      "Địa hình khó khăn",
+      "Địa hình hiểm trở"
+    ]
   },
   {
     "id": "prescan-1793902467393-y2tz",
@@ -75040,7 +75380,7 @@
     "termEnZh": "Targeting Module",
     "translationVi": "Mô-đun ngắm bắn",
     "category": "Vật phẩm",
-    "description": "Linh kiện cơ khí của các cấu trúc chiến đấu do người Gondian chế tạo (tháp pháo phép, Steel Watcher); dùng để sửa chữa hoặc tái lập trình mục tiêu trong nhiệm vụ. Giữ cách dịch kỹ thuật 'Mô-đun Ngắm Bắn'.",
+    "description": "Linh kiện cơ khí của các cấu trúc chiến đấu do tín đồ Gond chế tạo (tháp pháo phép, Steel Watcher); dùng để sửa chữa hoặc tái lập trình mục tiêu trong nhiệm vụ. Giữ cách dịch kỹ thuật 'Mô-đun Ngắm Bắn'.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Mô-đun ngắm bắn",
     "hostileVi": "Mô-đun ngắm bắn",
@@ -75480,7 +75820,7 @@
     "termEnZh": "Psionic Skin",
     "translationVi": "Da tâm linh",
     "category": "Kỹ năng / Chức năng",
-    "description": "Năng lực tâm linh tạo lớp bảo vệ quanh thân thể bằng ý chí, thuộc hệ sức mạnh psionic của Githyanki và Illithid. Dịch 'Psionic' thống nhất là 'Tâm Linh' trong toàn bộ nhóm năng lực nòng nọc và Githyanki.",
+    "description": "Năng lực tâm linh tạo lớp bảo vệ quanh thân thể bằng ý chí, thuộc hệ sức mạnh psionic của Githyanki và Illithid. Dịch 'Psionic' thống nhất là 'Tâm Linh' trong toàn bộ nhóm năng lực ấu trùng và Githyanki.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Da tâm linh",
     "hostileVi": "Da tâm linh",
@@ -75564,7 +75904,7 @@
     "termEnZh": "Priestess Quarters Entrance",
     "translationVi": "Lối Vào Phòng Nữ Giáo Sĩ",
     "category": "Địa danh",
-    "description": "Điểm vào khu phòng riêng của nữ tư tế trong đền thờ quân Goblin (gắn với Nữ Tư Tế Gut), nơi nhân vật bị dụ tới để gỡ nòng nọc. Là nhãn địa điểm, dịch mô tả trực tiếp không thêm danh xưng.",
+    "description": "Điểm vào khu phòng riêng của nữ tư tế trong đền thờ quân Goblin (gắn với Nữ Tư Tế Gut), nơi nhân vật bị dụ tới để gỡ ấu trùng. Là nhãn địa điểm, dịch mô tả trực tiếp không thêm danh xưng.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Lối Vào Phòng Nữ Giáo Sĩ",
     "hostileVi": "Lối Vào Phòng Nữ Giáo Sĩ",
@@ -75876,7 +76216,7 @@
     "termEnZh": "Mind Screech",
     "translationVi": "Thét gào tâm trí",
     "category": "Kỹ năng / Chức năng",
-    "description": "Năng lực tấn công tinh thần dạng vùng của sinh vật thuộc dòng Illithid, buộc mục tiêu chịu sát thương tâm linh và cứu kháng (saving throw). Xuất hiện trong chiến đấu với các thực thể bị nhiễm nòng nọc.",
+    "description": "Năng lực tấn công tinh thần dạng vùng của sinh vật thuộc dòng Illithid, buộc mục tiêu chịu sát thương tâm linh và cứu kháng (saving throw). Xuất hiện trong chiến đấu với các thực thể bị nhiễm ấu trùng.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Thét gào tâm trí",
     "hostileVi": "Thét gào tâm trí",
@@ -77544,7 +77884,7 @@
     "termEnZh": "Mind Blast",
     "translationVi": "Xung kích tâm trí",
     "category": "Kỹ năng / Chức năng",
-    "description": "Năng lực tâm linh đặc trưng của Mind Flayer và của nhân vật nhiễm nòng nọc Illithid: phóng sóng psionic hình nón, gây sát thương tâm trí và áp trạng thái Stunned nếu mục tiêu thất bại Saving Throw Trí Tuệ. Xuất hiện trong thanh kỹ năng Illithid và trong chiến đấu với Intellect Devourer, Mind Flayer.",
+    "description": "Năng lực tâm linh đặc trưng của Mind Flayer và của nhân vật nhiễm ấu trùng Illithid: phóng sóng psionic hình nón, gây sát thương tâm trí và áp trạng thái Stunned nếu mục tiêu thất bại Saving Throw Trí Tuệ. Xuất hiện trong thanh kỹ năng Illithid và trong chiến đấu với Intellect Devourer, Mind Flayer.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Xung kích tâm trí",
     "hostileVi": "Xung kích tâm trí",
@@ -79366,7 +79706,12 @@
     "indifferentVi": "Điểm khí",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "updatedAt": "2026-11-21 (Phase 6 Caps)",
+    "deprecatedVi": [
+      "Điểm khí ki",
+      "Điểm ki",
+      "Khí ki"
+    ]
   },
   {
     "id": "prescan-1793907094939-z70w",
@@ -79584,7 +79929,7 @@
     "hostileVi": "con quỷ đục não",
     "indifferentVi": "kẻ xâm nhập tâm trí",
     "category": "Xưng hô / Thành ngữ",
-    "description": "Danh hiệu chỉ kẻ thâm nhập và kiểm soát ý thức người khác, dùng cho Illithid, True Soul hoặc nhân vật mang nòng nọc trong óc. Khi thân thiện gọi nhẹ là 'bậc thấu tâm'; khi thù địch dùng lối mắng 'con quỷ đục não'; khi xa lạ giữ nguyên nghĩa trung tính.",
+    "description": "Danh hiệu chỉ kẻ thâm nhập và kiểm soát ý thức người khác, dùng cho Illithid, True Soul hoặc nhân vật mang ấu trùng trong óc. Khi thân thiện gọi nhẹ là 'bậc thấu tâm'; khi thù địch dùng lối mắng 'con quỷ đục não'; khi xa lạ giữ nguyên nghĩa trung tính.",
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
@@ -79846,7 +80191,7 @@
     "hostileVi": "đống sắt vụn biết đi",
     "indifferentVi": "cơ nhân tự hành",
     "category": "Xưng hô / Thành ngữ",
-    "description": "Loại sinh vật cấu trúc (construct) vận hành bằng ma thuật hoặc cơ khí, xuất hiện ở các di tích pháp thuật và lò rèn cổ như Arcane Tower, Grymforge, cùng dòng chế tác của người Gondian. Dùng như danh từ chỉ loài, không phải tên riêng.",
+    "description": "Loại sinh vật cấu trúc (construct) vận hành bằng ma thuật hoặc cơ khí, xuất hiện ở các di tích pháp thuật và lò rèn cổ như Arcane Tower, Grymforge, cùng dòng chế tác của tín đồ Gond. Dùng như danh từ chỉ loài, không phải tên riêng.",
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
@@ -80049,7 +80394,8 @@
       "Đạo Tặc",
       "Du Đãng",
       "Rogues",
-      "Rogue"
+      "Rogue",
+      "Kẻ lãng du"
     ],
     "updatedAt": "2026-11-21 (Phase 6 Caps)"
   },
@@ -81714,18 +82060,20 @@
   {
     "id": "prescan-1793908955866-lm57",
     "termEnZh": "Thief",
-    "translationVi": "Kẻ trộm",
+    "translationVi": "Siêu trộm",
     "category": "Kỹ năng / Chức năng",
     "description": "Phân nhánh (Subclass) của lớp Rogue, thiên về trộm cắp tinh xảo và thêm một Bonus Action mỗi lượt. Khi đứng riêng trong giao diện chọn lớp phải hiểu là tên phân nhánh, không dịch thành từ chỉ kẻ cắp chung chung.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Kẻ trộm",
     "hostileVi": "Kẻ trộm",
     "indifferentVi": "Kẻ trộm",
-    "priority": "standard",
-    "uiFixed": false,
+    "priority": "core",
+    "uiFixed": true,
     "updatedAt": "2026-11-21 (Phase 6 Caps)",
     "deprecatedVi": [
-      "Đạo Tặc (Phân nhánh Rogue)"
+      "Đạo Tặc (Phân nhánh Rogue)",
+      "Kẻ trộm",
+      "Đạo Tặc"
     ],
     "reviewNote": "QA v2: thong_nhat"
   },
@@ -83292,7 +83640,7 @@
     "termEnZh": "Suspended Ceremorphosis",
     "translationVi": "Quá trình biến đổi Illithid bị trì hoãn",
     "category": "Kỹ năng / Chức năng",
-    "description": "Trạng thái (Condition) đặc trưng của nhóm nhân vật chính: nòng nọc Mind Flayer đã cấy vào não nhưng quá trình biến đổi thành Illithid bị chặn lại bởi quyền năng Netherese của The Absolute và Astral Prism. Nhờ trạng thái này, nhân vật giữ nguyên bản ngã và có thể dùng Năng lực Nòng Nọc Illithid mà không hóa quái. Dịch bám sát thuật ngữ gốc Ceremorphosis đã chuẩn hóa.",
+    "description": "Trạng thái (Condition) đặc trưng của nhóm nhân vật chính: ấu trùng Mind Flayer đã cấy vào não nhưng quá trình biến đổi thành Illithid bị chặn lại bởi quyền năng Netherese của The Absolute và Astral Prism. Nhờ trạng thái này, nhân vật giữ nguyên bản ngã và có thể dùng Năng lực Ấu Trùng Illithid mà không hóa quái. Dịch bám sát thuật ngữ gốc Ceremorphosis đã chuẩn hóa.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Quá trình biến đổi Illithid bị trì hoãn",
     "hostileVi": "Quá trình biến đổi Illithid bị trì hoãn",
@@ -83393,7 +83741,9 @@
     "uiFixed": true,
     "deprecatedVi": [
       "Giáo Vực Ánh Sáng",
-      "Lĩnh Vực Ánh Sáng"
+      "Lĩnh Vực Ánh Sáng",
+      "Thần vực ánh sáng",
+      "Lãnh Địa Ánh Sáng"
     ],
     "updatedAt": "2026-11-21 (Phase 7 Modernize)"
   },
@@ -84099,7 +84449,7 @@
     "termEnZh": "Iron Mind",
     "translationVi": "Tâm trí thép",
     "category": "Kỹ năng / Chức năng",
-    "description": "Năng lực bị động củng cố tinh thần, cấp thành thạo hoặc kháng lực cho Kiểm Định Chống Chịu Trí Tuệ, Tinh Thần và Uy Lực, giúp chống phép khống chế tâm trí cùng đòn thần giao của Mind Flayer. Rất giá trị với nhân vật mang Nòng Nọc Illithid trong não.",
+    "description": "Năng lực bị động củng cố tinh thần, cấp thành thạo hoặc kháng lực cho Kiểm Định Chống Chịu Trí Tuệ, Tinh Thần và Uy Lực, giúp chống phép khống chế tâm trí cùng đòn thần giao của Mind Flayer. Rất giá trị với nhân vật mang Ấu Trùng Illithid trong não.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Tâm trí thép",
     "hostileVi": "Tâm trí thép",
@@ -85734,7 +86084,8 @@
     "uiFixed": false,
     "updatedAt": "2026-11-08 (QA v2)",
     "deprecatedVi": [
-      "Feywild (Cõi Tiên Hoang)"
+      "Feywild (Cõi Tiên Hoang)",
+      "Cõi Tiên Feywild"
     ],
     "reviewNote": "QA v2: da_phuong_an"
   },
@@ -86765,7 +87116,7 @@
     "termEnZh": "Embrace Modernity",
     "translationVi": "Đón nhận hiện đại hóa",
     "category": "Kỹ năng / Chức năng",
-    "description": "Một năng lực liên quan đến sức mạnh Nòng Nọc Illithid, thể hiện sự chấp nhận biến đổi và tiềm năng tâm linh của ký sinh thể.",
+    "description": "Một năng lực liên quan đến sức mạnh Ấu Trùng Illithid, thể hiện sự chấp nhận biến đổi và tiềm năng tâm linh của ký sinh thể.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Đón nhận hiện đại hóa",
     "hostileVi": "Đón nhận hiện đại hóa",
@@ -86985,7 +87336,7 @@
   {
     "id": "prescan-1793912521474-2q8c",
     "termEnZh": "Tadpoling Centre",
-    "translationVi": "Trung Tâm Cấy Nòng Nọc",
+    "translationVi": "Trung Tâm Cấy Ấu Trùng",
     "category": "Địa danh",
     "description": "Cơ sở liên quan đến việc cấy tadpole và biến đổi illithid; dịch như một địa điểm chức năng.",
     "addedAt": "Pre-Scan Engine",
@@ -87676,7 +88027,10 @@
     "indifferentVi": "Trường phái ảo ảnh",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "updatedAt": "2026-11-21 (Phase 6 Caps)",
+    "deprecatedVi": [
+      "Trường phái ảo thuật"
+    ]
   },
   {
     "id": "prescan-1793913100471-lfgp",
@@ -88509,7 +88863,7 @@
     "termEnZh": "Braindrain Cape",
     "translationVi": "Áo choàng hút não",
     "category": "Vật phẩm",
-    "description": "Áo choàng có tên riêng, trang bị vào ô Cloak. Tên gọi lấy cảm hứng từ năng lực rút cạn trí não của Mind Flayer, gợi liên hệ tới tuyến nòng nọc Illithid và các trang bị khai thác sức mạnh tâm trí.",
+    "description": "Áo choàng có tên riêng, trang bị vào ô Cloak. Tên gọi lấy cảm hứng từ năng lực rút cạn trí não của Mind Flayer, gợi liên hệ tới tuyến ấu trùng Illithid và các trang bị khai thác sức mạnh tâm trí.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Áo choàng hút não",
     "hostileVi": "Áo choàng hút não",
@@ -91198,7 +91552,7 @@
     "hostileVi": "Ả Aubrey",
     "indifferentVi": "Aubrey",
     "category": "Nhân vật",
-    "description": "NPC nữ thuộc phân tộc High Elf. Giữ nguyên tên riêng; thêm cách gọi lịch sự hoặc miệt thị tùy thái độ người nói. ([bg3.wiki](https://bg3.wiki/wiki/Aubrey))",
+    "description": "NPC nữ thuộc phân tộc Elf Thượng Đẳng. Giữ nguyên tên riêng; thêm cách gọi lịch sự hoặc miệt thị tùy thái độ người nói. ([bg3.wiki](https://bg3.wiki/wiki/Aubrey))",
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
@@ -91664,7 +92018,7 @@
     "termEnZh": "Mending",
     "translationVi": "Tu sửa",
     "category": "Kỹ năng / Chức năng",
-    "description": "Cantrip trường phái Biến Hóa (Transmutation), hàn gắn vật thể hư hỏng ngoài chiến đấu. Nhiều lớp phép và chủng tộc có thể học.",
+    "description": "Cantrip trường phái Chuyển Hóa (Transmutation), hàn gắn vật thể hư hỏng ngoài chiến đấu. Nhiều lớp phép và chủng tộc có thể học.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Tu sửa",
     "hostileVi": "Tu sửa",
@@ -92626,7 +92980,7 @@
     "termEnZh": "Illithid Protection",
     "translationVi": "Lá chắn Illithid",
     "category": "Kỹ năng / Chức năng",
-    "description": "Hiệu ứng bảo hộ sinh ra từ con nòng nọc Illithid và quyền năng của Lăng Kính Thiên Giới, giúp nhân vật giảm sát thương phải nhận. Là một trong các đặc quyền ngầm mà kẻ hút não trao cho vật chủ trong tuyến truyện chính.",
+    "description": "Hiệu ứng bảo hộ sinh ra từ con ấu trùng Illithid và quyền năng của Lăng Kính Thiên Giới, giúp nhân vật giảm sát thương phải nhận. Là một trong các đặc quyền ngầm mà kẻ hút não trao cho vật chủ trong tuyến truyện chính.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Lá chắn Illithid",
     "hostileVi": "Lá chắn Illithid",
@@ -93337,7 +93691,7 @@
   {
     "id": "prescan-1793917673633-eqlw",
     "termEnZh": "Netherbrain Stem",
-    "translationVi": "Cuống Não Netherbrain",
+    "translationVi": "Cuống Não Chúa Nether",
     "category": "Địa danh",
     "description": "Khu vực chiến trường tối hậu ở Màn 3, phần cuống thịt khổng lồ nối Netherbrain với thành Baldur. Người chơi leo lên đây để quyết định vận mệnh Sword Coast trong trận đánh cuối.",
     "addedAt": "Pre-Scan Engine",
@@ -93348,7 +93702,7 @@
     "uiFixed": false,
     "updatedAt": "2026-11-08 (QA v2)",
     "deprecatedVi": [
-      "Cuống Não Chúa Nether"
+      "Cuống Não Netherbrain"
     ],
     "reviewNote": "QA v2: thong_nhat"
   },
@@ -93500,7 +93854,7 @@
     "termEnZh": "Dismiss",
     "translationVi": "Giải trừ",
     "category": "Kỹ năng / Chức năng",
-    "description": "Hành động hủy bỏ trạng thái biến hình như Wild Shape hay Disguise Self để trở về nguyên dạng, hoặc thu hồi sinh vật triệu hồi. Câu 'Dismiss your shapeshifted form' là nút lệnh trong thanh kỹ năng khi nhân vật đang ở dạng biến hình.",
+    "description": "Hành động hủy bỏ trạng thái biến hình như Hóa Thân Hoang Dã hay Disguise Self để trở về nguyên dạng, hoặc thu hồi sinh vật triệu hồi. Câu 'Dismiss your shapeshifted form' là nút lệnh trong thanh kỹ năng khi nhân vật đang ở dạng biến hình.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Giải trừ",
     "hostileVi": "Giải trừ",
@@ -94466,7 +94820,7 @@
     "termEnZh": "Harper Boots",
     "translationVi": "Giày Harper",
     "category": "Vật phẩm",
-    "description": "Trang bị chân thuộc bộ khí giới của hội Harper, thường tìm thấy trên các điệp viên Harper hoặc trong các căn cứ của họ ở vùng Shadow-Cursed Lands. Giữ nguyên danh xưng Harper trong bản dịch vì đây là tên riêng của tổ chức.",
+    "description": "Trang bị chân thuộc bộ khí giới của Hội Hạc Cầm, thường tìm thấy trên các đặc vụ Hạc Cầm hoặc trong các căn cứ của họ ở Vùng Đất Bị Nguyền Bóng Tối.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Giày Harper",
     "hostileVi": "Giày Harper",
@@ -94776,7 +95130,7 @@
   {
     "id": "prescan-1793918809397-9m2m",
     "termEnZh": "Amulet of the Harpers",
-    "translationVi": "Bùa hộ mệnh của Hội Harpers",
+    "translationVi": "Bùa hộ mệnh của Hội Hạc Cầms",
     "category": "Vật phẩm",
     "description": "Trang sức mang dấu hiệu Hội Hạc Cầm, dùng làm tín vật nhận diện giữa các mật vụ của tổ chức. Xuất hiện trong tuyến nhiệm vụ liên quan tới Jaheira và mạng lưới Harper; ai mang bùa hộ mệnh này trước mặt phe Áo Choàng Đen đều bị xem là mục tiêu.",
     "addedAt": "Pre-Scan Engine",
@@ -95008,9 +95362,9 @@
   {
     "id": "prescan-1793918970233-m2ys",
     "termEnZh": "Hijack Tadpole",
-    "translationVi": "Chiếm đoạt nòng nọc",
+    "translationVi": "Chiếm đoạt ấu trùng",
     "category": "Kỹ năng / Chức năng",
-    "description": "Năng lực Nòng Nọc Illithid dùng quyền năng tâm trí để can thiệp hoặc chiếm quyền kiểm soát. Dùng như tên năng lực, không dịch thành tên vật phẩm.",
+    "description": "Năng lực Ấu Trùng Illithid dùng quyền năng tâm trí để can thiệp hoặc chiếm quyền kiểm soát. Dùng như tên năng lực, không dịch thành tên vật phẩm.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Chiếm đoạt nòng nọc",
     "hostileVi": "Chiếm đoạt nòng nọc",
@@ -95152,7 +95506,7 @@
   {
     "id": "prescan-1793919138805-fv89",
     "termEnZh": "Smokepowder Bomb",
-    "translationVi": "Bom thuốc súng khói",
+    "translationVi": "Bom thuốc nổ khói",
     "category": "Vật phẩm",
     "description": "Vật phẩm ném chế từ smokepowder, gây sát thương nổ trong một vùng và phá vỡ kết cấu như cửa hay vách đá. Thường thu được từ thợ mỏ, duergar và các kho đạn dưới Underdark.",
     "addedAt": "Pre-Scan Engine",
@@ -95255,7 +95609,7 @@
     "termEnZh": "Psionics",
     "translationVi": "Linh năng",
     "category": "Kỹ năng / Chức năng",
-    "description": "Hệ năng lực tinh thần đặc trưng của Mind Flayer và Githyanki, vận hành bằng ý chí thuần khiết thay vì tiêu hao Spell Slot. Nhãn này hiện trên mô tả các năng lực Nòng Nọc Illithid và phép nội tại của quái vật, phân biệt với phép Arcane hay Divine.",
+    "description": "Hệ năng lực tinh thần đặc trưng của Mind Flayer và Githyanki, vận hành bằng ý chí thuần khiết thay vì tiêu hao Spell Slot. Nhãn này hiện trên mô tả các năng lực Ấu Trùng Illithid và phép nội tại của quái vật, phân biệt với phép Arcane hay Divine.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Linh năng",
     "hostileVi": "Linh năng",
@@ -95671,9 +96025,9 @@
   {
     "id": "prescan-1793919543300-ryd7",
     "termEnZh": "Smokepowder Satchel",
-    "translationVi": "Túi thuốc súng khói",
+    "translationVi": "Túi thuốc nổ khói",
     "category": "Vật phẩm",
-    "description": "Túi chứa thuốc súng khói, có thể được dùng làm vật phẩm nổ.",
+    "description": "Túi chứa thuốc nổ khói, có thể được dùng làm vật phẩm nổ.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Túi thuốc súng khói",
     "hostileVi": "Túi thuốc súng khói",
@@ -96013,7 +96367,7 @@
     "termEnZh": "Race",
     "translationVi": "Chủng tộc",
     "category": "Kỹ năng / Chức năng",
-    "description": "Cơ chế nền tảng của D&D 5e và bước đầu trong màn tạo nhân vật Baldur's Gate 3. Quyết định chỉ số phụ trội, tốc độ di chuyển, tầm nhìn bóng tối cùng các đặc tính bẩm sinh (Human, Elf, Githyanki, Tiefling, Dwarf, Halfling, Gnome, Drow, Half-Orc, Dragonborn, Half-Elf). Trong giao diện tiếng Việt luôn dịch cố định là Chủng Tộc, phân biệt với Subrace (Phân Tộc) và Class (Lớp Nhân Vật).",
+    "description": "Cơ chế nền tảng của D&D 5e và bước đầu trong màn tạo nhân vật Baldur's Gate 3. Quyết định chỉ số phụ trội, tốc độ di chuyển, tầm nhìn bóng tối cùng các đặc tính bẩm sinh (Người, Elf, Githyanki, Tiefling, Người Lùn, Halfling, Gnome, Drow, Bán Orc, Người Rồng, Bán Elf). Trong giao diện tiếng Việt luôn dịch cố định là Chủng Tộc, phân biệt với Subrace (Phân Tộc) và Class (Lớp Nhân Vật).",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Chủng tộc",
     "hostileVi": "Chủng tộc",
@@ -96055,7 +96409,7 @@
     "termEnZh": "Ignores Immunity",
     "translationVi": "Bỏ qua miễn nhiễm",
     "category": "Kỹ năng / Chức năng",
-    "description": "Ghi chú cơ chế trong tooltip: hiệu ứng vẫn tác động dù mục tiêu vốn Miễn Nhiễm với loại sát thương hoặc trạng thái đó. Thường gặp ở vũ khí truyền thuyết và năng lực Nòng Nọc Illithid.",
+    "description": "Ghi chú cơ chế trong tooltip: hiệu ứng vẫn tác động dù mục tiêu vốn Miễn Nhiễm với loại sát thương hoặc trạng thái đó. Thường gặp ở vũ khí truyền thuyết và năng lực Ấu Trùng Illithid.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Bỏ qua miễn nhiễm",
     "hostileVi": "Bỏ qua miễn nhiễm",
@@ -96385,7 +96739,7 @@
     "termEnZh": "Partial Ceremorphosis",
     "translationVi": "Biến đổi Illithid một phần",
     "category": "Kỹ năng / Chức năng",
-    "description": "Trạng thái biến đổi một phần do ảnh hưởng của nòng nọc illithid, có thể mở khóa năng lực illithid.",
+    "description": "Trạng thái biến đổi một phần do ảnh hưởng của ấu trùng illithid, có thể mở khóa năng lực illithid.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Biến đổi Illithid một phần",
     "hostileVi": "Biến đổi Illithid một phần",
@@ -97147,16 +97501,21 @@
   {
     "id": "prescan-1793920746227-ciwf",
     "termEnZh": "Ability",
-    "translationVi": "Chỉ số năng lực",
+    "translationVi": "Chỉ số",
     "category": "Kỹ năng / Chức năng",
     "description": "Sáu chỉ số nền tảng của Dungeons & Dragons 5e gồm Sức Mạnh, Nhanh Nhẹn, Thể Chất, Trí Tuệ, Tri Giác, Sức Hút; quyết định hệ số cộng cho Ability Check, Saving Throw cùng Attack Roll. Hiện trong bảng tạo nhân vật và phiếu thông tin nhân vật của Baldur's Gate 3.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Chỉ số năng lực",
     "hostileVi": "Chỉ số năng lực",
     "indifferentVi": "Chỉ số năng lực",
-    "priority": "standard",
-    "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 7 Modernize)"
+    "priority": "core",
+    "uiFixed": true,
+    "updatedAt": "2026-11-24 (Round 3)",
+    "deprecatedVi": [
+      "Chỉ số năng lực",
+      "Thuộc tính",
+      "Điểm thuộc tính"
+    ]
   },
   {
     "id": "prescan-1793920746227-bny0",
@@ -97375,7 +97734,7 @@
   {
     "id": "prescan-1793920874383-bx93",
     "termEnZh": "School of Evocation",
-    "translationVi": "Trường phái triệu hồi năng lượng",
+    "translationVi": "Trường phái bộc phát",
     "category": "Kỹ năng / Chức năng",
     "description": "Phân nhánh của Pháp sư tập trung vào phép gây sát thương và thao túng năng lượng.",
     "addedAt": "Pre-Scan Engine",
@@ -97384,7 +97743,11 @@
     "indifferentVi": "Trường phái triệu hồi năng lượng",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 7 Modernize)"
+    "updatedAt": "2026-11-21 (Phase 7 Modernize)",
+    "deprecatedVi": [
+      "Trường phái triệu hồi năng lượng",
+      "Trường phái bộc phép"
+    ]
   },
   {
     "id": "prescan-1793920874384-sups",
@@ -99095,7 +99458,7 @@
     "termEnZh": "Fracture Psyche",
     "translationVi": "Nứt vỡ tâm thức",
     "category": "Kỹ năng / Chức năng",
-    "description": "Năng lực Nòng Nọc Illithid mở khóa bằng Illithid Power trong cây năng lực tâm linh. Dùng sức mạnh tâm trí xé nứt tâm thức mục tiêu, gây sát thương tinh thần và làm suy yếu phòng ngự của kẻ địch.",
+    "description": "Năng lực Ấu Trùng Illithid mở khóa bằng Illithid Power trong cây năng lực tâm linh. Dùng sức mạnh tâm trí xé nứt tâm thức mục tiêu, gây sát thương tinh thần và làm suy yếu phòng ngự của kẻ địch.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Nứt vỡ tâm thức",
     "hostileVi": "Nứt vỡ tâm thức",
@@ -99263,7 +99626,7 @@
     "termEnZh": "Mind Flayer Parasite Specimen",
     "translationVi": "Mẫu ký sinh trùng Kẻ Hút Não",
     "category": "Vật phẩm",
-    "description": "Mẫu ký sinh trùng illithid xuất hiện trong cốt truyện, liên quan đến quá trình biến đổi và năng lực Nòng Nọc của nhân vật.",
+    "description": "Mẫu ký sinh trùng illithid xuất hiện trong cốt truyện, liên quan đến quá trình biến đổi và năng lực Ấu Trùng của nhân vật.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Mẫu ký sinh trùng Kẻ Hút Não",
     "hostileVi": "Mẫu ký sinh trùng Kẻ Hút Não",
@@ -99381,7 +99744,7 @@
     "hostileVi": "Thằng Hồn Thối / Cái thứ linh hồn rữa thối",
     "indifferentVi": "Kẻ tự xưng Chân Hồn",
     "category": "Xưng hô / Thành ngữ",
-    "description": "Từ lóng thô tục bóp méo danh hiệu True Soul, do goblin, lính đánh thuê và kẻ ghét giáo phái dùng để hạ nhục người mang nòng nọc Absolute. Câu thoại gốc gắn với mùi hôi hám, nên bản dịch cần giữ sắc thái bẩn thỉu, khinh bỉ thay vì dịch trung tính.",
+    "description": "Từ lóng thô tục bóp méo danh hiệu True Soul, do goblin, lính đánh thuê và kẻ ghét giáo phái dùng để hạ nhục người mang ấu trùng Absolute. Câu thoại gốc gắn với mùi hôi hám, nên bản dịch cần giữ sắc thái bẩn thỉu, khinh bỉ thay vì dịch trung tính.",
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
@@ -100054,7 +100417,7 @@
     "termEnZh": "Earth Myrmidon",
     "translationVi": "Chiến binh đất nguyên tố",
     "category": "Kỹ năng / Chức năng",
-    "description": "Dạng myrmidon nguyên tố đất có thể được tạo ra hoặc sử dụng trong Wild Shape; đại diện cho hình thái chiến đấu nguyên tố của druid.",
+    "description": "Dạng myrmidon nguyên tố đất có thể được tạo ra hoặc sử dụng trong Hóa Thân Hoang Dã; đại diện cho hình thái chiến đấu nguyên tố của druid.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Chiến binh đất nguyên tố",
     "hostileVi": "Chiến binh đất nguyên tố",
@@ -100201,7 +100564,10 @@
     "indifferentVi": "Trường phái chuyển hóa",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "updatedAt": "2026-11-21 (Phase 6 Caps)",
+    "deprecatedVi": [
+      "Trường phái biến đổi"
+    ]
   },
   {
     "id": "prescan-1793923122348-s1n1",
@@ -100440,7 +100806,7 @@
     "termEnZh": "Shield of Thralls Blast",
     "translationVi": "Vụ nổ lá chắn nô lệ",
     "category": "Kỹ năng / Chức năng",
-    "description": "Hiệu ứng phái sinh của năng lực Nòng Nọc Illithid 'Shield of Thralls': khi lớp khiên tâm linh bị đập vỡ, nó phát nổ theo hình cầu, gây sát thương Psychic lên mọi sinh vật lân cận. Xuất hiện trong log chiến đấu và tooltip năng lực, dịch giữ gốc 'Nô Lệ Tâm Trí' để đồng bộ với thuật ngữ Thrall.",
+    "description": "Hiệu ứng phái sinh của năng lực Ấu Trùng Illithid 'Shield of Thralls': khi lớp khiên tâm linh bị đập vỡ, nó phát nổ theo hình cầu, gây sát thương Psychic lên mọi sinh vật lân cận. Xuất hiện trong log chiến đấu và tooltip năng lực, dịch giữ gốc 'Nô Lệ Tâm Trí' để đồng bộ với thuật ngữ Thrall.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Vụ nổ lá chắn nô lệ",
     "hostileVi": "Vụ nổ lá chắn nô lệ",
@@ -101850,7 +102216,7 @@
     "termEnZh": "Catatonic",
     "translationVi": "Hôn mê bất động",
     "category": "Kỹ năng / Chức năng",
-    "description": "Trạng thái (Status) khiến sinh vật mất hoàn toàn khả năng hành động, không phản ứng với xung quanh dù vẫn còn sống. Thường gặp ở nạn nhân bị nòng nọc Illithid xâm chiếm, người trúng lời nguyền hoặc kẻ bị nghi thức tâm linh bẻ gãy ý chí. Nhân vật ở trạng thái này không thể bị đối thoại thông thường.",
+    "description": "Trạng thái (Status) khiến sinh vật mất hoàn toàn khả năng hành động, không phản ứng với xung quanh dù vẫn còn sống. Thường gặp ở nạn nhân bị ấu trùng Illithid xâm chiếm, người trúng lời nguyền hoặc kẻ bị nghi thức tâm linh bẻ gãy ý chí. Nhân vật ở trạng thái này không thể bị đối thoại thông thường.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Hôn mê bất động",
     "hostileVi": "Hôn mê bất động",
@@ -103109,7 +103475,7 @@
     "termEnZh": "Great Old One Warlock",
     "translationVi": "Pháp sư khế ước cổ thần vĩ đại",
     "category": "Kỹ năng / Chức năng",
-    "description": "Phân nhánh Warlock lập khế ước với một thực thể cổ xưa ngoài Vật Chất Giới, mang các năng lực Awakened Mind và Entropic Ward. Trong Baldur's Gate 3, nhánh này gắn chặt với mạch truyện nòng nọc Illithid và Mind Flayer, thường được chọn trong màn tạo nhân vật hoặc màn tái phân lớp ở trại nghỉ.",
+    "description": "Phân nhánh Warlock lập khế ước với một thực thể cổ xưa ngoài Vật Chất Giới, mang các năng lực Awakened Mind và Entropic Ward. Trong Baldur's Gate 3, nhánh này gắn chặt với mạch truyện ấu trùng Illithid và Mind Flayer, thường được chọn trong màn tạo nhân vật hoặc màn tái phân lớp ở trại nghỉ.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Pháp sư khế ước cổ thần vĩ đại",
     "hostileVi": "Pháp sư khế ước cổ thần vĩ đại",
@@ -104761,7 +105127,7 @@
     "termEnZh": "Consuming Parasites",
     "translationVi": "Hấp thụ ký sinh trùng",
     "category": "Kỹ năng / Chức năng",
-    "description": "Cơ chế Illithid cho phép nhân vật nuốt các nòng nọc thu thập được để mở khóa và nâng cấp Năng lực Nòng Nọc trong cây kỹ năng Illithid. Đi kèm nguy cơ biến chất thành kẻ hút não, nên xuất hiện trong các đoạn hội thoại cảnh báo của đồng hành.",
+    "description": "Cơ chế Illithid cho phép nhân vật nuốt các ấu trùng thu thập được để mở khóa và nâng cấp Năng lực Ấu Trùng trong cây kỹ năng Illithid. Đi kèm nguy cơ biến chất thành kẻ hút não, nên xuất hiện trong các đoạn hội thoại cảnh báo của đồng hành.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Hấp thụ ký sinh trùng",
     "hostileVi": "Hấp thụ ký sinh trùng",
@@ -104789,7 +105155,7 @@
     "termEnZh": "Mind Flayer Blood",
     "translationVi": "Máu Kẻ Hút Não",
     "category": "Vật phẩm",
-    "description": "Vật phẩm thu được từ thi thể kẻ hút não, dùng làm nguyên liệu giả kim hoặc tang vật nhiệm vụ liên quan tới nòng nọc Illithid và đế chế Đấng Tuyệt Đối. Dịch nghĩa trực tiếp, giữ thuật ngữ chủng loại kẻ hút não cho thống nhất.",
+    "description": "Vật phẩm thu được từ thi thể kẻ hút não, dùng làm nguyên liệu giả kim hoặc tang vật nhiệm vụ liên quan tới ấu trùng Illithid và đế chế Đấng Tuyệt Đối. Dịch nghĩa trực tiếp, giữ thuật ngữ chủng loại kẻ hút não cho thống nhất.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Máu Kẻ Hút Não",
     "hostileVi": "Máu Kẻ Hút Não",
@@ -106653,19 +107019,22 @@
   {
     "id": "prescan-1793929341600-073v",
     "termEnZh": "Knock",
-    "translationVi": "Phép gõ mở",
+    "translationVi": "Gõ mở khóa",
     "category": "Kỹ năng / Chức năng",
     "description": "Phép thuật Biến Hóa cấp 2 trong D&D 5e và Baldur's Gate 3, dùng để mở khóa cửa, hòm, cổng bị niêm phong mà không cần Thief's Tools hay kiểm tra Sleight of Hand. Thường xuất hiện dưới dạng nhãn kỹ năng trên thanh hành động hoặc khi tương tác với ổ khóa; Wizard, Bard, Sorcerer, Rogue (Arcane Trickster) có thể học. Giữ nguyên tên gốc trong ngoặc để người chơi đối chiếu giao diện tiếng Anh.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Phép gõ mở",
     "hostileVi": "Phép gõ mở",
     "indifferentVi": "Phép gõ mở",
-    "priority": "standard",
-    "uiFixed": false,
+    "priority": "core",
+    "uiFixed": true,
     "deprecatedVi": [
-      "Phép Gõ Mở (Knock)"
+      "Phép Gõ Mở (Knock)",
+      "Phép gõ mở",
+      "Gõ mở",
+      "Gõ cửa mở khóa"
     ],
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "updatedAt": "2026-11-24 (Round 3)"
   },
   {
     "id": "prescan-1793929341600-cplp",
@@ -107363,9 +107732,9 @@
   {
     "id": "prescan-1793929860594-5rlc",
     "termEnZh": "Astral-Touched Tadpole",
-    "translationVi": "Nòng nọc chạm Tinh Giới",
+    "translationVi": "Ấu trùng chạm Tinh Giới",
     "category": "Vật phẩm",
-    "description": "Vật phẩm Illithid cấp cao nhất trong BG3, bị thấm đẫm năng lượng Astral Plane. Tiêu thụ nó sẽ mở khóa tầng Năng lực Nòng Nọc mạnh nhất trên Bảng Illithid, đồng thời đẩy nhân vật thêm một bước về phía biến đổi thành Mind Flayer. Dịch giữ cụm 'Chạm Cõi Tinh Vân' để phân biệt với nòng nọc thường.",
+    "description": "Vật phẩm Illithid cấp cao nhất trong BG3, bị thấm đẫm năng lượng Astral Plane. Tiêu thụ nó sẽ mở khóa tầng Năng lực Ấu Trùng mạnh nhất trên Bảng Illithid, đồng thời đẩy nhân vật thêm một bước về phía biến đổi thành Mind Flayer. Dịch giữ cụm 'Chạm Cõi Tinh Vân' để phân biệt với ấu trùng thường.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Nòng nọc chạm Tinh Giới",
     "hostileVi": "Nòng nọc chạm Tinh Giới",
@@ -107383,7 +107752,7 @@
     "termEnZh": "Augmented Shield of Thralls",
     "translationVi": "Lá chắn nô lệ tăng cường",
     "category": "Kỹ năng / Chức năng",
-    "description": "Phiên bản nâng cấp của Năng lực Nòng Nọc Illithid 'Shield of Thralls', dựng rào chắn tâm linh hấp thụ sát thương và gây nổ psionic khi vỡ. Mở khóa sau khi hấp thụ nòng nọc bậc cao; giữ tiền tố 'Tăng Cường' để đồng bộ với bản gốc trong Bảng Illithid.",
+    "description": "Phiên bản nâng cấp của Năng lực Ấu Trùng Illithid 'Shield of Thralls', dựng rào chắn tâm linh hấp thụ sát thương và gây nổ psionic khi vỡ. Mở khóa sau khi hấp thụ ấu trùng bậc cao; giữ tiền tố 'Tăng Cường' để đồng bộ với bản gốc trong Bảng Illithid.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Lá chắn nô lệ tăng cường",
     "hostileVi": "Lá chắn nô lệ tăng cường",
@@ -107855,7 +108224,7 @@
     "termEnZh": "Harvest of Memory",
     "translationVi": "Thu hoạch ký ức",
     "category": "Kỹ năng / Chức năng",
-    "description": "Năng lực Nòng Nọc Illithid cho phép hấp thụ ký ức từ xác chết; xuất hiện trong hệ thống năng lực của Nòng Nọc.",
+    "description": "Năng lực Ấu Trùng Illithid cho phép hấp thụ ký ức từ xác chết; xuất hiện trong hệ thống năng lực của Ấu Trùng.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Thu hoạch ký ức",
     "hostileVi": "Thu hoạch ký ức",
@@ -108811,7 +109180,7 @@
     "termEnZh": "Ascendant Step",
     "translationVi": "Bước chân siêu phàm",
     "category": "Kỹ năng / Chức năng",
-    "description": "Năng lực Nòng Nọc Illithid cho phép người sử dụng bay mà không cần tiêu hao điểm hành động trong thời gian hiệu lực.",
+    "description": "Năng lực Ấu Trùng Illithid cho phép người sử dụng bay mà không cần tiêu hao điểm hành động trong thời gian hiệu lực.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Bước chân siêu phàm",
     "hostileVi": "Bước chân siêu phàm",
@@ -110253,7 +110622,7 @@
     "termEnZh": "Astral Manipulation Point",
     "translationVi": "Điểm thao túng Tinh Giới",
     "category": "Kỹ năng / Chức năng",
-    "description": "Điểm dùng để mở khóa năng lực Nòng Nọc Illithid trong cây kỹ năng tâm linh.",
+    "description": "Điểm dùng để mở khóa năng lực Ấu Trùng Illithid trong cây kỹ năng tâm linh.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Điểm thao túng Tinh Giới",
     "hostileVi": "Điểm thao túng Tinh Giới",
@@ -111592,7 +111961,7 @@
     "termEnZh": "Silver Sword",
     "translationVi": "Kiếm bạc",
     "category": "Vật phẩm",
-    "description": "Bảo kiếm psionic của Githyanki, biểu trưng quyền lực Vlaakith, hiện lên trong ảo ảnh nòng nọc cùng cánh rồng đỏ. Phiên bản thánh vật trong game là Silver Sword of the Astral Plane, do Voss mang theo.",
+    "description": "Bảo kiếm psionic của Githyanki, biểu trưng quyền lực Vlaakith, hiện lên trong ảo ảnh ấu trùng cùng cánh rồng đỏ. Phiên bản thánh vật trong game là Silver Sword of the Astral Plane, do Voss mang theo.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Kiếm bạc",
     "hostileVi": "Kiếm bạc",
@@ -111612,7 +111981,7 @@
     "hostileVi": "lũ cuồng tín Tuyệt Đối",
     "indifferentVi": "giáo phái Đấng Tuyệt Đối",
     "category": "Xưng hô / Thành ngữ",
-    "description": "Tổ chức do ba Chosen của Bane, Myrkul và Bhaal dẫn dắt, cấy nòng nọc Illithid để gieo dịch khắp Sword Coast. Chính chúng đã sát hại tài sản của Zariel mà Mizora giao cho bạn nhiệm vụ giải cứu.",
+    "description": "Tổ chức do ba Chosen của Bane, Myrkul và Bhaal dẫn dắt, cấy ấu trùng Illithid để gieo dịch khắp Sword Coast. Chính chúng đã sát hại tài sản của Zariel mà Mizora giao cho bạn nhiệm vụ giải cứu.",
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
@@ -112049,7 +112418,7 @@
     "termEnZh": "Illithid Potential",
     "translationVi": "Tiềm năng Illithid",
     "category": "Kỹ năng / Chức năng",
-    "description": "Cơ chế BG3 cho phép tiêu thụ nòng nọc để mở khóa Năng Lực Illithid trong cây kỹ năng ký sinh. Văn bản mô tả tâm trí người chơi 'bristles with illithid potential' khi do dự hấp thụ nòng nọc.",
+    "description": "Cơ chế BG3 cho phép tiêu thụ ấu trùng để mở khóa Năng Lực Illithid trong cây kỹ năng ký sinh. Văn bản mô tả tâm trí người chơi 'bristles with illithid potential' khi do dự hấp thụ ấu trùng.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Tiềm năng Illithid",
     "hostileVi": "Tiềm năng Illithid",
@@ -112112,7 +112481,7 @@
     "hostileVi": "con quái Ulitharid",
     "indifferentVi": "một Ulitharid",
     "category": "Xưng hô / Thành ngữ",
-    "description": "Phân tộc thượng đẳng của Mind Flayer, sinh ra từ nòng nọc đặc biệt và mang sức mạnh psionic vượt trội, đôi khi phát triển thành Elder Brain mới. Trong BG3, hộp sọ ulitharid được githyanki tái chế thành ghế thanh lọc zaith'isk. Githyanki gọi bằng giọng khinh miệt như gọi ghaik; đồng hành Illithid-hóa nhắc tới với sắc thái kính sợ.",
+    "description": "Phân tộc thượng đẳng của Mind Flayer, sinh ra từ ấu trùng đặc biệt và mang sức mạnh psionic vượt trội, đôi khi phát triển thành Elder Brain mới. Trong BG3, hộp sọ ulitharid được githyanki tái chế thành ghế thanh lọc zaith'isk. Githyanki gọi bằng giọng khinh miệt như gọi ghaik; đồng hành Illithid-hóa nhắc tới với sắc thái kính sợ.",
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
@@ -112127,7 +112496,7 @@
     "termEnZh": "Psionic Power",
     "translationVi": "Sức mạnh psionic",
     "category": "Kỹ năng / Chức năng",
-    "description": "Năng lực tinh thần bẩm sinh của Illithid, githyanki và sinh vật mang nòng nọc, khuếch đại khi chủ thể dao động cảm xúc mạnh. Trong BG3 đây là cội nguồn các năng lực Illithid và khả năng đọc/thao túng tâm trí qua nòng nọc.",
+    "description": "Năng lực tinh thần bẩm sinh của Illithid, githyanki và sinh vật mang ấu trùng, khuếch đại khi chủ thể dao động cảm xúc mạnh. Trong BG3 đây là cội nguồn các năng lực Illithid và khả năng đọc/thao túng tâm trí qua ấu trùng.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Sức mạnh psionic",
     "hostileVi": "Sức mạnh psionic",
@@ -112327,7 +112696,7 @@
     "termEnZh": "Illithid Parasite",
     "translationVi": "Ký sinh trùng Illithid",
     "category": "Kỹ năng / Chức năng",
-    "description": "Nòng nọc mind flayer cấy trong não nhân vật, nguồn gốc năng lực Illithid và khả năng dò tâm trí người khác. Các dòng thoại trong lô mô tả ký sinh cựa mình, tạo liên kết tâm trí rồi gần như đứt lìa.",
+    "description": "Ấu trùng mind flayer cấy trong não nhân vật, nguồn gốc năng lực Illithid và khả năng dò tâm trí người khác. Các dòng thoại trong lô mô tả ký sinh cựa mình, tạo liên kết tâm trí rồi gần như đứt lìa.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Ký sinh trùng Illithid",
     "hostileVi": "Ký sinh trùng Illithid",
@@ -112728,7 +113097,7 @@
     "termEnZh": "Illithid Instinct",
     "translationVi": "Bản năng Illithid",
     "category": "Kỹ năng / Chức năng",
-    "description": "Xu hướng tự nhiên của Mind Flayer hoặc người bị nhiễm nòng nọc, thúc đẩy hành vi hung bạo, thao túng tâm trí và biến đổi thành Illithid hoàn toàn. Có thể kháng cự được.",
+    "description": "Xu hướng tự nhiên của Mind Flayer hoặc người bị nhiễm ấu trùng, thúc đẩy hành vi hung bạo, thao túng tâm trí và biến đổi thành Illithid hoàn toàn. Có thể kháng cự được.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Bản năng Illithid",
     "hostileVi": "Bản năng Illithid",
@@ -112840,7 +113209,7 @@
     "hostileVi": "lũ gia súc nuôi nòng nọc",
     "indifferentVi": "nguồn vật chủ Illithid",
     "category": "Xưng hô / Thành ngữ",
-    "description": "Cách Illithid gọi đám tù nhân bị giam trong pod để làm vật chủ cho nòng nọc và quá trình ceremorphosis. Trong văn bản, việc thí nghiệm bừa bãi trên nguồn giống này bị tính vào bản cáo trạng tội lỗi. Giọng Illithid dùng từ lạnh lẽo như nói về hàng hóa, nạn nhân và đồng minh gọi bằng giọng xót xa.",
+    "description": "Cách Illithid gọi đám tù nhân bị giam trong pod để làm vật chủ cho ấu trùng và quá trình ceremorphosis. Trong văn bản, việc thí nghiệm bừa bãi trên nguồn giống này bị tính vào bản cáo trạng tội lỗi. Giọng Illithid dùng từ lạnh lẽo như nói về hàng hóa, nạn nhân và đồng minh gọi bằng giọng xót xa.",
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
@@ -113319,9 +113688,9 @@
   {
     "id": "prescan-1793939417935-pykz",
     "termEnZh": "Illithid Infection",
-    "translationVi": "Nhiễm nòng nọc Illithid",
+    "translationVi": "Nhiễm ấu trùng Illithid",
     "category": "Kỹ năng / Chức năng",
-    "description": "Trạng thái bị nòng nọc Illithid cấy vào hốc mắt và ký sinh trong não, nền tảng mở khóa toàn bộ Năng Lực Illithid cùng khả năng giao tiếp tâm trí trong Baldur's Gate 3. Nhân vật thiếu dấu hiệu lây nhiễm sẽ bị các thực thể và cơ chế liên quan đến Lăng Kính Thiên Giới chối bỏ, không được phép bước vào.",
+    "description": "Trạng thái bị ấu trùng Illithid cấy vào hốc mắt và ký sinh trong não, nền tảng mở khóa toàn bộ Năng Lực Illithid cùng khả năng giao tiếp tâm trí trong Baldur's Gate 3. Nhân vật thiếu dấu hiệu lây nhiễm sẽ bị các thực thể và cơ chế liên quan đến Lăng Kính Thiên Giới chối bỏ, không được phép bước vào.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Nhiễm nòng nọc Illithid",
     "hostileVi": "Nhiễm nòng nọc Illithid",
@@ -113599,7 +113968,7 @@
     "termEnZh": "Mind Touch",
     "translationVi": "Chạm tâm trí",
     "category": "Kỹ năng / Chức năng",
-    "description": "Năng lực Illithid cho phép người mang nòng nọc dò vào ký ức của những bộ não bị nhốt trong bình hoặc buồng nhốt tại Mind Flayer Colony. Một số mục tiêu còn tỉnh táo hoặc được Watcher bảo vệ sẽ phớt lờ sự dò xét này, chỉ để lại cảm xúc dư thừa như cơn giận hoặc nỗi tuyệt vọng.",
+    "description": "Năng lực Illithid cho phép người mang ấu trùng dò vào ký ức của những bộ não bị nhốt trong bình hoặc buồng nhốt tại Mind Flayer Colony. Một số mục tiêu còn tỉnh táo hoặc được Watcher bảo vệ sẽ phớt lờ sự dò xét này, chỉ để lại cảm xúc dư thừa như cơn giận hoặc nỗi tuyệt vọng.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Chạm tâm trí",
     "hostileVi": "Chạm tâm trí",
@@ -113827,7 +114196,7 @@
     "termEnZh": "Mind Link",
     "translationVi": "Liên kết tâm trí",
     "category": "Kỹ năng / Chức năng",
-    "description": "Năng lực do nòng nọc Illithid ban cho, cho phép nối thẳng tâm trí với người cùng bị cấy nòng nọc để chia sẻ ký ức và cảm xúc. Trong lô này, nhân vật hợp nhất với tâm trí Gale và cảm nhận thứ hiểm độc đè nén, hoặc nối với Wyll để biết việc Mizora can thiệp và Florrick thất thế.",
+    "description": "Năng lực do ấu trùng Illithid ban cho, cho phép nối thẳng tâm trí với người cùng bị cấy ấu trùng để chia sẻ ký ức và cảm xúc. Trong lô này, nhân vật hợp nhất với tâm trí Gale và cảm nhận thứ hiểm độc đè nén, hoặc nối với Wyll để biết việc Mizora can thiệp và Florrick thất thế.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Liên kết tâm trí",
     "hostileVi": "Liên kết tâm trí",
@@ -114226,7 +114595,7 @@
     "termEnZh": "Telepathic Connection",
     "translationVi": "Liên kết tâm linh",
     "category": "Kỹ năng / Chức năng",
-    "description": "Khả năng kết nối trí óc giữa hai hoặc nhiều sinh vật thông qua năng lực tâm linh (thường do Nòng Nọc Illithid tạo ra), cho phép truyền ý nghĩ và cảm xúc trực tiếp mà không cần ngôn từ.",
+    "description": "Khả năng kết nối trí óc giữa hai hoặc nhiều sinh vật thông qua năng lực tâm linh (thường do Ấu Trùng Illithid tạo ra), cho phép truyền ý nghĩ và cảm xúc trực tiếp mà không cần ngôn từ.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Liên kết tâm linh",
     "hostileVi": "Liên kết tâm linh",
@@ -114858,7 +115227,7 @@
     "termEnZh": "Temple Ruins",
     "translationVi": "Tàn Tích Đền Thờ",
     "category": "Địa danh",
-    "description": "Khu phế tích đền cổ nằm về phía tây Emerald Grove, nơi bọn Goblin chiếm giữ và giam giữ Đại Tư Tế Halsin trong Act 1.",
+    "description": "Khu phế tích đền cổ nằm về phía tây Emerald Grove, nơi bọn Goblin chiếm giữ và giam giữ Đại Druid Halsin trong Act 1.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Tàn Tích Đền Thờ",
     "hostileVi": "Tàn Tích Đền Thờ",
@@ -115713,7 +116082,7 @@
     "hostileVi": "Đống thịt thối vô dụng",
     "indifferentVi": "Kẻ vô dụng",
     "category": "Xưng hô / Thành ngữ",
-    "description": "Lời nhục mạ mang hơi hướng Githyanki và tín đồ Absolute, gần nghĩa với 'iblith', hạ thấp đối phương xuống mức xác thịt chỉ còn dùng để nuôi nòng nọc. Thù địch giữ trọn vị tanh tưởi; trung tính rút còn 'kẻ vô dụng'; bạn đồng hành thân thiết có thể nói kiểu trêu chọc.",
+    "description": "Lời nhục mạ mang hơi hướng Githyanki và tín đồ Absolute, gần nghĩa với 'iblith', hạ thấp đối phương xuống mức xác thịt chỉ còn dùng để nuôi ấu trùng. Thù địch giữ trọn vị tanh tưởi; trung tính rút còn 'kẻ vô dụng'; bạn đồng hành thân thiết có thể nói kiểu trêu chọc.",
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
@@ -116838,7 +117207,7 @@
   {
     "id": "prescan-1793948384760-575z",
     "termEnZh": "Gondian Disband",
-    "translationVi": "Người Gondian tan rã",
+    "translationVi": "Tín đồ Gond tan rã",
     "category": "Xưng hô / Thành ngữ",
     "description": "Sự kiện hoặc tiêu đề báo chí trong Baldur's Gate 3, cho thấy sự sụp đổ của Hội thợ Gondian. Liên quan đến sự phục vụ của các Gondian cho Absolute.",
     "addedAt": "Pre-Scan Engine",
@@ -117097,7 +117466,7 @@
     "hostileVi": "thứ nhầy nhụa trong sọ / cái món tanh tưởi của lũ mực",
     "indifferentVi": "mật dịch sọ não",
     "category": "Xưng hô / Thành ngữ",
-    "description": "Khẩu ngữ đặc trưng của Mind Flayer khi mô tả bộ não con người như món cao lương - xuất hiện trong dòng suy nghĩ thì thầm của nòng nọc Illithid ('Must feed. Sweet cranial nectar.'). Dùng giọng mê đắm, bệnh hoạn khi dịch lời thoại nội tâm của Illithid.",
+    "description": "Khẩu ngữ đặc trưng của Mind Flayer khi mô tả bộ não con người như món cao lương - xuất hiện trong dòng suy nghĩ thì thầm của ấu trùng Illithid ('Must feed. Sweet cranial nectar.'). Dùng giọng mê đắm, bệnh hoạn khi dịch lời thoại nội tâm của Illithid.",
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
@@ -117333,7 +117702,7 @@
     "hostileVi": "Thủ thuật tự nhiên",
     "indifferentVi": "Thủ thuật tự nhiên",
     "category": "Kỹ năng / Chức năng",
-    "description": "Phép Cơ Bản (Cantrip) trường phái Biến Hóa (Transmutation) đặc trưng của lớp Druid (Druid) trong D&D 5e.",
+    "description": "Phép Cơ Bản (Cantrip) trường phái Chuyển Hóa (Transmutation) đặc trưng của lớp Druid trong D&D 5e.",
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
@@ -118111,7 +118480,7 @@
   {
     "id": "prescan-1793950897463-mku2",
     "termEnZh": "Tadpole, the",
-    "translationVi": "Nòng nọc",
+    "translationVi": "Ấu trùng",
     "friendlyVi": "Nòng nọc",
     "hostileVi": "Nòng nọc",
     "indifferentVi": "Nòng nọc",
@@ -118219,7 +118588,7 @@
     "termEnZh": "Netherbrain's Influence",
     "translationVi": "Ảnh hưởng của Não Chúa Nether",
     "category": "Kỹ năng / Chức năng",
-    "description": "Trạng thái/cơ chế áp lực tinh thần do Não Chúa Nether phát ra, ngăn các đồng hành đã nhiễm nòng nọc tiến sâu hơn trong Màn 3 nếu không có Lăng Kính Tinh Tú bảo hộ.",
+    "description": "Trạng thái/cơ chế áp lực tinh thần do Não Chúa Nether phát ra, ngăn các đồng hành đã nhiễm ấu trùng tiến sâu hơn trong Màn 3 nếu không có Lăng Kính Tinh Tú bảo hộ.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Ảnh hưởng của Não Chúa Nether",
     "hostileVi": "Ảnh hưởng của Não Chúa Nether",
@@ -118283,7 +118652,7 @@
     "hostileVi": "Bán Kẻ Hút Não",
     "indifferentVi": "Bán Kẻ Hút Não",
     "category": "Xưng hô / Thành ngữ",
-    "description": "Trạng thái biến đổi từ nòng nọc Illithid đặc biệt cho phép người chứa nó có được một phần năng lực của kẻ hút não mà không biến thành hoàn toàn.",
+    "description": "Trạng thái biến đổi từ ấu trùng Illithid đặc biệt cho phép người chứa nó có được một phần năng lực của kẻ hút não mà không biến thành hoàn toàn.",
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
@@ -119559,12 +119928,12 @@
   {
     "id": "prescan-1793954285637-92x7",
     "termEnZh": "COWARDLY GONDIANS",
-    "translationVi": "Những người Gondian nhát gan",
+    "translationVi": "Những tín đồ Gond nhát gan",
     "friendlyVi": "Những Người Gondian",
     "hostileVi": "Những Kẻ Nhát Gan",
     "indifferentVi": "Người Gondian",
     "category": "Xưng hô / Thành ngữ",
-    "description": "Cách gọi lăng mạ những người Gondian trong Baldur's Gate 3, thường xuất hiện trong các tình huống xung đột; Gondian là một phần của tổ chức công nhân.",
+    "description": "Cách gọi lăng mạ những tín đồ Gond trong Baldur's Gate 3, thường xuất hiện trong các tình huống xung đột; Gondian là một phần của tổ chức công nhân.",
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
@@ -119608,7 +119977,7 @@
   {
     "id": "prescan-1793955002734-sl35",
     "termEnZh": "Harpers Out of Hiding",
-    "translationVi": "Hội Harpers lộ diện",
+    "translationVi": "Hội Hạc Cầms lộ diện",
     "friendlyVi": "Hội Harpers lộ diện",
     "hostileVi": "Hội Harpers lộ diện",
     "indifferentVi": "Hội Harpers lộ diện",
@@ -119961,7 +120330,7 @@
     "hostileVi": "tên shuulkac nhuốc nhơ",
     "indifferentVi": "shuulkac",
     "category": "Xưng hô / Thành ngữ",
-    "description": "Từ lóng Githyanki chỉ kẻ ô nhục, đánh mất danh dự chiến binh. Xuất hiện trong câu thần chú/lời phán 'Shuugaan, a shuulkac', thường dùng để hạ nhục Lae'zel hoặc kẻ bị nhiễm nòng nọc.",
+    "description": "Từ lóng Githyanki chỉ kẻ ô nhục, đánh mất danh dự chiến binh. Xuất hiện trong câu thần chú/lời phán 'Shuugaan, a shuulkac', thường dùng để hạ nhục Lae'zel hoặc kẻ bị nhiễm ấu trùng.",
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
@@ -120303,7 +120672,7 @@
     "hostileVi": "Chấn thương sọ não",
     "indifferentVi": "Chấn thương sọ não",
     "category": "Kỹ năng / Chức năng",
-    "description": "Tác hại vật lý nghiêm trọng đến não bộ, thường liên quan đến các phép thuật trích xuất nòng nọc hoặc các tác động mạnh mẽ. Là kết quả tiêu cực có thể xảy ra trong các tình huống chiến đấu hoặc nghĩa vụ.",
+    "description": "Tác hại vật lý nghiêm trọng đến não bộ, thường liên quan đến các phép thuật trích xuất ấu trùng hoặc các tác động mạnh mẽ. Là kết quả tiêu cực có thể xảy ra trong các tình huống chiến đấu hoặc nghĩa vụ.",
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
@@ -120747,7 +121116,7 @@
     "hostileVi": "Những Xung Động Tối Ác",
     "indifferentVi": "Xung động tối tăm",
     "category": "Kỹ năng / Chức năng",
-    "description": "Những bản năng độc hại và tà ác được tiêm nhiễm trong những Hậu Duệ Bhaal hay những người mang nòng nọc Illithid, xuất phát từ ảnh hưởng của các thần tử hay lực lượng bóng tối.",
+    "description": "Những bản năng độc hại và tà ác được tiêm nhiễm trong những Hậu Duệ Bhaal hay những người mang ấu trùng Illithid, xuất phát từ ảnh hưởng của các thần tử hay lực lượng bóng tối.",
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
@@ -121745,5 +122114,96 @@
     "priority": "core",
     "uiFixed": true,
     "updatedAt": "2026-11-21 (Phase 6 Caps)"
+  },
+  {
+    "id": "bg3-lightning-damage",
+    "termEnZh": "Lightning Damage",
+    "translationVi": "Sát thương sét",
+    "category": "Cơ chế & Phép thuật",
+    "priority": "core",
+    "deprecatedVi": [
+      "Sát thương sấm sét",
+      "Sát thương sấm chớp",
+      "Sát thương tia chớp",
+      "Sát thương lôi điện",
+      "Sát thương sấm sét Điện"
+    ]
+  },
+  {
+    "id": "bg3-school-illusion",
+    "termEnZh": "Illusion",
+    "translationVi": "Ảo ảnh",
+    "category": "Cơ chế & Phép thuật",
+    "priority": "core",
+    "deprecatedVi": [
+      "Ảo thuật"
+    ]
+  },
+  {
+    "id": "bg3-subclass-hexblade",
+    "termEnZh": "Hexblade",
+    "translationVi": "Kiếm ma",
+    "category": "Kỹ năng / Chức năng",
+    "priority": "core",
+    "deprecatedVi": [
+      "Hexblade",
+      "Pháp kiếm sư"
+    ]
+  },
+  {
+    "id": "bg3-r3-1",
+    "termEnZh": "Armour Proficiency",
+    "translationVi": "Thông thạo giáp",
+    "category": "Kỹ năng / Chức năng",
+    "description": "Khả năng mặc thành thạo một hạng giáp (Nhẹ, Trung, Nặng) hoặc khiên mà không bị phạt bất lợi hay khóa phép.",
+    "addedAt": "Round 3",
+    "priority": "core",
+    "uiFixed": true,
+    "deprecatedVi": [
+      "Độ thuần thục giáp",
+      "Độ tinh thông giáp",
+      "Độ thông thạo giáp",
+      "Thông thạo áo giáp"
+    ],
+    "updatedAt": "2026-11-24 (Round 3)"
+  },
+  {
+    "id": "bg3-r3-2",
+    "termEnZh": "Ability Modifier",
+    "translationVi": "Chỉ số điều chỉnh",
+    "category": "Kỹ năng / Chức năng",
+    "description": "Giá trị cộng/trừ tính từ chỉ số gốc (ví dụ 16 điểm = +3), cộng vào đổ xúc xắc tấn công, kiểm tra kỹ năng và sát thương.",
+    "addedAt": "Round 3",
+    "priority": "core",
+    "uiFixed": true,
+    "deprecatedVi": [
+      "Bộ điều chỉnh",
+      "Điểm điều chỉnh",
+      "Chỉ số điều chỉnh thuộc tính"
+    ],
+    "updatedAt": "2026-11-24 (Round 3)"
+  },
+  {
+    "termEnZh": "Acolyte",
+    "category": "Kỹ năng / Chức năng",
+    "translationVi": "Tín đồ tập sự",
+    "priority": "core",
+    "uiFixed": true,
+    "deprecatedVi": [
+      "Tu sĩ",
+      "Thị thần"
+    ],
+    "description": "Xuất thân (Background) dành cho người từng phụng sự tại đền thờ; cộng thông thạo Soi Thấu và Tôn Giáo."
+  },
+  {
+    "termEnZh": "The Fiend",
+    "category": "Kỹ năng / Chức năng",
+    "translationVi": "Ác quỷ",
+    "priority": "core",
+    "uiFixed": true,
+    "deprecatedVi": [
+      "Ác ma"
+    ],
+    "description": "Phân nhánh (Subclass) của Pháp Sư Khế Ước lập khế ước với thế lực Ác Quỷ từ Chín Tầng Địa Ngục."
   }
 ]

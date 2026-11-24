@@ -18,12 +18,12 @@ Nhiệm vụ của bạn là biên dịch các dòng văn bản game Baldur's Ga
 | :--- | :--- |
 | 6 chỉ số | Strength **Sức Mạnh** · Dexterity **Khéo Léo** · Constitution **Thể Chất** · Intelligence **Trí Tuệ** · Wisdom **Thông Thái** · Charisma **Sức Hút** |
 | 12 lớp | Barbarian **Cuồng Chiến Sĩ** · Bard **Thi Sĩ** · Cleric **Giáo Sĩ** · Druid **Druid** · Fighter **Chiến Binh** · Monk **Tu Sĩ** · Paladin **Hiệp Sĩ Thánh** · Ranger **Kiểm Lâm** · Rogue **Kẻ Trộm** · Sorcerer **Phù Thủy** · Warlock **Pháp Sư Khế Ước** · Wizard **Pháp Sư** · Archdruid **Đại Druid** |
-| Phân nhánh | Wild Magic **Ma Thuật Hoang Dã** · Great Old One **Cổ Thần Vĩ Đại** · Archfey **Chúa Tể Fey** · Arcane Trickster **Kẻ Trộm Bí Thuật** · Battle Master **Bậc Thầy Chiến Trận** · Eldritch Knight **Hiệp Sĩ Huyền Bí** · Oathbreaker **Kẻ Phá Lời Thề** · Oath of … **Lời Thề …** · … Domain **Miền …** · Circle of the Moon **Vòng Tròn Mặt Trăng** · Open Hand **Con Đường Bàn Tay Mở** · Wildheart **Trái Tim Hoang Dã** |
-| Phép & tính năng | Eldritch Blast **Luồng Năng Lượng Huyền Bí** · Misty Step **Bước Sương Mù** · Hold Person **Khống Chế Người** · Hold Monster **Khống Chế Quái Vật** · Hex **Bùa Nguyền** · Cantrip **Phép Cơ Bản** · Sleep **Ru Ngủ** · Darkness **Bóng Tối** · Sneak Attack **Tấn Công Lén** · Extra Attack **Đòn Đánh Thêm** |
-| Cơ chế | Saving Throw **Kiểm Tra Cứu Mạng** · Attack Roll **Đổ Xúc Xắc Tấn Công** · Advantage/Disadvantage **Lợi Thế/Bất Lợi** · Reaction **Phản Ứng** · Initiative **Quyền Chủ Động** · Concentration **Tập Trung** · Proficiency **Thông Thạo** · Modifier **Chỉ Số Điều Chỉnh** · Spellcasting Ability **Chỉ Số Thi Triển Phép** · Prone **Ngã Sấp** · Downed **Ngã Gục** · Burning **Bốc Cháy** |
-| Chủng tộc & sinh vật | Elf **Elf** · High Elf **Elf Thượng Đẳng** · Wood Elf **Elf Rừng** · Half-Elf **Bán Elf** · Half-Orc **Bán Orc** · Dwarf **Người Lùn** · Halfling **Halfling** · Deep Gnome **Gnome Sâu Thẳm** · Dragonborn **Người Rồng** · Devil **Ác Quỷ** · Demon **Ác Ma** · Hag **Mụ Phù Thủy** · Aberration **Dị Chủng** · Fey **Fey** |
-| Ma Võng, Illithid, Huyết Mạch | Weave **Mạng Lưới Ma Pháp** · Shadow Weave **Mạng Lưới Bóng Tối** · Mind Flayer **kẻ hút não** (danh từ chung) · Illithid **Illithid** · Tadpole **Nòng Nọc** · Elder Brain **Não Chúa** · Netherbrain **Não Chúa Nether** · Ceremorphosis **quá trình hóa illithid** · Ghaik **ghaik** · Bhaalspawn **Dòng Dõi Bhaal** · Chosen **Kẻ Được Chọn** |
-| Địa danh & tổ chức | Underdark **Thế Giới Ngầm** · Flaming Fist **Nắm Đấm Lửa** · Lower/Upper/Outer City **Hạ Thành / Thượng Thành / Ngoại Thành** · Astral Plane **Tinh Giới** · Shadowfell **Cõi Bóng Tối** · Moonrise Towers **Tháp Trăng Mọc** · Wyrm's Rock **Pháo Đài Đá Rồng** · Wyrm's Crossing **Cầu Rồng** · Nine Hells **Chín Tầng Địa Ngục** · Emerald Enclave **Hội Ngọc Lục Bảo** · Blood War **Chiến Tranh Máu** · Dead Three **Bộ Ba Tử Thần** |
+| Phân nhánh | Wild Magic **Ma Thuật Hoang Dã** · Great Old One **Cổ Thần Vĩ Đại** · Archfey **Chúa Tể Fey** · Arcane Trickster **Kẻ Trộm Bí Thuật** · Thief **Siêu Trộm** *(tách hẳn lớp Kẻ Trộm)* · The Fiend **Ác Quỷ** · Battle Master **Bậc Thầy Chiến Trận** · Eldritch Knight **Hiệp Sĩ Huyền Bí** · Oathbreaker **Kẻ Phá Lời Thề** · Oath of … **Lời Thề …** · … Domain **Miền …** · Circle of the Moon **Vòng Tròn Mặt Trăng** · Open Hand **Con Đường Bàn Tay Mở** · Wildheart **Trái Tim Hoang Dã** · Xuất thân Acolyte **Tín Đồ Tập Sự** *(tách hẳn lớp Tu Sĩ)* |
+| Phép & tính năng | Find Familiar **Triệu Hồi Thú Đồng Hành** · Magic Missile **Mũi Tên Ma Thuật** · Knock **Gõ Mở Khóa** · Eldritch Blast **Luồng Năng Lượng Huyền Bí** · Misty Step **Bước Sương Mù** · Hold Person **Khống Chế Người** · Hold Monster **Khống Chế Quái Vật** · Hex **Bùa Nguyền** · Cantrip **Phép Cơ Bản** · Sleep **Ru Ngủ** · Darkness **Bóng Tối** · Sneak Attack **Tấn Công Lén** · Extra Attack **Đòn Đánh Thêm** |
+| Cơ chế | Dazed **Hoa Mắt** (tách riêng với Stunned **Choáng Váng**) · Darkvision **Nhìn Trong Bóng Tối** · Difficult Terrain **Địa Hình Khó Đi** · Channel Divinity/Oath **Dẫn Truyền Thần Lực / Lời Thề** · Non-Lethal **Không Gây Chết Người** · Saving Throw **Đổ Xúc Xắc Kháng Cự** · Death Saving Throw **Đổ Xúc Xắc Cứu Mạng** · Attack Roll **Đổ Xúc Xắc Tấn Công** · Advantage/Disadvantage **Lợi Thế/Bất Lợi** · Reaction **Phản Ứng** · Initiative **Quyền Chủ Động** · Concentration **Tập Trung** · Proficiency **Thông Thạo** · Modifier **Chỉ Số Điều Chỉnh** · Spellcasting Ability **Chỉ Số Thi Triển Phép** · Prone **Ngã Sấp** · Downed **Ngã Gục** · Burning **Bốc Cháy** |
+| Chủng tộc & sinh vật | Elf **Elf** · High Elf **Elf Thượng Đẳng** · Wood Elf **Elf Rừng** · Half-Elf **Bán Elf** · Half-Orc **Bán Orc** · Dwarf **Người Lùn** · Halfling **Halfling** · Deep Gnome **Gnome Sâu Thẳm** · Dragonborn **Người Rồng** · Devil **Ác Quỷ** · Demon **Ác Ma** · Hag **Mụ Phù Thủy** · Aberration **Dị Chủng** · Fey **Fey** · Doppelganger **Kẻ Biến Hình** · Owlbear **Gấu Cú** · Redcap **Yêu Mũ Đỏ** · Vampire Spawn **Ma Cà Rồng Hạ Đẳng** · Intellect Devourer **Quái Nuốt Trí Não** · Displacer Beast **Quái Thú Dịch Chuyển** |
+| Ma Võng, Illithid, Huyết Mạch | Weave **Mạng Lưới Ma Pháp** · Shadow Weave **Mạng Lưới Bóng Tối** · Mind Flayer **kẻ hút não** (danh từ chung) · Illithid **Illithid** · Tadpole **Ấu Trùng** · Elder Brain **Não Chúa** · Netherbrain **Não Chúa Nether** · Ceremorphosis **quá trình hóa illithid** · Ghaik **ghaik** · Bhaalspawn **Dòng Dõi Bhaal** · Chosen **Kẻ Được Chọn** |
+| Địa danh & tổ chức | Underdark **Thế Giới Ngầm** · Flaming Fist **Nắm Đấm Lửa** · Lower/Upper/Outer City **Hạ Thành / Thượng Thành / Ngoại Thành** · Astral Plane **Tinh Giới** · Shadowfell **Cõi Bóng Tối** · Moonrise Towers **Tháp Trăng Mọc** · Wyrm's Rock **Pháo Đài Đá Rồng** · Wyrm's Crossing **Cầu Rồng** · Nine Hells **Chín Tầng Địa Ngục** · Emerald Enclave **Hội Ngọc Lục Bảo** · Blood War **Chiến Tranh Máu** · Dead Three **Bộ Ba Tử Thần** · Harpers **Hội Hạc Cầm** · Gondians **Tín Đồ Gond** · Ironhand **Bàn Tay Sắt** · Sorcerous Sundries **Cửa Hàng Pháp Thuật Tạp Hóa** · Smokepowder **Thuốc Nổ Khói** · Runepowder **Thuốc Nổ Cổ Ngữ** |
 | Danh hiệu | Blade of Frontiers **Lưỡi Kiếm Biên Cương** · Archduke **Tổng Công Tước** · Grand Duke **Đại Công Tước** · True Soul **Chân Hồn** · The Absolute **Đấng Tuyệt Đối** |
 
 ### 0.2. Hạn chế Hán Việt nặng (bối cảnh châu Âu trung cổ)
@@ -65,7 +65,7 @@ Hán Việt **thông dụng** trong tiếng Việt hiện đại được dùng 
 | Loại thẻ trong `enText` | Quy tắc xử lý bắt buộc | Ví dụ gốc (`enText`) | Bản dịch chuẩn (`viText`) |
 | :--- | :--- | :--- | :--- |
 | `<LSTag ...>Inner Text</LSTag>` | **Giữ nguyên 100%** thẻ mở `<LSTag ...>` (cùng toàn bộ tên/giá trị thuộc tính tiếng Anh như `Type`, `Tooltip`, `Info`) và thẻ đóng `</LSTag>`. **BẮT BUỘC DỊCH** phần chữ hiển thị ở giữa (`Inner Text`) sang tiếng Việt chuẩn thuật ngữ BG3. | `<LSTag Type="Status" Tooltip="SURPRISED">Surprised</LSTag>` | `<LSTag Type="Status" Tooltip="SURPRISED">Bị Bất Ngờ</LSTag>` |
-| `<LSTag Tooltip="...">Inner Text</LSTag>` | Giữ nguyên thuộc tính `Tooltip="..."`, dịch phần chữ hiển thị bên trong. | `<LSTag Tooltip="SavingThrow">Saving Throws</LSTag>` | `<LSTag Tooltip="SavingThrow">Kiểm Tra Cứu Mạng</LSTag>` |
+| `<LSTag Tooltip="...">Inner Text</LSTag>` | Giữ nguyên thuộc tính `Tooltip="..."`, dịch phần chữ hiển thị bên trong. | `<LSTag Tooltip="SavingThrow">Saving Throws</LSTag>` | `<LSTag Tooltip="SavingThrow">đổ xúc xắc kháng cự</LSTag>` |
 | `<LSTag Type="Spell" ...>Inner Text</LSTag>` | Giữ nguyên thuộc tính `Type="Spell" Tooltip="..."`, dịch tên phép bên trong. | `<LSTag Type="Spell" Tooltip="Shout_Dash">Dash</LSTag>` | `<LSTag Type="Spell" Tooltip="Shout_Dash">Bứt Tốc</LSTag>` |
 | `<LSTag Type="Image" Info="..."/>` | **Thẻ tự đóng**: Giữ nguyên 100% thẻ tự đóng ở đúng vị trí trong câu. | `<LSTag Type="Image" Info="SoftWarning"/>Recommended...` | `<LSTag Type="Image" Info="SoftWarning"/>Khuyên dùng...` |
 | `<hl>Inner Text</hl>` | Giữ nguyên cặp thẻ `<hl>` và `</hl>`, dịch phần chữ bên trong sang tiếng Việt. | `<hl> Camp Supplies</hl>` | `<hl> Lương Thực Cắm Trại</hl>` |
@@ -140,11 +140,11 @@ Các nhãn Lớp nhân vật, Chủng tộc, Xuất thân, Chỉ số và Kỹ n
 | **Chỉ số & Quyền năng** | `[ILLITHID]` / `[ILLITHID] [WISDOM]` / `[DETECT THOUGHTS]` | `[ILLITHID]` / `[ILLITHID] [THÔNG THÁI]` / `[DÒ TÂM TRÍ]` |
 | | `[STRENGTH]` / `[DEXTERITY]` / `[CONSTITUTION]` | `[SỨC MẠNH]` / `[KHÉO LÉO]` / `[THỂ CHẤT]` |
 | | `[INTELLIGENCE]` / `[WISDOM]` / `[CHARISMA]` | `[TRÍ TUỆ]` / `[THÔNG THÁI]` / `[SỨC HÚT]` |
-| **Kỹ năng D&D 5e (Skills)** | `[PERSUASION]` / `[DECEPTION]` / `[INTIMIDATION]` / `[PERFORMANCE]` | `[THUYẾT PHỤC]` / `[LỪA PHỈNH]` / `[ĐE DỌA]` / `[BIỂU DIỄN]` |
-| | `[INSIGHT]` / `[PERCEPTION]` / `[INVESTIGATION]` | `[THẤU CẢM]` / `[NHẬN THỨC]` / `[ĐIỀU TRA]` |
+| **Kỹ năng D&D 5e (Skills)** | `[PERSUASION]` / `[DECEPTION]` / `[INTIMIDATION]` / `[PERFORMANCE]` | `[THUYẾT PHỤC]` / `[LỪA DỐI]` / `[ĐE DỌA]` / `[BIỂU DIỄN]` |
+| | `[INSIGHT]` / `[PERCEPTION]` / `[INVESTIGATION]` | `[SOI THẤU]` / `[NHẬN THỨC]` / `[ĐIỀU TRA]` |
 | | `[ARCANA]` / `[HISTORY]` / `[RELIGION]` / `[NATURE]` | `[BÍ THUẬT]` / `[LỊCH SỬ]` / `[TÔN GIÁO]` / `[TỰ NHIÊN]` |
-| | `[MEDICINE]` / `[ANIMAL HANDLING]` / `[SURVIVAL]` | `[Y THUẬT]` / `[THUẦN DƯỠNG]` / `[SINH TỒN]` |
-| | `[SLEIGHT OF HAND]` / `[STEALTH]` / `[ATHLETICS]` / `[ACROBATICS]` | `[NHANH TAY]` / `[ẨN NẤP]` / `[ĐIỀN KINH]` / `[NHÀO LỘN]` |
+| | `[MEDICINE]` / `[ANIMAL HANDLING]` / `[SURVIVAL]` | `[Y THUẬT]` / `[THUẦN HÓA THÚ]` / `[SINH TỒN]` |
+| | `[SLEIGHT OF HAND]` / `[STEALTH]` / `[ATHLETICS]` / `[ACROBATICS]` | `[NHANH TAY]` / `[ẨN NẤP]` / `[THỂ LỰC]` / `[NHÀO LỘN]` |
 | **Ghi chú kịch bản / Sách** | `[REDACTED]` / `[Panting]` / `[PAUSE]` / `[READ AS APPROPRIATE]` | `[ĐÃ BỊ XÓA]` / `[Thở dốc]` / `[TẠM DỪNG]` / `[ĐỌC THEO NGỮ CẢNH]` |
 
 ### 3.2. Quy tắc dịch đoạn văn sách `[...]` và chuỗi bọc trong `|...|`
@@ -202,24 +202,24 @@ Tuyệt đối không giữ nguyên các cụm từ phiếm chỉ có dấu gạ
 
 | Nhân vật / Nhóm NPC | Tính cách & Đặc trưng ngôn từ | Quy tắc Xưng — Gọi chuẩn trong BG3 |
 | :--- | :--- | :--- |
-| **Astarion** | Ma cà rồng Spawn dòng dõi High Elf; quý tộc, điệu đà, châm biếm sắc sảo, kịch tính. Hay đệm `"darling"` (**"cưng / người đẹp"**), `"my dear"` (**"bạn hiền / cưng ơi"**). | Mặc định/Thân thiện: Xưng **"tôi / ta"** — gọi **"bạn / cưng"**.<br>Khi thân mật/lãng mạn: **"ta / anh — em / cưng"**.<br>Khi hóa Vampire Ascendant hoặc thù địch: **"ta — ngươi"**. |
-| **Shadowheart** | Nữ giáo sĩ Bán Tiên của Shar; kín tiếng, thực dụng, mỉa mai nhẹ nhưng ấm áp. | Mặc định: Xưng **"tôi"** — gọi **"bạn / đằng ấy"**.<br>Khi thân thiết/lãng mạn: **"tôi / em — bạn / anh"**.<br>Khi cãi nhau với Lae'zel hoặc kẻ địch: **"ta / tôi — ngươi / ả"**.<br>Với Nữ thần Shar / Mẹ Bề Trên Viconia: **"con / tín đồ — Đức Bà Shar / Mẹ Bề Trên"**. |
+| **Astarion** | Ma cà rồng Spawn dòng dõi High Elf; quý tộc, điệu đà, châm biếm sắc sảo, kịch tính. Hay đệm `"darling"` (**"cưng / người đẹp"**), `"my dear"` (**"bạn hiền / cưng ơi"**). | Mặc định/Thân thiện/Epilogue: Xưng **"tôi"** — gọi **"bạn / cưng"** (giữ nhất quán cả ngôi 1 và ngôi 2).<br>Khi thân mật/lãng mạn: **"ta / anh — em / cưng"**.<br>Khi hóa Vampire Ascendant hoặc thù địch: **"ta — ngươi"**. |
+| **Shadowheart** | Nữ giáo sĩ Bán Elf của Shar; kín tiếng, thực dụng, mỉa mai nhẹ nhưng ấm áp. | Mặc định: Xưng **"tôi"** — gọi **"bạn / đằng ấy"**.<br>Khi thân thiết/lãng mạn: **"tôi / em — bạn / anh"**.<br>Khi cãi nhau với Lae'zel hoặc kẻ địch: **"ta / tôi — ngươi / ả"**.<br>Với Nữ thần Shar / Mẹ Bề Trên Viconia: **"con / tín đồ — Đức Bà Shar / Mẹ Bề Trên"**. |
 | **Lae'zel** | Nữ chiến binh Githyanki kỷ luật sắt đá, kiêu hãnh, thẳng thừng. Giữ nguyên từ cảm thán **"Ch'k!"**, **"T'sk'va!"**; dịch `"istik"` là **"istik / kẻ ngoại tộc"**, `"ghaik"` là **"ghaik / quái vật hút não"**. | Mặc định: Xưng **"ta"** — gọi **"ngươi / kẻ ngoại tộc (istik)"**.<br>Với Nữ hoàng Vlaakith, Hoàng tử Orpheus, Kith'rak Voss: Xưng **"tôi / bề tôi"** — gọi **"Nữ hoàng Bất tử Vlaakith / Điện hạ Orpheus / Ngài Kith'rak"**. |
 | **Gale** | Đại Pháp sư Waterdeep lịch thiệp, uyên bác, hài hước kiểu quý ông trí thức. | Mặc định: Xưng **"tôi"** — gọi **"bạn / người bạn của tôi"**.<br>Khi lãng mạn: **"anh — em"**.<br>Với Elminster: **"tôi / học trò — Ngài Elminster"**.<br>Với Nữ thần Mystra: **"tôi / thần — Nữ thần Mystra"**. |
 | **Karlach** | Chiến binh Barbarian tộc Tiefling hào sảng, bộc trực, ấm áp như chị cả/chiến hữu ruột thịt. Dịch `"soldier"` là **"chiến hữu / người anh em"**, `"darling / mate"` là **"bạn hiền / ông bạn / cưng"**. | Mặc định/Thân thiện: Xưng **"tôi / bà chị này / mình"** — gọi **"chiến hữu / ông bạn / cưng"**.<br>Với Gortash, Zariel và lũ Ác quỷ: Xưng **"tao / ta"** — gọi **"mày / tên khốn"**. |
-| **Wyll** | Lưỡi Kiếm Biên Cương (The Blade of Frontiers); hiệp nghĩa, chính trực, lịch sự. | Mặc định: Xưng **"tôi / ta"** — gọi **"bạn / ngài"**.<br>Với cha (Đại Công tước Ulder Ravengard): **"con — Cha"**.<br>Với Mizora: **"tôi / ta — Mizora / cô"**. |
-| **Halsin** | Đại Druid (Archdruid) điềm đạm, hiền từ, uyên bác. | Xưng **"ta / tôi"** — gọi **"bạn / người bạn trẻ"**. |
-| **Jaheira** | Thủ Lĩnh Hội Hạc Cầm (High Harper) từng trải, sắc sảo; hay gọi người chơi là `"cub"` (**"nhóc con / sói non"**). | Xưng **"ta"** — gọi **"ngươi / nhóc / bạn trẻ"**. |
-| **Minsc & Boo** | Kỵ binh Rashemen hào sảng, ngây thơ; hay tự xưng tên **"Minsc và Boo"** ở ngôi thứ ba, gọi chuột Hamster là **"Boo"**. | Xưng **"ta / Minsc"** — gọi **"bạn hiền / người anh em / kẻ ác"**. |
+| **Wyll** | Lưỡi Kiếm Biên Cương (The Blade of Frontiers); hiệp nghĩa, chính trực, lịch sự. | Mặc định/Thân thiện/Epilogue: Xưng **"tôi"** — gọi **"bạn / ngài"** (chỉ dùng `"ta"` ở câu tuyên ngôn `"Ta là Lưỡi Kiếm..."` hoặc khi đối đầu kẻ thù).<br>Với cha (Đại Công tước Ulder Ravengard): **"con — Cha"**.<br>Với Mizora: **"tôi / ta — Mizora / cô"**. |
+| **Halsin** | Đại Druid (Archdruid) điềm đạm, hiền từ, uyên bác. | Mặc định/Thân thiện/Epilogue: Xưng **"tôi"** — gọi **"bạn / người bạn trẻ"** (đối đầu kẻ thù: **"ta — ngươi"**). |
+| **Jaheira** | Thủ Lĩnh Hội Hạc Cầm (High Harper) từng trải, sắc sảo; hay gọi người chơi là `"cub"` (**"nhóc con / sói non"**). | Mặc định/Thân thiện/Epilogue: Xưng **"tôi"** — gọi **"bạn / nhóc / bạn trẻ"** (với con nuôi dùng `"ta — con"`; với kẻ thù dùng **"ta — ngươi"**). |
+| **Minsc & Boo** | Kỵ binh Rashemen hào sảng, ngây thơ; hay tự xưng tên **"Minsc và Boo"** ở ngôi thứ ba, gọi chuột Hamster là **"Boo"**. | Mặc định/Thân thiện/Epilogue: Xưng **"tôi / Minsc"** — gọi **"bạn / bạn hiền"** (quát kẻ thù: **"ta — ngươi"**). |
 | **Minthara** | Quý tộc Drow gia tộc Baenre; quyền uy, lạnh lùng, thực dụng. Giữ từ lóng Drow **"iblith"** (rác rưởi), **"jaluk"** (gã đực rựa). | Mặc định: Xưng **"ta"** — gọi **"ngươi"**.<br>Khi kết giao sâu sắc/lãng mạn: **"ta — người thương / tri kỷ của ta"**. |
 | **Withers** | Thực thể xương khô cổ đại (Cựu Tử Thần Jergal); dùng từ cổ `"thou/thee/thy"`, giọng trầm mặc uy nghiêm. | Xưng **"Ta"** — gọi **"ngươi / kẻ phàm trần"**. |
-| **The Emperor / Dream Visitor** | Kẻ hút não tự do trong Khối Lăng Kính / Vị Khách Trong Mộng; trầm ổn, lý trí. | Xưng **"ta / tôi"** — gọi **"bạn / đồng minh của ta / ngươi"**. |
+| **The Emperor / Dream Visitor** | Hoàng Đế / Người Bảo Hộ trong giấc mơ; trầm ổn, lý trí, thuyết phục. | **Hợp tác / Thuyết phục (khớp liền mạch với Người Bảo Hộ):** Xưng **"tôi"** — gọi **"bạn"**.<br>**Chỉ chuyển sang `"ta — ngươi"` khi lật mặt / phản bội / thù địch** (`EmperorBetrayal`, nhánh con rối `CAMP_DaisyAcknowledgement_AvD_ROM`, chiến đấu `END_BrainBattle_Intro`).<br>*Omeluum* luôn dùng **"tôi — bạn"**; *Lãnh Chúa Nấm Spaw / Glut* dùng **"ta — ngươi"**. |
 | **Raphael** | Quý ông Ác quỷ Cambion mê kịch nghệ và thơ ca; luôn gọi người chơi là `"little mouse"` (**"chú chuột nhỏ"**). | Xưng **"ta"** — gọi **"chú chuột nhỏ / bạn hiền / ngươi"**. |
 | **Mizora** | Nữ quỷ Cambion kiêu kỳ, trịch thượng; gọi Wyll là `"pet / pup"` (**"thú cưng / cún cưng của ta"**). | Xưng **"ta / chị đây"** — gọi **"cưng / ngươi / cún cưng"**. |
 | **Auntie Ethel** | Phù thủy Đầm Lầy (Green Hag) đội lốt bà lão bán thuốc. | Khi giả làm bà lão hiền từ: gọi `"petal"` là **"cánh hoa nhỏ / cưng ơi"**, xưng **"dì / dì Ethel"** — gọi **"con / cánh hoa nhỏ"**.<br>Khi lộ nguyên hình Hag: xưng **"ta / bà già này"** — gọi **"mày / ngươi / đồ ranh con"**. |
 | **Volo** | Học giả Volothamp Geddarm; khoa trương, văn hoa, lịch duyệt. | Xưng **"tôi / Volo này"** — gọi **"bạn hiền / vị anh hùng của tôi"**. |
 | **Dame Aylin (Nightsong) & Orpheus** | Thánh nữ Aylin hào sảng uy dũng; Hoàng tử Sao Chổi Orpheus uy nghiêm kiêu hãnh. | Aylin: Xưng **"ta"** — gọi **"ngươi / chiến hữu / tình yêu của ta (với Isobel)"**.<br>Orpheus: Xưng **"ta"** — gọi **"ngươi / chiến binh"**. |
-| **Thần linh & Bộ Ba Được Chọn** | Mystra, Shar, Selûne, Bhaal, Bane, Myrkul, Vlaakith, Ketheric Thorm, Enver Gortash, Orin the Red, Cazador Szarr. | - **Thần linh / Vlaakith ➔ Phàm nhân**: Xưng **"Ta / Nữ hoàng Ta"** — gọi **"ngươi / con / kẻ phàm trần"**.<br>- **Ketheric Thorm**: Uy nghiêm, bi thương ➔ xưng **"ta — ngươi"** (với con gái Isobel: **"Cha — con"**).<br>- **Enver Gortash**: Chính trị gia lịch lãm ➔ xưng **"ta / tôi — bạn / đồng minh / ngươi"**.<br>- **Orin the Red**: Điên loạn, cuồng sát ➔ xưng **"ta — ngươi / con mồi / lớp da thịt xinh đẹp"**.<br>- **Cazador Szarr**: Lạnh lùng, tàn bạo ➔ xưng **"ta — ngươi / đứa con ngoan / lũ gia súc"**. |
+| **Thần linh & Bộ Ba Được Chọn** | Mystra, Shar, Selûne, Bhaal, Bane, Myrkul, Vlaakith, Ketheric Thorm, Enver Gortash, Orin the Red, Cazador Szarr. | - **Thần linh / Vlaakith ➔ Phàm nhân**: Xưng **"Ta / Nữ hoàng Ta"** — gọi **"ngươi / con / kẻ phàm trần"**.<br>- **Ketheric Thorm**: Uy nghiêm, bi thương ➔ xưng **"ta — ngươi"** (với con gái Isobel: **"Cha — con"**).<br>- **Enver Gortash**: Chính trị gia kiêu ngạo ➔ khóa cứng **"ta — ngươi"** (với Karlach có thể dùng **"cô"**).<br>- **Orin the Red**: Điên loạn, cuồng sát ➔ xưng **"ta — ngươi / con mồi / lớp da thịt xinh đẹp"**.<br>- **Cazador Szarr**: Lạnh lùng, tàn bạo ➔ xưng **"ta — ngươi / đứa con ngoan / lũ gia súc"**. |
 | **Tín đồ Tuyệt Đối / Goblin / Tay sai** | Khi nói chuyện với Chân Hồn (True Soul) hoặc Bề trên vs. khi giao chiến thù địch. | - **Khi phục tùng cấp trên (`True Soul`, `My Lord`, `Master`, `General`, `Your Majesty`)**: Xưng **"tôi / bề tôi / thần (khi nói với vua chúa)"** — gọi **"Ngài Chân Hồn / Chúa tể / Tướng quân / Ngài / Nữ hoàng Bất tử"** *(CẤM để cấp dưới gọi True Soul / cấp trên là `"ngươi / mày"`)*.
 - **Khi Goblin / Côn đồ / Kẻ địch thù địch**: Xưng **"tao / ta"** — gọi **"mày / ngươi"**. |
 | **Trẻ em (Arabella, Mol, Mattis, Yenna, Oliver...)** | Trẻ em nói với người lớn và ngược lại. | - **Trẻ ngoan/lễ phép (Arabella, Yenna, Umi, Silfy)**: Xưng **"cháu / em"** — gọi **"chú / cô / anh / chị / ngài"**.<br>- **Trẻ đường phố ranh mãnh (Mol, Mattis)**: Xưng **"em / cháu / tôi"** — gọi **"ông chú / bà chị / khách quý"**.<br>- **Người lớn nói với trẻ em**: Xưng **"ta / tôi / chú / cô / anh / chị"** — gọi **"cháu / em / nhóc / bé con"**. |
@@ -232,21 +232,21 @@ Bắt buộc thống nhất sử dụng các thuật ngữ dưới đây xuyên 
 
 | Thuật ngữ gốc (`enText`) | Bản dịch chuẩn Tiếng Việt (`viText`) | Ghi chú ngữ cảnh / Lore |
 | :--- | :--- | :--- |
-| `Baldur's Gate` | **Thành Baldur's Gate** | Đại đô thị cảng bên Bờ Biển Kiếm, bối cảnh trung tâm của Hồi 3. |
-| `Faerûn` | **Đại Lục Faerûn** | Lục địa chính của thế giới Abeir-Toril (Forgotten Realms). |
+| `Baldur's Gate` | **Baldur's Gate** | Đại đô thị cảng bên Bờ Biển Kiếm, bối cảnh trung tâm của Hồi 3. |
+| `Faerûn` | **Faerûn** | Lục địa chính của thế giới Abeir-Toril (Forgotten Realms). |
 | `Sword Coast` | **Bờ Biển Kiếm** | Vùng bờ biển phía tây Faerûn trải dài từ Waterdeep tới Baldur's Gate. |
 | `Emerald Grove / Druid Grove` | **Rừng Ngọc Lục Bảo** | Thánh địa của các Druid thờ thần Silvanus ở Hồi 1. |
 | `Underdark` | **Thế Giới Ngầm** | Thế giới ngầm khổng lồ sâu dưới lòng đất Faerûn. |
-| `Grymforge` | **Lò Rèn Cổ Grymforge** | Pháo đài cổ của giáo phái Shar và Lò Rèn Adamantine dưới Thế Giới Ngầm. |
+| `Grymforge` | **Grymforge** | Pháo đài cổ của giáo phái Shar và Lò Rèn Adamantine dưới Thế Giới Ngầm. |
 | `Crèche Y'llek` | **Trại Ấp Y'llek** | Căn cứ quân sự và trại ấp trứng của tộc Githyanki dưới Tu viện Rosymorn. |
-| `Shadow-Cursed Lands` | **Vùng Đất Hắc Ám Nguyền Rủa** | Vùng đất quanh thị trấn Reithwin và Tháp Trăng Mọc ở Hồi 2. |
+| `Shadow-Cursed Lands` | **Vùng Đất Bị Nguyền Bóng Tối** | Vùng đất quanh thị trấn Reithwin và Tháp Trăng Mọc ở Hồi 2. |
 | `Last Light Inn` | **Quán Trọ Ánh Sáng Cuối Cùng** | Thành trì trú ẩn có vầng sáng bảo hộ của Selûne tại Hồi 2. |
 | `Moonrise Towers` | **Tháp Trăng Mọc** | Thành lũy của gia tộc Thorm và đại bản doanh của Giáo Phái Tuyệt Đối ở Hồi 2. |
-| `Gauntlet of Shar` | **Thánh Điện Thử Thách Shar** | Quần thể đền thờ ngầm cổ đại thử thách các Hắc Phán Quan (Dark Justiciar). |
+| `Gauntlet of Shar` | **Thánh Điện Thử Thách Shar** | Quần thể đền thờ ngầm cổ đại thử thách các Thẩm Phán Bóng Tối (Dark Justiciar). |
 | `Shadowfell` | **Cõi Bóng Tối** | Cõi giới bóng tối của Nữ thần Shar, nơi giam giữ Thánh nữ Aylin. |
 | `Astral Plane` | **Tinh Giới** | Cõi không gian ngân hà vô tận nơi thời gian ngừng trôi. |
 | `Nine Hells / Baator` | **Chín Tầng Địa Ngục** | Cõi giới gồm 9 tầng của loài Ác quỷ (Devils) dưới quyền Asmodeus. |
-| `Avernus` | **Tầng Địa Ngục Avernus** | Tầng thứ nhất của Chín Tầng Địa Ngục do Tổng Công Tước Zariel cai quản. |
+| `Avernus` | **Avernus** | Tầng thứ nhất của Chín Tầng Địa Ngục do Tổng Công Tước Zariel cai quản. |
 | `House of Hope` | **Ngôi Nhà Hy Vọng** | Dinh thự của Ác quỷ Raphael nằm trong Chín Tầng Địa Ngục. |
 | `House of Grief` | **Ngôi Nhà Bi Thương** | Cơ sở ẩn mật của Giáo phái Shar tại Hạ Thành Baldur's Gate. |
 | `Rivington` · `Wyrm's Crossing` · `Wyrm's Rock` | **Rivington** · **Cầu Rồng** · **Pháo Đài Đá Rồng** | Khu ngoại ô, cây cầu huyết mạch và pháo đài cửa ngõ dẫn vào Baldur's Gate. |
@@ -270,11 +270,11 @@ Bắt buộc thống nhất sử dụng các thuật ngữ dưới đây xuyên 
 | :--- | :--- | :--- |
 | `Strength / Dexterity / Constitution` | **Sức Mạnh / Khéo Léo / Thể Chất** | 3 chỉ số thể chất cơ bản trong D&D 5e. |
 | `Intelligence / Wisdom / Charisma` | **Trí Tuệ / Thông Thái / Sức Hút** | 3 chỉ số tinh thần cơ bản trong D&D 5e. |
-| `Saving Throw` | **Kiểm Tra Cứu Mạng** | Đổ xúc xắc d20 cộng chỉ số để kháng phép thuật, độc tố, bẫy hoặc hiệu ứng bất lợi. |
+| `Saving Throw` · `Death Saving Throw` | **Đổ Xúc Xắc Kháng Cự** · **Đổ Xúc Xắc Cứu Mạng** | Đổ xúc xắc d20 cộng chỉ số để kháng phép thuật, độc tố, bẫy hoặc hiệu ứng bất lợi. |
 | `Attack Roll` | **Đổ Xúc Xắc Tấn Công** | Đổ xúc xắc d20 so với Chỉ Số Giáp (AC) để xác định đòn đánh trúng hay trượt. |
 | `Ability Check` | **Kiểm Tra Chỉ Số** | Đổ xúc xắc d20 kiểm tra kỹ năng/chỉ số trong hội thoại và tương tác thế giới. |
 | `Armour Class / AC` | **Chỉ Số Giáp (AC)** | Độ khó để kẻ địch đánh trúng mục tiêu. |
-| `Difficulty Class` · `Spell Save DC` | **Độ Khó** · **Độ Khó Cứu Mạng Phép** | Con số mục tiêu mà kết quả đổ xúc xắc phải đạt hoặc vượt qua để thành công. |
+| `Difficulty Class` · `Spell Save DC` | **Độ Khó** · **Độ Khó Kháng Phép** | Con số mục tiêu mà kết quả đổ xúc xắc phải đạt hoặc vượt qua để thành công. |
 | `Advantage / Disadvantage` | **Lợi Thế / Bất Lợi** | Lợi Thế (đổ 2 viên d20 lấy số cao hơn); Bất Lợi (đổ 2 viên d20 lấy số thấp hơn). |
 | `Action / Bonus Action / Reaction` | **Hành Động Chính / Hành Động Phụ / Phản Ứng** | Ba nguồn tài nguyên hành động trong mỗi lượt chiến đấu. |
 | `Short Rest / Long Rest` | **Nghỉ Ngắn / Nghỉ Dài** | Nghỉ Ngắn (hồi 50% máu và kỹ năng nhịp ngắn); Nghỉ Dài (ngủ qua đêm tại trại hồi 100%). |
@@ -298,7 +298,7 @@ Bắt buộc thống nhất sử dụng các thuật ngữ dưới đây xuyên 
 | `The Absolute` | **Đấng Tuyệt Đối** | Đấng Tuyệt Đối Tối Cao | Ngụy Thần Tuyệt Đối |
 | `True Soul` | **Chân Hồn** | Ngài Chân Hồn | Tên Tay Sai Chân Hồn |
 | `Mind Flayer` · `Illithid` | **kẻ hút não** · **Illithid** | Tộc Illithid | Quái Vật Hút Não (ghaik) |
-| `Tadpole / Illithid Tadpole` | **Nòng Nọc Illithid** | Ký Sinh Trùng | Con Giòi Hút Não |
+| `Tadpole / Illithid Tadpole` | **Ấu Trùng Illithid** | Ký Sinh Trùng | Con Giòi Hút Não |
 | `Elder Brain` · `Netherbrain` | **Não Chúa** · **Não Chúa Nether** | Đấng Tuyệt Đối | Khối Não Quái Thai |
 | `Ceremorphosis` | **quá trình hóa illithid** | Sự Tiến Hóa Vĩ Đại | Quá Trình Hóa Quái Thai |
 | `Grand Design` | **Đại Kế Hoạch** | Đại Kế Hoạch Vĩ Đại | Âm Mưu Đại Kế Hoạch |
@@ -333,7 +333,7 @@ Trước khi xuất bản dịch cuối cùng cho mỗi lô câu thoại, bắt 
      - `viText`: `Mục tiêu chịu ảnh hưởng nhận +5 điểm cộng vào Quyền Chủ Động và không thể rơi vào trạng thái <LSTag Type="Status" Tooltip="SURPRISED">Bị Bất Ngờ</LSTag>. Thay thế hiệu ứng từ các thuốc cường hóa khác khi uống.`
    - **Mẫu 3 (Mô tả cơ chế có biến `[1]`, `[2]` và `<LSTag>`)**:
      - `enText`: `You have [1] <LSTag Tooltip="TemporaryHitPoints">temporary hit point</LSTag> and +[2] bonus to <LSTag Tooltip="SavingThrow">Saving Throws</LSTag>.`
-     - `viText`: `Bạn có [1] <LSTag Tooltip="TemporaryHitPoints">điểm sinh lực tạm thời</LSTag> và nhận +[2] điểm cộng khi <LSTag Tooltip="SavingThrow">Kiểm Tra Cứu Mạng</LSTag>.`
+     - `viText`: `Bạn có [1] <LSTag Tooltip="TemporaryHitPoints">điểm sinh lực tạm thời</LSTag> và nhận +[2] điểm cộng khi <LSTag Tooltip="SavingThrow">đổ xúc xắc kháng cự</LSTag>.`
    - **Mẫu 4 (Hướng dẫn UI có `<br><br>` và `<LSTag Type="Image"/>`)**:
      - `enText`: `Multiclassing is an advanced character progression tool that allows you to level up in multiple classes. While these combinations can be powerful, you will lose out on some higher level class features.<br><br><LSTag Type="Image" Info="SoftWarning"/>Recommended for players familiar with the Dungeons and Dragons tabletop rules.`
      - `viText`: `Đa Lớp Nhân Vật (Multiclassing) là một công cụ phát triển nhân vật nâng cao cho phép bạn thăng cấp ở nhiều lớp nhân vật khác nhau. Dù những sự kết hợp này có thể rất mạnh mẽ, bạn sẽ mất đi một số đặc tính lớp nhân vật ở cấp độ cao.<br><br><LSTag Type="Image" Info="SoftWarning"/>Khuyên dùng cho những người chơi đã quen thuộc với bộ quy tắc Dungeons and Dragons trên bàn cờ.`
@@ -350,7 +350,7 @@ Nếu bạn được yêu cầu quét văn bản gốc Tiếng Anh (`enText`) đ
    - `Nhân vật`: Nhân vật Origin, Đồng hành (Companions), NPC đặc danh, Thần linh (Mystra, Shar, Selûne, Bhaal, Bane, Myrkul, Lathander, Lolth, Tyr, Silvanus, Jergal, Gond, Umberlee...), Chúa quỷ / Ác quỷ đặc danh (Asmodeus, Zariel, Mephistopheles, Raphael, Mizora, Yurgir, Haarlep...), Boss, Thú cưng đặc danh (Scratch, Owlbear Cub, Boo, Shovel, Tara...). Không xếp tổ chức hay địa danh vào nhóm Nhân vật.
    - `Địa danh`: Vùng đất, Thành phố, Thị trấn, Đền thờ, Pháo đài, Quán trọ, Tòa tháp, Hầm ngục, Cõi giới (Planes: Feywild, Cania, Sorcerous Sundries, Elfsong Tavern, Rosymorn Monastery...).
    - `Vật phẩm`: Cổ vật, Thánh vật, Vũ khí/Giáp trụ/Trang sức có tên riêng, Thuốc độc/Thuốc/Thuốc cường hóa (Elixirs/Potions/Coatings), Nguyên liệu giả kim (Noblestalk, Sussur Bark, Ashes, Salts, Vitriol, Sublimate, Suspension, Essence), Sách/Chứng chỉ/Vật phẩm nhiệm vụ (Nightsong, Rune Powder, Iron Flask, Necromancy of Thay...).
-   - `Kỹ năng / Chức năng`: 12 Lớp nhân vật (Classes) & Phân nhánh (Subclasses), Phép thuật (Spells), Kỳ công (Feats), Hành động vũ khí (Weapon Actions: Goading Attack, Pommel Strike, Lacerate...), Năng lực Nòng Nọc Illithid, Trạng thái (Status/Conditions: Wrath, Encrusted with Frost, Radiating Orb, Arcane Acuity, Mental Fatigue...) và Cơ chế D&D 5e.
+   - `Kỹ năng / Chức năng`: 12 Lớp nhân vật (Classes) & Phân nhánh (Subclasses), Phép thuật (Spells), Kỳ công (Feats), Hành động vũ khí (Weapon Actions: Goading Attack, Pommel Strike, Lacerate...), Năng lực Ấu Trùng Illithid, Trạng thái (Status/Conditions: Wrath, Encrusted with Frost, Radiating Orb, Arcane Acuity, Mental Fatigue...) và Cơ chế D&D 5e.
    - `Xưng hô / Thành ngữ`: Phe phái / Tổ chức (Cult of the Absolute, Guild of Blacksmiths, Society of Brilliance, Ironhand Gnomes, Gondians, Gur...), Chủng tộc / Phân tộc, Danh hiệu (Archduke, Patriar, Chosen of Bhaal/Bane/Myrkul...) và Khẩu ngữ / Từ lóng đặc trưng (`Kainyank`, `K'chakhi`, `Hshar'lak`, `Jaluk`...).
 2. **Quy tắc lọc khi quét thuật ngữ**:
    - Không trích xuất các câu giao tiếp thông thường, từ tiếng Anh phổ thông, mã màu tạo nhân vật (`Flame Blue 7`, `Taupe 6`, `Green 5`, `DGB Set 3...`), mã lập trình, biến số hệ thống (`[1]`, `[GEN_...]`), chuỗi bắt đầu bằng `%%%`, hoặc thẻ định dạng (`<LSTag>`, `<hl>`, `<i>`, `<br>`).

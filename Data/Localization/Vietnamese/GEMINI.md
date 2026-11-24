@@ -48,7 +48,7 @@ Khi dịch bất kỳ nội dung nào của Baldur's Gate 3, bạn BẮT BUỘC 
 1. **Dịch nhãn `[TAG]`**:
    - Lớp: `[BARBARIAN]` -> `[CUỒNG CHIẾN SĨ]`, `[BARD]` -> `[THI SĨ]`, `[CLERIC]` -> `[GIÁO SĨ]`, `[DRUID]` -> `[DRUID]`, `[FIGHTER]` -> `[CHIẾN BINH]`, `[MONK]` -> `[TU SĨ]`, `[PALADIN]` -> `[HIỆP SĨ THÁNH]`, `[RANGER]` -> `[KIỂM LÂM]`, `[ROGUE]` -> `[KẺ TRỘM]`, `[SORCERER]` -> `[PHÙ THỦY]`, `[WARLOCK]` -> `[PHÁP SƯ KHẾ ƯỚC]`, `[WIZARD]` -> `[PHÁP SƯ]`.
    - Xuất thân / Chủng tộc: `[BALDURIAN]` -> `[NGƯỜI BALDUR'S GATE]`, `[DARK URGE]` -> `[BẢN NĂNG HẮC ÁM]`, `[DROW]` -> `[DROW]`, `[GITHYANKI]` -> `[GITHYANKI]`, `[ELF]` -> `[ELF]`, `[HALF-ELF]` -> `[BÁN ELF]`, `[DWARF]` -> `[NGƯỜI LÙN]`, `[HUMAN]` -> `[CON NGƯỜI]`, `[TIEFLING]` -> `[TIEFLING]`.
-   - Kỹ năng xúc xắc: `[PERSUASION]` -> `[THUYẾT PHỤC]`, `[DECEPTION]` -> `[LỪA PHỈNH]`, `[INTIMIDATION]` -> `[ĐE DỌA]`, `[INSIGHT]` -> `[THẤU CẢM]`, `[PERCEPTION]` -> `[NHẬN THỨC]`, `[INVESTIGATION]` -> `[ĐIỀU TRA]`, `[ARCANA]` -> `[BÍ THUẬT]`, `[HISTORY]` -> `[LỊCH SỬ]`, `[RELIGION]` -> `[TÔN GIÁO]`, `[MEDICINE]` -> `[Y THUẬT]`, `[STEALTH]` -> `[ẨN NẤP]`, `[ATHLETICS]` -> `[ĐIỀN KINH]`, `[SLEIGHT OF HAND]` -> `[NHANH TAY]`, `[DETECT THOUGHTS]` -> `[DÒ TÂM TRÍ]`.
+   - Kỹ năng xúc xắc: `[PERSUASION]` -> `[THUYẾT PHỤC]`, `[DECEPTION]` -> `[LỪA DỐI]`, `[INTIMIDATION]` -> `[ĐE DỌA]`, `[INSIGHT]` -> `[SOI THẤU]`, `[PERCEPTION]` -> `[NHẬN THỨC]`, `[INVESTIGATION]` -> `[ĐIỀU TRA]`, `[ARCANA]` -> `[BÍ THUẬT]`, `[HISTORY]` -> `[LỊCH SỬ]`, `[RELIGION]` -> `[TÔN GIÁO]`, `[MEDICINE]` -> `[Y THUẬT]`, `[STEALTH]` -> `[ẨN NẤP]`, `[ATHLETICS]` -> `[THỂ LỰC]`, `[SLEIGHT OF HAND]` -> `[NHANH TAY]`, `[DETECT THOUGHTS]` -> `[DÒ TÂM TRÍ]`.
 2. **Đoạn mô tả sách `[...]`**: Dịch toàn bộ nội dung bên trong, giữ cặp ngoặc vuông `[...]`.
 3. **Chuỗi bọc trong `|...|`**: Dịch nội dung bên trong, giữ cặp gạch đứng `|...|`.
 4. **Thành ngữ phiếm chỉ**: Dịch tự nhiên (`so-and-so` -> `"cái gã tên-gì-ấy-nhỉ"` / `"đồ tiểu quỷ ranh mãnh"`, `what's-his-face` -> `"gã-mặt-mũi-thế-nào-ấy"`, `cock-and-bull` -> `"bịa đặt hoang đường"`).
@@ -74,17 +74,18 @@ Khi dịch bất kỳ nội dung nào của Baldur's Gate 3, bạn BẮT BUỘC 
 ---
 
 ## 5. XƯNG HÔ & TÍNH CÁCH NHÂN VẬT CHỦ CHỐT
-- **Astarion**: Xưng `"tôi / ta"` - gọi `"bạn / cưng"` (darling). Thù địch: `"ta - ngươi"`.
+- **Astarion**: Thân thiện/Epilogue: `"tôi"` - `"bạn / cưng"` (darling). Thù địch: `"ta - ngươi"`.
 - **Shadowheart**: Xưng `"tôi"` - gọi `"bạn / đằng ấy"`. Với Shar / Viconia: `"con / tín đồ - Đức Bà Shar / Mẹ Bề Trên"`.
 - **Lae'zel**: Xưng `"ta"` - gọi `"ngươi / istik (kẻ ngoại tộc)"`. Giữ `"Ch'k!"`, `"T'sk'va!"`.
 - **Gale**: Lịch thiệp quý ông. Xưng `"tôi"` - gọi `"bạn / người bạn của tôi"`.
 - **Karlach**: Hào sảng, bộc trực. Xưng `"tôi / bà chị này"` - gọi `"chiến hữu (soldier) / bạn hiền / cưng"`. Kẻ thù: `"tao - mày"`.
-- **Wyll**: Hiệp nghĩa, chính trực. Xưng `"tôi / ta"` - gọi `"bạn / ngài"`. Với Mizora: `"tôi / ta - Mizora / cô"`.
-- **Halsin**: Điềm đạm. Xưng `"ta / tôi"` - gọi `"bạn / người bạn trẻ"`.
-- **Jaheira**: Sắc sảo. Xưng `"ta"` - gọi `"ngươi / nhóc (cub) / bạn trẻ"`.
-- **Minsc & Boo**: Hào sảng. Xưng `"ta / Minsc"` - gọi `"bạn hiền / người anh em"`.
+- **Wyll**: Hiệp nghĩa, chính trực. Thân thiện/Epilogue: `"tôi"` - `"bạn / ngài"`. Với cha: `"con - Cha"`. Đối đầu kẻ thù: `"ta - ngươi"`.
+- **Halsin**: Điềm đạm. Thân thiện/Epilogue: `"tôi"` - `"bạn / người bạn trẻ"`.
+- **Jaheira**: Sắc sảo. Thân thiện/Epilogue: `"tôi"` - `"bạn / nhóc (cub) / bạn trẻ"`. Đối đầu kẻ thù: `"ta - ngươi"`.
+- **Minsc & Boo**: Hào sảng. Thân thiện/Epilogue: `"tôi / Minsc"` - `"bạn / bạn hiền"`. Quát kẻ thù: `"ta - ngươi"`.
 - **Minthara**: Lạnh lùng quý tộc Drow. Xưng `"ta"` - gọi `"ngươi"`. Giữ `"iblith"`, `"jaluk"`.
-- **Withers**: Uy nghiêm cổ xưa. Xưng `"Ta"` - gọi `"ngươi / kẻ phàm trần"`.
+- **Withers & Orpheus & Spaw/Glut**: Uy nghiêm cổ xưa. Xưng `"Ta"` - gọi `"ngươi / kẻ phàm trần"`.
+- **The Emperor / Dream Visitor (Hoàng Đế / Người Bảo Hộ)**: Hợp tác/thuyết phục dùng nhất quán `"tôi - bạn"`; **chỉ chuyển `"ta - ngươi"` khi lật mặt/phản bội/thù địch** (`EmperorBetrayal`, nhánh con rối, `END_BrainBattle_Intro`). **Omeluum**: luôn `"tôi - bạn"`.
 - **Raphael**: Quý ông Ác quỷ mê kịch. Xưng `"ta"` - gọi `"chú chuột nhỏ (little mouse) / bạn hiền / ngươi"`.
 - **Mizora**: Kiêu kỳ. Xưng `"ta / chị đây"` - gọi `"cưng / ngươi / cún cưng (pup/pet)"`.
 - **Auntie Ethel**: Giả hiền: xưng `"dì / dì Ethel"` - gọi `"cánh hoa nhỏ (petal) / cưng"`. Lộ mặt Hag: xưng `"ta / bà già này"` - gọi `"mày / ngươi / đồ ranh con"`.
@@ -96,27 +97,36 @@ Khi dịch bất kỳ nội dung nào của Baldur's Gate 3, bạn BẮT BUỘC 
 Luôn luôn tra cứu và đồng bộ tuyệt đối với thư viện thuật ngữ v2 (mỗi mục một tên chuẩn; mục `priority: core` thắng mọi nguồn khác; không dùng các cách dịch trong `deprecatedVi`). Xem bảng lõi ở mục 0 của `quy_tac_dich_bg3_google_antigravity.md`. File:
 `c:\Users\tuyen\OneDrive\Desktop\3 Baldur's Gate 3\BG3_Glossary_ThuVienChuan.json`
 - 6 chỉ số: Sức Mạnh / Khéo Léo / Thể Chất / Trí Tuệ / Thông Thái / Sức Hút
-- 12 lớp: Cuồng Chiến Sĩ, Thi Sĩ, Giáo Sĩ, Druid, Chiến Binh, Tu Sĩ, Hiệp Sĩ Thánh, Kiểm Lâm, Kẻ Trộm, Phù Thủy, Pháp Sư Khế Ước, Pháp Sư
+- 12 lớp: Cuồng Chiến Sĩ, Thi Sĩ, Giáo Sĩ, Druid, Chiến Binh, Tu Sĩ, Hiệp Sĩ Thánh, Kiểm Lâm, Kẻ Trộm, Phù Thủy, Pháp Sư Khế Ước, Pháp Sư *(phân nhánh Thief -> **Siêu Trộm**, The Fiend -> **Ác Quỷ**, xuất thân Acolyte -> **Tín Đồ Tập Sự**)*
 - Underdark -> **Thế Giới Ngầm** · Flaming Fist -> **Nắm Đấm Lửa** · Weave -> **Mạng Lưới Ma Pháp** · Shadowfell -> **Cõi Bóng Tối**
 - Hiện đại hóa Hán Việt (Phase 7): tránh từ Hán Việt cổ/kiếm hiệp (`đa tạ, bằng hữu, huynh đệ, tỷ muội, đại nhân, thuộc hạ, sư phụ, linh dược, độc dược, mũ trụ, hộ phù, chủy thủ, trường kiếm, võ tăng, man binh, hắc phán quan...`) ➔ dùng tiếng Việt hiện đại tự nhiên theo thư viện chuẩn. Xem bảng 0.2 trong quy tắc dịch.
 - `The Absolute` -> **Đấng Tuyệt Đối**
 - `True Soul` -> **Chân Hồn**
 - `Mind Flayer` -> **kẻ hút não** · `Illithid` -> **Illithid**
-- `Tadpole / Illithid Tadpole` -> **Nòng Nọc Illithid**
+- `Tadpole / Illithid Tadpole` -> **Ấu Trùng Illithid** *(không dùng Nòng Nọc)*
 - `Elder Brain / Netherbrain` -> **Não Chúa / Não Chúa Nether**
 - `Ceremorphosis` -> **quá trình hóa illithid**
 - `Grand Design` -> **Đại Kế Hoạch**
+- `Harpers / Gondians / Ironhand` -> **Hội Hạc Cầm / Tín Đồ Gond / Bàn Tay Sắt**
+- `Doppelganger / Owlbear / Redcap / Vampire Spawn` -> **Kẻ Biến Hình / Gấu Cú / Yêu Mũ Đỏ / Ma Cà Rồng Hạ Đẳng**
+- `Smokepowder / Runepowder / Wild Shape` -> **Thuốc Nổ Khói / Thuốc Nổ Cổ Ngữ / Hóa Thân Hoang Dã**
 - `Astral Prism` -> **Khối Lăng Kính Tinh Giới**
 - `Netherstone` -> **Đá Nether**
 - `Crown of Karsus` -> **Vương Miện Karsus**
 - `Camp Supplies` -> **Lương Thực Cắm Trại**
-- `Saving Throw` -> **Kiểm Tra Cứu Mạng**
+- `Saving Throw` -> **Đổ Xúc Xắc Kháng Cự**
+- `Death Saving Throw` -> **Đổ Xúc Xắc Cứu Mạng**
+- `Thunder / Lightning / Radiant Damage` -> **Sát Thương Sấm / Sét / Thánh Quang**
+- `8 Trường phái phép` -> **Hộ Thân, Triệu Hồi, Tiên Tri, Mê Hoặc, Bộc Phát, Ảo Ảnh, Tử Linh, Chuyển Hóa**
 - `Attack Roll` -> **Đổ Xúc Xắc Tấn Công**
 - `Advantage / Disadvantage` -> **Lợi Thế / Bất Lợi**
 - `Short Rest / Long Rest` -> **Nghỉ Ngắn / Nghỉ Dài**
 - `Hit Points` -> **Điểm Sinh Lực**
 - `Initiative` -> **Quyền Chủ Động**
 - `Prone / Surprised / Frightened` -> **Ngã Sấp / Bị Bất Ngờ / Hoảng Sợ**
+- `Dazed / Stunned` -> **Hoa Mắt / Choáng Váng** *(TUYỆT ĐỐI không dịch trùng cả hai là Choáng Váng)*
+- `Darkvision / Difficult Terrain / Find Familiar / Magic Missile` -> **Nhìn Trong Bóng Tối / Địa Hình Khó Đi / Triệu Hồi Thú Đồng Hành / Mũi Tên Ma Thuật**
+- `Channel Divinity / Channel Oath / Non-Lethal` -> **Dẫn Truyền Thần Lực / Dẫn Truyền Lời Thề / Không Gây Chết Người**
 
 ---
 
