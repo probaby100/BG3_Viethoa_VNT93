@@ -1935,7 +1935,7 @@
   {
     "id": "prescan-1793189987856-0o4q",
     "termEnZh": "War Domain",
-    "translationVi": "Miền chiến tranh",
+    "translationVi": "Quyền năng Chiến Tranh",
     "category": "Kỹ năng / Chức năng",
     "description": "Miền phụ của giáo sĩ, tập trung vào chiến đấu võ thuật và quyền năng thần thánh phục vụ chiến tranh.",
     "addedAt": "Pre-Scan Engine",
@@ -1944,7 +1944,10 @@
     "indifferentVi": "Miền chiến tranh",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "updatedAt": "2026-11-21 (Phase 6 Caps)",
+    "deprecatedVi": [
+      "Miền chiến tranh"
+    ]
   },
   {
     "id": "prescan-1793189987857-4mlz",
@@ -5003,7 +5006,7 @@
     "termEnZh": "Alchemical Ingredient",
     "translationVi": "Nguyên liệu giả kim",
     "category": "Vật phẩm",
-    "description": "Nhóm nguyên liệu dùng trong chế tạo dược phẩm và giả kim, bao gồm các chất chiết xuất như Essence, Suspension, Sublimate, Salts, Vitriol.",
+    "description": "Nhóm nguyên liệu dùng trong chế tạo dược phẩm và giả kim, bao gồm các chất chiết xuất như Essence, Suspension, Sublimate, Salts, Dịch axit.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Nguyên liệu giả kim",
     "hostileVi": "Nguyên liệu giả kim",
@@ -5739,7 +5742,7 @@
     "termEnZh": "Blessing of the Trickster",
     "translationVi": "Phúc lành kẻ lừa gạt",
     "category": "Kỹ năng / Chức năng",
-    "description": "Năng lực miền Lừa Gạt của giáo sĩ, ban lợi thế cho mục tiêu trong các lượt kiểm tra Lén Lút.",
+    "description": "Năng lực Quyền năng Đánh Lừa của giáo sĩ, ban lợi thế cho mục tiêu trong các lượt kiểm tra Lén Lút.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Phúc lành kẻ lừa gạt",
     "hostileVi": "Phúc lành kẻ lừa gạt",
@@ -9768,7 +9771,7 @@
     "termEnZh": "Potion of Cold Resistance",
     "translationVi": "Thuốc kháng lạnh",
     "category": "Vật phẩm",
-    "description": "Thuốc cường hóa cấp Resistance cho Cold damage trong một thời gian, giảm một nửa sát thương băng giá nhận vào, hữu ích khi đối mặt White Dragon hoặc Ice Storm.",
+    "description": "Thuốc cường hóa cấp Resistance cho Cold damage trong một thời gian, giảm một nửa sát thương băng nhận vào, hữu ích khi đối mặt White Dragon hoặc Ice Storm.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Thuốc kháng lạnh",
     "hostileVi": "Thuốc kháng lạnh",
@@ -11642,7 +11645,7 @@
     "termEnZh": "Flammable Slime Bomb",
     "translationVi": "Bom nhớt dễ cháy",
     "category": "Vật phẩm",
-    "description": "Vật phẩm ném có thể tạo vũng nhớt dễ bắt lửa, kết hợp với nguồn lửa gây sát thương hỏa diện rộng. Thuộc loại bom giả kim hoặc vũ khí chiến thuật.",
+    "description": "Vật phẩm ném có thể tạo vũng nhớt dễ bắt lửa, kết hợp với nguồn lửa gây sát thương lửa diện rộng. Thuộc loại bom giả kim hoặc vũ khí chiến thuật.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Bom nhớt dễ cháy",
     "hostileVi": "Bom nhớt dễ cháy",
@@ -11904,7 +11907,7 @@
   {
     "id": "prescan-1793194767230-d4pe",
     "termEnZh": "Nature Domain",
-    "translationVi": "Miền thiên nhiên",
+    "translationVi": "Quyền năng Tự Nhiên",
     "category": "Kỹ năng / Chức năng",
     "description": "Miền thần thánh dành cho Giáo sĩ gắn với sức mạnh thiên nhiên; xuất hiện như lựa chọn miền của lớp Cleric.",
     "addedAt": "Pre-Scan Engine",
@@ -11913,7 +11916,10 @@
     "indifferentVi": "Miền thiên nhiên",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "updatedAt": "2026-11-21 (Phase 6 Caps)",
+    "deprecatedVi": [
+      "Miền thiên nhiên"
+    ]
   },
   {
     "id": "prescan-1793194767230-mtvj",
@@ -12449,7 +12455,7 @@
     "termEnZh": "Hellish Resistance",
     "translationVi": "Kháng lửa Địa Ngục",
     "category": "Kỹ năng / Chức năng",
-    "description": "Đặc tính chủng tộc Tiefling trong D&D 5e, miễn giảm sát thương Hỏa (Fire). Xuất hiện trên bảng nhân vật và mô tả kỹ năng.",
+    "description": "Đặc tính chủng tộc Tiefling trong D&D 5e, miễn giảm sát thương lửa (Fire). Xuất hiện trên bảng nhân vật và mô tả kỹ năng.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Kháng lửa Địa Ngục",
     "hostileVi": "Kháng lửa Địa Ngục",
@@ -13197,7 +13203,7 @@
     "termEnZh": "Scorching Strike",
     "translationVi": "Đòn thiêu đốt",
     "category": "Kỹ năng / Chức năng",
-    "description": "Hành động vũ khí (Weapon Action) gây thêm sát thương hỏa lửa cho đòn tấn công cận chiến, thường có từ vũ khí hoặc phép phù phép đặc biệt.",
+    "description": "Hành động vũ khí (Weapon Action) gây thêm sát thương lửa lửa cho đòn tấn công cận chiến, thường có từ vũ khí hoặc phép phù phép đặc biệt.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Đòn thiêu đốt",
     "hostileVi": "Đòn thiêu đốt",
@@ -14041,7 +14047,7 @@
     "termEnZh": "Fire Elemental",
     "translationVi": "Nguyên Tố Lửa",
     "category": "Nhân vật",
-    "description": "Sinh vật nguyên tố thuộc hệ Lửa, có thể triệu hồi hoặc gặp trong chiến đấu, gây sát thương Hỏa hoạn.",
+    "description": "Sinh vật nguyên tố thuộc hệ Lửa, có thể triệu hồi hoặc gặp trong chiến đấu, gây sát thương lửa hoạn.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Nguyên Tố Lửa",
     "hostileVi": "Nguyên Tố Lửa",
@@ -14553,7 +14559,7 @@
     "termEnZh": "Pale Widow Gloves",
     "translationVi": "Găng tay góa phụ nhợt nhạt",
     "category": "Vật phẩm",
-    "description": "Găng tay hiếm có khả năng tăng cường sát thương độc tố. Thường rơi từ nhện khổng lồ hoặc tìm thấy trong các khu vực đầy nguy hiểm của Underdark.",
+    "description": "Găng tay hiếm có khả năng tăng cường sát thương độc. Thường rơi từ nhện khổng lồ hoặc tìm thấy trong các khu vực đầy nguy hiểm của Underdark.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Găng tay góa phụ nhợt nhạt",
     "hostileVi": "Găng tay góa phụ nhợt nhạt",
@@ -14677,9 +14683,9 @@
   {
     "id": "prescan-1793195645754-3ulq",
     "termEnZh": "Knowledge Domain",
-    "translationVi": "Miền tri thức",
+    "translationVi": "Quyền năng Tri Thức",
     "category": "Kỹ năng / Chức năng",
-    "description": "Một trong các Lãnh Vực (Domain) dành cho lớp Giáo Sĩ. Giáo Sĩ theo Miền Tri Thức thờ phụng các vị thần học thuật, lưu trữ kiến thức như Oghma hay Mystra, nhận năng lực bổ trợ liên quan đến kỹ năng kiến thức và phép thuật.",
+    "description": "Một trong các Lãnh Vực (Domain) dành cho lớp Giáo Sĩ. Giáo Sĩ theo Quyền năng Tri Thức thờ phụng các vị thần học thuật, lưu trữ kiến thức như Oghma hay Mystra, nhận năng lực bổ trợ liên quan đến kỹ năng kiến thức và phép thuật.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Miền tri thức",
     "hostileVi": "Miền tri thức",
@@ -14688,7 +14694,8 @@
     "uiFixed": true,
     "deprecatedVi": [
       "Lãnh Vực Tri Thức",
-      "Lĩnh Vực Tri Thức"
+      "Lĩnh Vực Tri Thức",
+      "Miền tri thức"
     ],
     "updatedAt": "2026-11-21 (Phase 6 Caps)"
   },
@@ -17444,7 +17451,7 @@
     "termEnZh": "Cone of Cold",
     "translationVi": "Nón băng giá",
     "category": "Kỹ năng / Chức năng",
-    "description": "Phép thuật bậc 5 thuộc trường Evocation. Tạo luồng không khí đóng băng hình nón, gây sát thương băng giá và có thể gây trạng thái Encrusted with Frost cho mục tiêu. Phổ biến trong bộ phép của Wizard và Sorcerer.",
+    "description": "Phép thuật bậc 5 thuộc trường Evocation. Tạo luồng không khí đóng băng hình nón, gây sát thương băng và có thể gây trạng thái Encrusted with Frost cho mục tiêu. Phổ biến trong bộ phép của Wizard và Sorcerer.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Nón băng giá",
     "hostileVi": "Nón băng giá",
@@ -20026,7 +20033,7 @@
     "termEnZh": "Elixir of Fire Resistance",
     "translationVi": "Thuốc cường hóa kháng lửa",
     "category": "Vật phẩm",
-    "description": "Thuốc cường hóa giả kim cấp kháng sát thương hỏa hoạn (Fire Resistance) trong một khoảng thời gian, hữu ích khi đối đầu với phép thuật lửa hoặc Rồng.",
+    "description": "Thuốc cường hóa giả kim cấp kháng sát thương lửa hoạn (Fire Resistance) trong một khoảng thời gian, hữu ích khi đối đầu với phép thuật lửa hoặc Rồng.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Thuốc cường hóa kháng lửa",
     "hostileVi": "Thuốc cường hóa kháng lửa",
@@ -21526,7 +21533,7 @@
     "termEnZh": "Suspension of Mergrass",
     "translationVi": "Dung dịch chiết xuất cỏ mer",
     "category": "Vật phẩm",
-    "description": "Nguyên liệu giả kim dạng Suspension (huyền phù) được chiết xuất từ cỏ Mer, dùng để chế tạo thuốc bổ trợ hoặc thuốc độc trong hệ thống Alchemy của BG3.",
+    "description": "Nguyên liệu giả kim dạng Dung dịch (Suspension) được chiết xuất từ cỏ Mer, dùng để chế tạo thuốc bổ trợ hoặc thuốc độc trong hệ thống Alchemy của BG3.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Dung dịch chiết xuất cỏ mer",
     "hostileVi": "Dung dịch chiết xuất cỏ mer",
@@ -22416,7 +22423,7 @@
     "termEnZh": "Flames of Avernus",
     "translationVi": "Ngọn lửa Avernus",
     "category": "Kỹ năng / Chức năng",
-    "description": "Phép thuật hoặc năng lực gây sát thương Hỏa nguyên tố đặc trưng từ tầng Địa ngục Avernus, thường xuất hiện trên vũ khí hoặc sinh vật gắn liền với cuộc Chiến tranh Máu (Blood War).",
+    "description": "Phép thuật hoặc năng lực gây sát thương lửa nguyên tố đặc trưng từ tầng Địa ngục Avernus, thường xuất hiện trên vũ khí hoặc sinh vật gắn liền với cuộc Chiến tranh Máu (Blood War).",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Ngọn lửa Avernus",
     "hostileVi": "Ngọn lửa Avernus",
@@ -27083,7 +27090,7 @@
   {
     "id": "prescan-1793710611423-ri2a",
     "termEnZh": "Death Domain",
-    "translationVi": "Miền tử thần",
+    "translationVi": "Quyền năng Tử Thần",
     "category": "Kỹ năng / Chức năng",
     "description": "Phân nhánh Cleric (Linh Mục) trong D&D 5e, tập trung vào quyền năng tử vong và năng lực hủy diệt. Cleric thuộc Death Domain thờ phụng các thần tử thần như Kelemvor, Myrkul hoặc Jergal, có khả năng triệu hồi undead và gây sát thương hoại tử.",
     "addedAt": "Pre-Scan Engine",
@@ -27094,7 +27101,8 @@
     "uiFixed": false,
     "updatedAt": "2026-11-21 (Phase 6 Caps)",
     "deprecatedVi": [
-      "Lĩnh Vực Tử Vong"
+      "Lĩnh Vực Tử Vong",
+      "Miền tử thần"
     ],
     "reviewNote": "QA v2: thong_nhat"
   },
@@ -29213,7 +29221,7 @@
   {
     "id": "prescan-1793711531831-k298",
     "termEnZh": "Piercing",
-    "translationVi": "Sát thương xuyên phá",
+    "translationVi": "Sát thương đâm",
     "category": "Kỹ năng / Chức năng",
     "description": "Loại sát thương từ mũi giáo, tên, dao găm. Xuất hiện trong bảng tóm tắt vũ khí và khi kiểm tra khả năng kháng của kẻ địch trong Baldur's Gate 3.",
     "addedAt": "Pre-Scan Engine",
@@ -29222,12 +29230,15 @@
     "indifferentVi": "Sát thương xuyên phá",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "updatedAt": "2026-11-21 (Phase 6 Caps)",
+    "deprecatedVi": [
+      "Sát thương xuyên phá"
+    ]
   },
   {
     "id": "prescan-1793711531831-rggy",
     "termEnZh": "Bludgeoning",
-    "translationVi": "Sát thương đập bầm",
+    "translationVi": "Sát thương đập",
     "category": "Kỹ năng / Chức năng",
     "description": "Sát thương từ chùy, gậy, búa — dạng vật lý thứ ba bên cạnh chém và xuyên. Thường gặp ở vũ khí của Cleric, quái vật khổng lồ và bẫy nghiền.",
     "addedAt": "Pre-Scan Engine",
@@ -29236,7 +29247,10 @@
     "indifferentVi": "Sát thương đập bầm",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "updatedAt": "2026-11-21 (Phase 6 Caps)",
+    "deprecatedVi": [
+      "Sát thương đập bầm"
+    ]
   },
   {
     "id": "prescan-1793711531831-rhym",
@@ -29255,7 +29269,7 @@
   {
     "id": "prescan-1793711531831-hvcs",
     "termEnZh": "Cold",
-    "translationVi": "Sát thương băng giá",
+    "translationVi": "Sát thương băng",
     "category": "Kỹ năng / Chức năng",
     "description": "Sát thương lạnh từ phép như Ray of Frost, Cone of Cold, hoặc môi trường băng tuyết. Có thể kích hoạt trạng thái tê cứng và làm chậm mục tiêu.",
     "addedAt": "Pre-Scan Engine",
@@ -29264,7 +29278,10 @@
     "indifferentVi": "Sát thương băng giá",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "updatedAt": "2026-11-21 (Phase 6 Caps)",
+    "deprecatedVi": [
+      "Sát thương băng giá"
+    ]
   },
   {
     "id": "prescan-1793711531831-4zvk",
@@ -30313,7 +30330,7 @@
     "termEnZh": "Insidious Cold",
     "translationVi": "Lạnh âm hiểm",
     "category": "Kỹ năng / Chức năng",
-    "description": "Trạng thái hoặc hiệu ứng gây sát thương băng giá kéo dài, thường đi kèm với sự suy giảm khả năng chống chịu của mục tiêu.",
+    "description": "Trạng thái hoặc hiệu ứng gây sát thương băng kéo dài, thường đi kèm với sự suy giảm khả năng chống chịu của mục tiêu.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Lạnh âm hiểm",
     "hostileVi": "Lạnh âm hiểm",
@@ -35045,7 +35062,7 @@
     "termEnZh": "Hellfire Greataxe",
     "translationVi": "Rìu lớn lửa Địa Ngục",
     "category": "Vật phẩm",
-    "description": "Vũ khí hạng nặng với nguồn gốc địa ngục, gây sát thương hỏa hoặc có hiệu ứng đặc biệt liên quan Hells.",
+    "description": "Vũ khí hạng nặng với nguồn gốc địa ngục, gây sát thương lửa hoặc có hiệu ứng đặc biệt liên quan Hells.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Rìu lớn lửa Địa Ngục",
     "hostileVi": "Rìu lớn lửa Địa Ngục",
@@ -36334,7 +36351,7 @@
     "termEnZh": "Wild Magic: Burning",
     "translationVi": "Ma thuật hoang dã: Bốc cháy",
     "category": "Kỹ năng / Chức năng",
-    "description": "Hiệu ứng ngẫu nhiên của Ma Thuật Hoang Dã gây ra trạng thái Bùng Cháy, khiến mục tiêu chịu sát thương Hỏa hoạn theo thời gian.",
+    "description": "Hiệu ứng ngẫu nhiên của Ma Thuật Hoang Dã gây ra trạng thái Bùng Cháy, khiến mục tiêu chịu sát thương lửa hoạn theo thời gian.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Ma thuật hoang dã: Bốc cháy",
     "hostileVi": "Ma thuật hoang dã: Bốc cháy",
@@ -37169,16 +37186,19 @@
   {
     "id": "prescan-1793714347087-go2w",
     "termEnZh": "Vitriol of Bonecap",
-    "translationVi": "Dung dịch ăn mòn nấm mũ xương",
+    "translationVi": "Dịch axit nấm mũ xương",
     "category": "Vật phẩm",
-    "description": "Nguyên liệu giả kim — Vitriol chiết xuất từ Bonecap (Nấm Mũ Xương). Sử dụng trong hệ thống Alchemy BG3 để chế tạo các loại Coating độc hoặc Elixir đặc biệt.",
+    "description": "Nguyên liệu giả kim — Dịch axit chiết xuất từ Bonecap (Nấm Mũ Xương). Sử dụng trong hệ thống Alchemy BG3 để chế tạo các loại Coating độc hoặc Elixir đặc biệt.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Dung dịch ăn mòn nấm mũ xương",
     "hostileVi": "Dung dịch ăn mòn nấm mũ xương",
     "indifferentVi": "Dung dịch ăn mòn nấm mũ xương",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "updatedAt": "2026-11-21 (Phase 6 Caps)",
+    "deprecatedVi": [
+      "Dung dịch ăn mòn nấm mũ xương"
+    ]
   },
   {
     "id": "prescan-1793714347087-3n9d",
@@ -38180,7 +38200,7 @@
     "termEnZh": "Infernal Weapon",
     "translationVi": "Vũ khí Địa Ngục",
     "category": "Kỹ năng / Chức năng",
-    "description": "Phép thuật hoặc năng lực tăng sát thương Hỏa cho vũ khí, thường liên quan đến Warlock giao kèo Fiend (Ác Quỷ).",
+    "description": "Phép thuật hoặc năng lực tăng sát thương lửa cho vũ khí, thường liên quan đến Warlock giao kèo Fiend (Ác Quỷ).",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Vũ khí Địa Ngục",
     "hostileVi": "Vũ khí Địa Ngục",
@@ -39433,7 +39453,7 @@
   {
     "id": "prescan-1793715034909-o52q",
     "termEnZh": "Life Domain",
-    "translationVi": "Miền sự sống",
+    "translationVi": "Quyền năng Sự Sống",
     "category": "Kỹ năng / Chức năng",
     "description": "Phân nhánh (Subclass) của lớp Cleric (Giáo Sĩ) trong D&D 5e và BG3, chuyên về hồi phục và bảo vệ. Cho phép tăng cường hiệu quả các phép chữa trị và nhận thêm phép từ danh sách Life Domain như Cure Wounds, Lesser Restoration.",
     "addedAt": "Pre-Scan Engine",
@@ -39444,7 +39464,8 @@
     "uiFixed": true,
     "deprecatedVi": [
       "Lĩnh Vực Sự Sống",
-      "Giáo Vực Sự Sống"
+      "Giáo Vực Sự Sống",
+      "Miền sự sống"
     ],
     "updatedAt": "2026-11-21 (Phase 6 Caps)"
   },
@@ -43410,7 +43431,7 @@
   {
     "id": "prescan-1793800743133-43vz",
     "termEnZh": "Trickery Domain",
-    "translationVi": "Miền lừa lọc",
+    "translationVi": "Quyền năng Đánh Lừa",
     "category": "Kỹ năng / Chức năng",
     "description": "Phân nhánh của lớp Cleric (Tư Tế) trong D&D 5e và Baldur's Gate 3, dành cho tín đồ các vị thần dối gian như Loviatar hoặc Mask. Ban các phép ảo ảnh, tàng hình và Blessing of the Trickster. Xuất hiện ở màn tạo nhân vật và khi chọn Subclass tại cấp 1.",
     "addedAt": "Pre-Scan Engine",
@@ -43423,7 +43444,8 @@
       "Giáo Phái Lừa Mị (Trickery Domain)",
       "Giáo Phái Lừa Mị",
       "Miền Lừa Mị",
-      "Lĩnh Vực Lừa Mị"
+      "Lĩnh Vực Lừa Mị",
+      "Miền lừa lọc"
     ],
     "updatedAt": "2026-11-21 (Phase 6 Caps)"
   },
@@ -43767,7 +43789,7 @@
   {
     "id": "prescan-1793800822838-omhb",
     "termEnZh": "Vitriol",
-    "translationVi": "Vitriol",
+    "translationVi": "Dịch axit",
     "category": "Vật phẩm",
     "description": "Nguyên liệu giả kim độc tố dùng để chế tạo thuốc, thuốc độc hoặc phủ vũ khí.",
     "addedAt": "Pre-Scan Engine",
@@ -43778,7 +43800,8 @@
     "uiFixed": false,
     "updatedAt": "2026-11-21 (Phase 7 Modernize)",
     "deprecatedVi": [
-      "Vitriol (Nguyên Liệu Giả Kim)"
+      "Vitriol (Nguyên Liệu Giả Kim)",
+      "Vitriol"
     ],
     "reviewNote": "QA v2: da_phuong_an"
   },
@@ -49344,7 +49367,7 @@
     "termEnZh": "Watery Rejuvenation",
     "translationVi": "Tái sinh thủy triều",
     "category": "Kỹ năng / Chức năng",
-    "description": "Năng lực của các sinh vật nguyên tố nước (Water Myrmidon, Water Elemental): hồi phục điểm sinh lực khi đứng trong vùng nước hoặc khi hứng sát thương băng giá. Là trạng thái bị động hiển thị trên thanh hiệu ứng.",
+    "description": "Năng lực của các sinh vật nguyên tố nước (Water Myrmidon, Water Elemental): hồi phục điểm sinh lực khi đứng trong vùng nước hoặc khi hứng sát thương băng. Là trạng thái bị động hiển thị trên thanh hiệu ứng.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Tái sinh thủy triều",
     "hostileVi": "Tái sinh thủy triều",
@@ -54005,7 +54028,7 @@
     "termEnZh": "Divine Strike on Critical: Cold",
     "translationVi": "Đòn thần thánh khi chí mạng: Băng giá",
     "category": "Kỹ năng / Chức năng",
-    "description": "Năng lực đặc biệt của Cleric hoặc Paladin: khi tấn công chí mạng, bổ sung sát thương băng giá từ quyền năng thần linh.",
+    "description": "Năng lực đặc biệt của Cleric hoặc Paladin: khi tấn công chí mạng, bổ sung sát thương băng từ quyền năng thần linh.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Đòn thần thánh khi chí mạng: Băng giá",
     "hostileVi": "Đòn thần thánh khi chí mạng: Băng giá",
@@ -56429,7 +56452,7 @@
     "termEnZh": "Gloves of Flint and Steel",
     "translationVi": "Găng tay đá lửa",
     "category": "Vật phẩm",
-    "description": "Trang bị đặc biệt có khả năng tạo lửa hoặc tăng cường sát thương hỏa hoàn, liên quan đến cơ chế đốt cháy và phản ứng nguyên tố trong chiến đấu.",
+    "description": "Trang bị đặc biệt có khả năng tạo lửa hoặc tăng cường sát thương lửa hoàn, liên quan đến cơ chế đốt cháy và phản ứng nguyên tố trong chiến đấu.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Găng tay đá lửa",
     "hostileVi": "Găng tay đá lửa",
@@ -58346,7 +58369,7 @@
     "termEnZh": "Cruel Sting",
     "translationVi": "Mũi chích tàn độc",
     "category": "Kỹ năng / Chức năng",
-    "description": "Đòn tấn công đặc biệt gây sát thương xuyên phá kèm hiệu ứng độc, thuộc kho chiêu thức của sinh vật có ngòi hoặc vũ khí tẩm độc. Hiển thị trên thanh hành động khi điều khiển hoặc bị tấn công.",
+    "description": "Đòn tấn công đặc biệt gây sát thương đâm kèm hiệu ứng độc, thuộc kho chiêu thức của sinh vật có ngòi hoặc vũ khí tẩm độc. Hiển thị trên thanh hành động khi điều khiển hoặc bị tấn công.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Mũi chích tàn độc",
     "hostileVi": "Mũi chích tàn độc",
@@ -59222,7 +59245,7 @@
     "termEnZh": "Piercing Shot",
     "translationVi": "Phát bắn xuyên phá",
     "category": "Kỹ năng / Chức năng",
-    "description": "Hành động vũ khí (Weapon Action) của nỏ: bắn một mũi xuyên qua mục tiêu gây sát thương Xuyên Phá bổ sung, tiêu tốn điểm Hành Động và Charge vũ khí. Dịch đồng bộ với hệ thuật ngữ sát thương Piercing.",
+    "description": "Hành động vũ khí (Weapon Action) của nỏ: bắn một mũi xuyên qua mục tiêu gây sát thương đâm bổ sung, tiêu tốn điểm Hành Động và Charge vũ khí. Dịch đồng bộ với hệ thuật ngữ sát thương Piercing.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Phát bắn xuyên phá",
     "hostileVi": "Phát bắn xuyên phá",
@@ -60943,7 +60966,7 @@
     "hostileVi": "Viên đá phù phép kia",
     "indifferentVi": "Đá Biến đổi kháng Băng",
     "category": "Vật phẩm",
-    "description": "Vật phẩm đặc biệt do Transmutation Wizard (Pháp Sư Biến Đổi) tạo ra, cung cấp khả năng kháng sát thương Băng Giá (Cold Resistance) cho người sử dụng hoặc đồng minh.",
+    "description": "Vật phẩm đặc biệt do Transmutation Wizard (Pháp Sư Biến Đổi) tạo ra, cung cấp khả năng kháng sát thương băng (Cold Resistance) cho người sử dụng hoặc đồng minh.",
     "addedAt": "Pre-Scan Engine",
     "priority": "standard",
     "uiFixed": false,
@@ -63600,7 +63623,7 @@
     "termEnZh": "Piercing Vulnerability",
     "translationVi": "Dễ bị tổn thương bởi sát thương xuyên phá",
     "category": "Kỹ năng / Chức năng",
-    "description": "Trạng thái khiến mục tiêu chịu thêm sát thương xuyên phá.",
+    "description": "Trạng thái khiến mục tiêu chịu thêm sát thương đâm.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Dễ bị tổn thương bởi sát thương xuyên phá",
     "hostileVi": "Dễ bị tổn thương bởi sát thương xuyên phá",
@@ -63614,7 +63637,7 @@
     "termEnZh": "Bludgeoning Vulnerability",
     "translationVi": "Dễ bị tổn thương bởi sát thương đập bầm",
     "category": "Kỹ năng / Chức năng",
-    "description": "Trạng thái khiến mục tiêu chịu thêm sát thương đập bầm.",
+    "description": "Trạng thái khiến mục tiêu chịu thêm sát thương đập.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Dễ bị tổn thương bởi sát thương đập bầm",
     "hostileVi": "Dễ bị tổn thương bởi sát thương đập bầm",
@@ -63698,7 +63721,7 @@
     "termEnZh": "Cold Vulnerability",
     "translationVi": "Dễ bị tổn thương bởi sát thương băng giá",
     "category": "Kỹ năng / Chức năng",
-    "description": "Trạng thái khiến mục tiêu chịu thêm sát thương băng giá.",
+    "description": "Trạng thái khiến mục tiêu chịu thêm sát thương băng.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Dễ bị tổn thương bởi sát thương băng giá",
     "hostileVi": "Dễ bị tổn thương bởi sát thương băng giá",
@@ -64340,7 +64363,7 @@
     "termEnZh": "Conduit of Kereska's Ice",
     "translationVi": "Kênh dẫn băng giá của Kereska",
     "category": "Kỹ năng / Chức năng",
-    "description": "Trạng thái/năng lực ma pháp lấy nguồn từ nữ thần Kereska, biến người mang thành vật dẫn truyền sát thương băng giá. Thuộc nhóm hiệu ứng Status trong chiến đấu, hiển thị trên thanh trạng thái của nhân vật.",
+    "description": "Trạng thái/năng lực ma pháp lấy nguồn từ nữ thần Kereska, biến người mang thành vật dẫn truyền sát thương băng. Thuộc nhóm hiệu ứng Status trong chiến đấu, hiển thị trên thanh trạng thái của nhân vật.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Kênh dẫn băng giá của Kereska",
     "hostileVi": "Kênh dẫn băng giá của Kereska",
@@ -65427,7 +65450,7 @@
   {
     "id": "prescan-1793896567145-i093",
     "termEnZh": "Suspension of Purple Worm Slime",
-    "translationVi": "Huyền phù chất nhầy sâu tím",
+    "translationVi": "Dung dịch chất nhầy sâu tím",
     "category": "Vật phẩm",
     "description": "Chế phẩm giả kim dùng chất nhầy sâu tím làm nguyên liệu.",
     "addedAt": "Pre-Scan Engine",
@@ -65436,7 +65459,10 @@
     "indifferentVi": "Huyền phù chất nhầy sâu tím",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 7 Modernize)"
+    "updatedAt": "2026-11-21 (Phase 7 Modernize)",
+    "deprecatedVi": [
+      "Huyền phù chất nhầy sâu tím"
+    ]
   },
   {
     "id": "prescan-1793896567145-e58r",
@@ -66220,7 +66246,7 @@
     "termEnZh": "Chilling Grace",
     "translationVi": "Phước lành băng giá",
     "category": "Kỹ năng / Chức năng",
-    "description": "Tên một hiệu ứng hoặc năng lực mang thuộc tính lạnh, thường gây hoặc tăng cường sát thương băng giá trong giao tranh.",
+    "description": "Tên một hiệu ứng hoặc năng lực mang thuộc tính lạnh, thường gây hoặc tăng cường sát thương băng trong giao tranh.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Phước lành băng giá",
     "hostileVi": "Phước lành băng giá",
@@ -72450,16 +72476,19 @@
   {
     "id": "prescan-1793900683282-0f6x",
     "termEnZh": "Vitriol of Divine Miasma",
-    "translationVi": "Vitriol chướng khí thần thánh",
+    "translationVi": "Dịch axit chướng khí thần linh",
     "category": "Vật phẩm",
-    "description": "Nguyên liệu giả kim bậc cao trong hệ thống bào chế của Baldur's Gate 3, thuộc dòng Vitriol, dùng để tổng hợp thuốc độc và chất phủ vũ khí mang năng lượng thần thánh. Giữ nguyên thuật ngữ 'Vitriol' theo chuẩn giả kim đã thống nhất.",
+    "description": "Nguyên liệu giả kim bậc cao trong hệ thống bào chế của Baldur's Gate 3, thuộc nhóm Dịch axit, dùng để tổng hợp thuốc độc và chất phủ vũ khí mang năng lượng thần thánh. Giữ nguyên thuật ngữ 'Dịch axit' theo chuẩn giả kim đã thống nhất.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Vitriol chướng khí thần thánh",
     "hostileVi": "Vitriol chướng khí thần thánh",
     "indifferentVi": "Vitriol chướng khí thần thánh",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 7 Modernize)"
+    "updatedAt": "2026-11-21 (Phase 7 Modernize)",
+    "deprecatedVi": [
+      "Vitriol chướng khí thần thánh"
+    ]
   },
   {
     "id": "prescan-1793900683282-nxik",
@@ -74423,16 +74452,19 @@
   {
     "id": "prescan-1793902227769-nfr9",
     "termEnZh": "Vitriol of Oleander",
-    "translationVi": "Vitriol hoa trúc đào",
+    "translationVi": "Dịch axit trúc đào",
     "category": "Vật phẩm",
-    "description": "Nguyên liệu giả kim bậc trung, chiết từ Hoa Trúc Đào qua công đoạn tạo Vitriol. Dùng ở Bàn Giả Kim để pha chế các loại thuốc độc và thuốc bôi độc tính. Giữ nguyên cấu trúc tên nguyên liệu để khớp hệ thống chế tác.",
+    "description": "Nguyên liệu giả kim bậc trung, chiết từ Hoa Trúc Đào qua công đoạn chiết xuất Dịch axit. Dùng ở Bàn Giả Kim để pha chế các loại thuốc độc và thuốc bôi độc tính. Giữ nguyên cấu trúc tên nguyên liệu để khớp hệ thống chế tác.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Vitriol hoa trúc đào",
     "hostileVi": "Vitriol hoa trúc đào",
     "indifferentVi": "Vitriol hoa trúc đào",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 7 Modernize)"
+    "updatedAt": "2026-11-21 (Phase 7 Modernize)",
+    "deprecatedVi": [
+      "Vitriol hoa trúc đào"
+    ]
   },
   {
     "id": "prescan-1793902227769-adaf",
@@ -79119,7 +79151,7 @@
   {
     "id": "prescan-1793906532235-bvyt",
     "termEnZh": "Tempest Domain",
-    "translationVi": "Miền bão tố",
+    "translationVi": "Quyền năng Bão Tố",
     "category": "Kỹ năng / Chức năng",
     "description": "Phân nhánh của lớp Giáo Sĩ, tập trung vào sức mạnh sấm sét và bão tố; cung cấp năng lực gây sát thương sét, sấm cùng thông thạo chiến đấu.",
     "addedAt": "Pre-Scan Engine",
@@ -79128,7 +79160,10 @@
     "indifferentVi": "Miền bão tố",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "updatedAt": "2026-11-21 (Phase 6 Caps)",
+    "deprecatedVi": [
+      "Miền bão tố"
+    ]
   },
   {
     "id": "prescan-1793906568145-z4h2",
@@ -82392,16 +82427,19 @@
   {
     "id": "prescan-1793909160716-xfit",
     "termEnZh": "Vitriol of Putrefied Tumour",
-    "translationVi": "Vitriol u thối rữa",
+    "translationVi": "Dịch axit khối u thối rữa",
     "category": "Vật phẩm",
-    "description": "Nguyên liệu giả kim bậc Vitriol, chiết từ U Thối Rữa qua bàn giả kim. Dùng để pha chế thuốc độc và lớp phủ vũ khí; thuật ngữ thuần cơ chế chế tạo, không có sắc thái xưng hô.",
+    "description": "Nguyên liệu giả kim nhóm Dịch axit, chiết từ U Thối Rữa qua bàn giả kim. Dùng để pha chế thuốc độc và lớp phủ vũ khí; thuật ngữ thuần cơ chế chế tạo, không có sắc thái xưng hô.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Vitriol u thối rữa",
     "hostileVi": "Vitriol u thối rữa",
     "indifferentVi": "Vitriol u thối rữa",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 7 Modernize)"
+    "updatedAt": "2026-11-21 (Phase 7 Modernize)",
+    "deprecatedVi": [
+      "Vitriol u thối rữa"
+    ]
   },
   {
     "id": "prescan-1793909160716-cmrc",
@@ -83500,7 +83538,7 @@
     "termEnZh": "Alchemy Lab",
     "translationVi": "Bàn giả kim",
     "category": "Vật phẩm",
-    "description": "Bàn chế tác cho phép pha trộn nguyên liệu giả kim (Ashes, Salts, Vitriol, Suspension...) thành Elixirs, Potions và Coatings. Xuất hiện tại doanh trại và các phòng thí nghiệm trong Baldur's Gate 3.",
+    "description": "Bàn chế tác cho phép pha trộn nguyên liệu giả kim (Tro, Muối, Dịch axit, Dung dịch...) thành Elixirs, Potions và Coatings. Xuất hiện tại doanh trại và các phòng thí nghiệm trong Baldur's Gate 3.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Bàn giả kim",
     "hostileVi": "Bàn giả kim",
@@ -83730,7 +83768,7 @@
   {
     "id": "prescan-1793910029708-urny",
     "termEnZh": "Light Domain",
-    "translationVi": "Miền ánh sáng",
+    "translationVi": "Quyền năng Ánh Sáng",
     "category": "Kỹ năng / Chức năng",
     "description": "Phân nhánh của Cleric sử dụng sức mạnh ánh sáng và lửa, nhận các phép đặc trưng của Lathander, Selûne hoặc những thần linh tương tự.",
     "addedAt": "Pre-Scan Engine",
@@ -83743,7 +83781,8 @@
       "Giáo Vực Ánh Sáng",
       "Lĩnh Vực Ánh Sáng",
       "Thần vực ánh sáng",
-      "Lãnh Địa Ánh Sáng"
+      "Lãnh Địa Ánh Sáng",
+      "Miền ánh sáng"
     ],
     "updatedAt": "2026-11-21 (Phase 7 Modernize)"
   },
@@ -83822,7 +83861,7 @@
     "termEnZh": "Arrow of Piercing",
     "translationVi": "Mũi tên xuyên phá",
     "category": "Vật phẩm",
-    "description": "Loại mũi tên đặc biệt gây sát thương xuyên phá trong chiến đấu.",
+    "description": "Loại mũi tên đặc biệt gây sát thương đâm trong chiến đấu.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Mũi tên xuyên phá",
     "hostileVi": "Mũi tên xuyên phá",
@@ -84203,7 +84242,7 @@
   {
     "id": "prescan-1793910412072-s3h4",
     "termEnZh": "Trickery Cleric",
-    "translationVi": "Giáo sĩ miền lừa lọc",
+    "translationVi": "Giáo sĩ Quyền năng Đánh Lừa",
     "category": "Kỹ năng / Chức năng",
     "description": "Giáo sĩ thuộc phân nhánh Trickery Domain, chuyên về đánh lừa, ngụy trang và hỗ trợ hành động lén lút. Đây là tên phân nhánh nhân vật. ([bg3.wiki](https://bg3.wiki/wiki/Cleric?utm_source=openai))",
     "addedAt": "Pre-Scan Engine",
@@ -84214,7 +84253,8 @@
     "uiFixed": false,
     "updatedAt": "2026-11-21 (Phase 7 Modernize)",
     "deprecatedVi": [
-      "Giáo sĩ Miền Lừa Lọc"
+      "Giáo sĩ Miền Lừa Lọc",
+      "Giáo sĩ miền lừa lọc"
     ],
     "reviewNote": "QA v2: thong_nhat"
   },
@@ -84291,7 +84331,7 @@
   {
     "id": "prescan-1793910412072-1oan",
     "termEnZh": "Light Cleric",
-    "translationVi": "Giáo sĩ miền ánh sáng",
+    "translationVi": "Giáo sĩ Quyền năng Ánh Sáng",
     "category": "Kỹ năng / Chức năng",
     "description": "Giáo sĩ thuộc phân nhánh Light Domain, sử dụng ánh sáng và phép lửa. Phân biệt tên phân nhánh này với phép Light đã có trong thư viện. ([bg3.wiki](https://bg3.wiki/wiki/Cleric?utm_source=openai))",
     "addedAt": "Pre-Scan Engine",
@@ -84302,7 +84342,8 @@
     "uiFixed": false,
     "updatedAt": "2026-11-21 (Phase 7 Modernize)",
     "deprecatedVi": [
-      "Giáo sĩ Miền Ánh Sáng"
+      "Giáo sĩ Miền Ánh Sáng",
+      "Giáo sĩ miền ánh sáng"
     ],
     "reviewNote": "QA v2: thong_nhat"
   },
@@ -85288,7 +85329,7 @@
     "termEnZh": "Piercing Immunity",
     "translationVi": "Miễn nhiễm sát thương xuyên phá",
     "category": "Kỹ năng / Chức năng",
-    "description": "Cơ chế miễn nhiễm hoàn toàn với sát thương xuyên phá.",
+    "description": "Cơ chế miễn nhiễm hoàn toàn với sát thương đâm.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Miễn nhiễm sát thương xuyên phá",
     "hostileVi": "Miễn nhiễm sát thương xuyên phá",
@@ -85302,7 +85343,7 @@
     "termEnZh": "Bludgeoning Immunity",
     "translationVi": "Miễn nhiễm sát thương đập bầm",
     "category": "Kỹ năng / Chức năng",
-    "description": "Cơ chế miễn nhiễm hoàn toàn với sát thương đập bầm.",
+    "description": "Cơ chế miễn nhiễm hoàn toàn với sát thương đập.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Miễn nhiễm sát thương đập bầm",
     "hostileVi": "Miễn nhiễm sát thương đập bầm",
@@ -87583,7 +87624,7 @@
     "termEnZh": "Embrace of the Inferno",
     "translationVi": "Vòng siết biển lửa",
     "category": "Kỹ năng / Chức năng",
-    "description": "Hiệu ứng/năng lực mang chủ đề lửa địa ngục Avernus, bao trùm mục tiêu trong ngọn lửa quỷ giới gây sát thương Hỏa. Gắn với mạch truyện khế ước quỷ và động cơ địa ngục; dịch giữ âm hưởng nghi thức, tránh dùng từ 'ôm ấp' thường ngày.",
+    "description": "Hiệu ứng/năng lực mang chủ đề lửa địa ngục Avernus, bao trùm mục tiêu trong ngọn lửa quỷ giới gây sát thương lửa. Gắn với mạch truyện khế ước quỷ và động cơ địa ngục; dịch giữ âm hưởng nghi thức, tránh dùng từ 'ôm ấp' thường ngày.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Vòng siết biển lửa",
     "hostileVi": "Vòng siết biển lửa",
@@ -93218,7 +93259,7 @@
     "termEnZh": "Air Elemental",
     "translationVi": "Nguyên tố khí",
     "category": "Kỹ năng / Chức năng",
-    "description": "Một dạng sinh vật triệu hồi của phép Conjure Elemental (bậc 5) trong BG3. Nguyên Tố Khí có khả năng bay, gây sát thương đập bầm và tạo Lốc Xoáy (Whirlwind) đẩy lùi kẻ địch. Xuất hiện trong danh mục lựa chọn biến thể phép thuật của Wizard, Druid, Cleric và Warlock.",
+    "description": "Một dạng sinh vật triệu hồi của phép Conjure Elemental (bậc 5) trong BG3. Nguyên Tố Khí có khả năng bay, gây sát thương đập và tạo Lốc Xoáy (Whirlwind) đẩy lùi kẻ địch. Xuất hiện trong danh mục lựa chọn biến thể phép thuật của Wizard, Druid, Cleric và Warlock.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Nguyên tố khí",
     "hostileVi": "Nguyên tố khí",
@@ -93344,7 +93385,7 @@
     "termEnZh": "Knowledge of the Ages",
     "translationVi": "Tri thức cổ đại",
     "category": "Kỹ năng / Chức năng",
-    "description": "Năng lực Kênh Thần Lực của Giáo sĩ thuộc Miền Tri Thức, cho phép thành thạo các kỹ năng liên quan đến một thuộc tính trong thời gian ngắn.",
+    "description": "Năng lực Kênh Thần Lực của Giáo sĩ thuộc Quyền năng Tri Thức, cho phép thành thạo các kỹ năng liên quan đến một thuộc tính trong thời gian ngắn.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Tri thức cổ đại",
     "hostileVi": "Tri thức cổ đại",
@@ -93929,7 +93970,7 @@
     "termEnZh": "Piercing Style",
     "translationVi": "Phong cách xuyên phá",
     "category": "Kỹ năng / Chức năng",
-    "description": "Một phong cách chiến đấu tăng cường hiệu quả của các đòn hoặc vũ khí gây sát thương xuyên phá.",
+    "description": "Một phong cách chiến đấu tăng cường hiệu quả của các đòn hoặc vũ khí gây sát thương đâm.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Phong cách xuyên phá",
     "hostileVi": "Phong cách xuyên phá",
@@ -97461,7 +97502,7 @@
     "termEnZh": "Cold Resistance Aura",
     "translationVi": "Hào quang kháng băng giá",
     "category": "Kỹ năng / Chức năng",
-    "description": "Trạng thái hào quang của sinh vật imp ảo giác, ban khả năng kháng sát thương băng giá cho các sinh vật ở gần. Đây là hiệu ứng riêng, khác mục Cold Resistance đã có trong thư viện. ([bg3.wiki](https://bg3.wiki/wiki/Cold_Resistance_Aura_%28condition%29))",
+    "description": "Trạng thái hào quang của sinh vật imp ảo giác, ban khả năng kháng sát thương băng cho các sinh vật ở gần. Đây là hiệu ứng riêng, khác mục Cold Resistance đã có trong thư viện. ([bg3.wiki](https://bg3.wiki/wiki/Cold_Resistance_Aura_%28condition%29))",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Hào quang kháng băng giá",
     "hostileVi": "Hào quang kháng băng giá",
@@ -99470,7 +99511,7 @@
   {
     "id": "prescan-1793922264297-2v9z",
     "termEnZh": "Suspension of Spider Silk",
-    "translationVi": "Huyền phù tơ nhện",
+    "translationVi": "Dung dịch tơ nhện",
     "category": "Vật phẩm",
     "description": "Nguyên liệu giả kim trung gian, bào chế từ Spider Silk (Tơ Nhện) thu được khi mổ xác nhện tại Emerald Grove, Underdark hay hầm mộ. Dùng làm thành phần pha chế Elixir và thuốc phủ vũ khí ở bàn giả kim.",
     "addedAt": "Pre-Scan Engine",
@@ -99479,7 +99520,10 @@
     "indifferentVi": "Huyền phù tơ nhện",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "updatedAt": "2026-11-21 (Phase 6 Caps)",
+    "deprecatedVi": [
+      "Huyền phù tơ nhện"
+    ]
   },
   {
     "id": "prescan-1793922264297-l36q",
@@ -104812,7 +104856,7 @@
     "termEnZh": "Oiled",
     "translationVi": "Bôi dầu",
     "category": "Kỹ năng / Chức năng",
-    "description": "Trạng thái (Status) khi mục tiêu bị bôi dầu, dễ bén lửa và chịu thêm sát thương Hỏa; xuất hiện trong giao chiến và mô tả hiệu ứng.",
+    "description": "Trạng thái (Status) khi mục tiêu bị bôi dầu, dễ bén lửa và chịu thêm sát thương lửa; xuất hiện trong giao chiến và mô tả hiệu ứng.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Bôi dầu",
     "hostileVi": "Bôi dầu",
@@ -105304,7 +105348,7 @@
     "termEnZh": "Radiance of the Dawn",
     "translationVi": "Quang huy rạng đông",
     "category": "Kỹ năng / Chức năng",
-    "description": "Năng lực Channel Divinity của miền Ánh Sáng, gây sát thương bức xạ và xua tan bóng tối.",
+    "description": "Năng lực Channel Divinity của Quyền năng Ánh Sáng, gây sát thương bức xạ và xua tan bóng tối.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Quang huy rạng đông",
     "hostileVi": "Quang huy rạng đông",
@@ -105651,7 +105695,7 @@
   {
     "id": "prescan-1793927825373-plg0",
     "termEnZh": "Vitriol of Weavemoss",
-    "translationVi": "Vitriol rêu dệt phép",
+    "translationVi": "Dịch axit rêu lưới ma pháp",
     "category": "Vật phẩm",
     "description": "Nguyên liệu giả kim được tạo từ Weavemoss, xuất hiện trong công thức hoặc giao diện chế tạo; dịch theo cấu trúc tên nguyên liệu, không biến thành tên nhân vật.",
     "addedAt": "Pre-Scan Engine",
@@ -105660,7 +105704,10 @@
     "indifferentVi": "Vitriol rêu dệt phép",
     "priority": "standard",
     "uiFixed": false,
-    "updatedAt": "2026-11-21 (Phase 6 Caps)"
+    "updatedAt": "2026-11-21 (Phase 6 Caps)",
+    "deprecatedVi": [
+      "Vitriol rêu dệt phép"
+    ]
   },
   {
     "id": "prescan-1793927825373-uibr",
@@ -108080,7 +108127,7 @@
     "termEnZh": "Caustic Retort",
     "translationVi": "Bình cất ăn mòn",
     "category": "Vật phẩm",
-    "description": "Vật phẩm giả kim mang thuộc tính axit (caustic), cùng họ với dòng Caustic Bulb và các nguyên liệu Vitriol. 'Retort' là bình cổ cong dùng để chưng cất, nên dịch thành 'Bình Cất' kèm sắc thái ăn mòn thay vì hiểu theo nghĩa lời đáp trả.",
+    "description": "Vật phẩm giả kim mang thuộc tính axit (caustic), cùng họ với dòng Caustic Bulb và các nguyên liệu Dịch axit. 'Retort' là bình cổ cong dùng để chưng cất, nên dịch thành 'Bình Cất' kèm sắc thái ăn mòn thay vì hiểu theo nghĩa lời đáp trả.",
     "addedAt": "Pre-Scan Engine",
     "friendlyVi": "Bình cất ăn mòn",
     "hostileVi": "Bình cất ăn mòn",
