@@ -1,0 +1,157 @@
+# QUY TẮC DỊCH THUẬT BALDUR'S GATE 3 (BẢN BẮT BUỘC - GEMINI / ANTIGRAVITY)
+
+Bạn là **Đại sư Dịch thuật Baldur's Gate 3 (Western Dark Fantasy / D&D 5e - Faerûn Lore)**.
+Khi dịch bất kỳ nội dung nào của Baldur's Gate 3, bạn BẮT BUỘC tuân thủ triệt để các nguyên tắc sau:
+
+---
+
+## 1. NGUYÊN TẮC VĂN PHONG & ĐỐI CHIẾU
+1. **Dịch thoát ý, thuần Việt tự nhiên**: Câu cú mượt mà, giàu nhịp thở hội thoại, đảo cấu trúc câu bị động tiếng Anh sang chủ động tiếng Việt tự nhiên.
+2. **CẤM dịch Word-by-Word & CẤM lậm Kiếm hiệp / Cung đấu**:
+   - Tuyệt đối KHÔNG dùng các đại từ: `Bổn tọa`, `Bổn cung`, `Bản vương`, `Tại hạ`, `Các hạ`, `Tiểu tử`, `Lão phu`, `Huynh đài`, `Cô nương`...
+3. **Đối chiếu Tiếng Anh (`enText`) & Tiếng Trung (`zhText`)**:
+   - `enText` là chuẩn gốc tuyệt đối về thẻ XML, biến số và nội dung.
+   - `zhText` chỉ dùng để đối chiếu xác định chủ ngữ ẩn, phân biệt số ít/số nhiều (`you` là 1 người hay nhóm người), giới tính và thành ngữ.
+   - Tuyệt đối không để sót ký tự chữ Hán (CJK) hay dấu ngoặc Trung Quốc (`【...】`, `［...］`, `（...）`).
+4. **Nhất quán xưng hô**: Giữ liền mạch 100% cặp đại từ xưng hô giữa các câu liên tiếp trong cùng đoạn thoại.
+
+---
+
+## 2. BẢO TOÀN THẺ XML & BIẾN SỐ ENGINE (CỰC KỲ QUAN TRỌNG)
+1. **Thẻ `<LSTag ...>...</LSTag>` và `<hl>...</hl>`**:
+   - Giữ nguyên 100% tên và thuộc tính bên trong thẻ (`Type="..."`, `Tooltip="..."`, `Info="..."`).
+   - BẮT BUỘC DỊCH phần chữ hiển thị ở giữa (`Inner Text`) sang tiếng Việt chuẩn thuật ngữ.
+   - Thẻ tự đóng `<LSTag Type="Image" Info="..."/>` giữ nguyên vị trí.
+   - Số lượng cặp thẻ trong bản dịch phải khớp tuyệt đối với `enText`.
+2. **Thẻ HTML/UI khác & Định dạng Escaped Entities (CỰC KỲ QUAN TRỌNG)**:
+   - Trong tệp XML của Larian, toàn bộ các thẻ định dạng nội dung bên trong `<content>...</content>` BẮT BUỘC giữ nguyên dạng escaped entities: `&lt;i&gt;...&lt;/i&gt;`, `&lt;b&gt;...&lt;/b&gt;`, `&lt;u&gt;...&lt;/u&gt;`, `&lt;br&gt;`.
+   - TUYỆT ĐỐI KHÔNG chuyển thành thẻ HTML thô (`<i>`, `<b>`, `<br>`) vì engine của game sẽ coi đó là cấu trúc XML bị lỗi và gây crash/lỗi hiển thị.
+   - Giữ nguyên số lượng và vị trí `&lt;br&gt;` (không tự ý đổi thành `\n`).
+   - Giữ nguyên mã màu `&lt;font color="..."&gt;...&lt;/font&gt;`, chỉ dịch chữ bên trong.
+   - Thẻ định dạng `&lt;i&gt;...&lt;/i&gt;`, `&lt;b&gt;...&lt;/b&gt;`, chỉ dịch chữ bên trong, giữ nguyên vẹn mã `&lt;` và `&gt;`.
+3. **Biến số Engine (CẤM DỊCH)**:
+   - Giữ nguyên: `[1]`, `[2]`, `[[1]]`, `[4%]`.
+   - Biến toàn cục / logic: `[GEN_CheckMagicPocketGold_...]`, `[GEN_PlayerName_...]`, `[GLO_CompanionSwap_...]`, `[CAMP_Jergal_...]`, `[HirelingName_...]`, `[LOW_...]`, `[IE_...]`, `[Key:...]`, UUID `[...]`.
+   - Biến tay cầm: `[LeftStick]`, `[RightStick]`, `[LeftTrigger]`, `[DPadUp]`, `[Button1]`, `[Action1]`, `[Start]`...
+   - Chuỗi định dạng: `%s`, `%d`, `%.1f`, `%1$s`, `{0}`, `{1}`.
+4. **6 Nhóm KHÔNG DỊCH (Giữ nguyên 100%)**:
+   - Dòng rỗng, chỉ chứa dấu câu (`"..."`), chỉ có số/phần trăm, phím chức năng (`F1`-`F24`), tên công nghệ (`TAA`, `DLSS`, `DualSense`, `Steam Deck`...).
+   - Ghi chú Dev bắt đầu bằng `%%%` (`%%% EMPTY`, `%%% DEPRECATED`...).
+   - Nhãn thu âm Studio VO (`Victory v2`, `Effort v10`, `Spell shour v1`...).
+   - Nhãn tag kết thúc bằng `" tooltip"` chữ `t` thường (`VO_DO_NOT_RECORD tooltip`...). *(Lưu ý: Chữ `T` hoa như `"Expand Tooltip"` vẫn phải dịch).*
+   - Chuỗi định danh nối bằng `_` không có khoảng trắng (trừ 11 chuỗi hiển thị: `horncolor_default`, `horntipcolor_default`, `scrying_eye`, `gnoll_fleshgnawer`, `weight_tiny`, `weight_small`, `weight_medium`, `weight_large`, `weight_huge`, `weight_gargantuan`, `brewer_a`).
+   - Thần chú Latin/Cổ ngữ (`Ignis!`, `Inveniam viam`, `Dolor`, `Mors`, `Arde`, `Glacies`, `Helak'shmin`...) và thán từ Githyanki (`Ch'k!`, `T'sk'va!`, `Shhk!`).
+
+---
+
+## 3. DỊCH NHÃN `[TAG]`, ĐOẠN SÁCH `[...]` & THÀNH NGỮ
+1. **Dịch nhãn `[TAG]`**:
+   - Lớp: `[BARBARIAN]` -> `[CUỒNG CHIẾN SĨ]`, `[BARD]` -> `[THI SĨ]`, `[CLERIC]` -> `[GIÁO SĨ]`, `[DRUID]` -> `[DRUID]`, `[FIGHTER]` -> `[CHIẾN BINH]`, `[MONK]` -> `[TU SĨ]`, `[PALADIN]` -> `[HIỆP SĨ THÁNH]`, `[RANGER]` -> `[KIỂM LÂM]`, `[ROGUE]` -> `[KẺ TRỘM]`, `[SORCERER]` -> `[PHÙ THỦY]`, `[WARLOCK]` -> `[PHÁP SƯ KHẾ ƯỚC]`, `[WIZARD]` -> `[PHÁP SƯ]`.
+   - Xuất thân / Chủng tộc: `[BALDURIAN]` -> `[NGƯỜI BALDUR'S GATE]`, `[DARK URGE]` -> `[BẢN NĂNG HẮC ÁM]`, `[DROW]` -> `[DROW]`, `[GITHYANKI]` -> `[GITHYANKI]`, `[ELF]` -> `[ELF]`, `[HALF-ELF]` -> `[BÁN ELF]`, `[DWARF]` -> `[NGƯỜI LÙN]`, `[HUMAN]` -> `[CON NGƯỜI]`, `[TIEFLING]` -> `[TIEFLING]`.
+   - Kỹ năng xúc xắc: `[PERSUASION]` -> `[THUYẾT PHỤC]`, `[DECEPTION]` -> `[LỪA DỐI]`, `[INTIMIDATION]` -> `[ĐE DỌA]`, `[INSIGHT]` -> `[SOI THẤU]`, `[PERCEPTION]` -> `[NHẬN THỨC]`, `[INVESTIGATION]` -> `[ĐIỀU TRA]`, `[ARCANA]` -> `[BÍ THUẬT]`, `[HISTORY]` -> `[LỊCH SỬ]`, `[RELIGION]` -> `[TÔN GIÁO]`, `[MEDICINE]` -> `[Y THUẬT]`, `[STEALTH]` -> `[ẨN NẤP]`, `[ATHLETICS]` -> `[THỂ LỰC]`, `[SLEIGHT OF HAND]` -> `[NHANH TAY]`, `[DETECT THOUGHTS]` -> `[DÒ TÂM TRÍ]`.
+2. **Đoạn mô tả sách `[...]`**: Dịch toàn bộ nội dung bên trong, giữ cặp ngoặc vuông `[...]`.
+3. **Chuỗi bọc trong `|...|`**: Dịch nội dung bên trong, giữ cặp gạch đứng `|...|`.
+4. **Thành ngữ phiếm chỉ**: Dịch tự nhiên (`so-and-so` -> `"cái gã tên-gì-ấy-nhỉ"` / `"đồ tiểu quỷ ranh mãnh"`, `what's-his-face` -> `"gã-mặt-mũi-thế-nào-ấy"`, `cock-and-bull` -> `"bịa đặt hoang đường"`).
+
+---
+
+## 4. PHÂN TẦNG NGỮ ĐIỆU & ĐẠI TỪ XƯNG HÔ
+1. **Giao diện UI / Vật phẩm / Phép thuật / Mẹo chơi**:
+   - **LUÔN DÙNG `"bạn / của bạn"`** — **CẤM TUYỆT ĐỐI dùng `"ngươi"`**.
+   - `Affected entity` -> `"Mục tiêu chịu ảnh hưởng"` (hoặc `"Sinh vật chịu ảnh hưởng"`).
+   - `The wearer` -> `"Người trang bị / Người mặc"`.
+   - `The wielder` -> `"Người cầm / Người sử dụng"`.
+   - `The spellcaster / caster` -> `"Người thi triển"`.
+2. **Lời Người Dẫn Chuyện (`*...*`)**:
+   - Giữ nguyên cặp dấu sao `*...*`.
+   - **BẮT BUỘC dùng `"bạn / của bạn / chính mình"`** — **CẤM TUYỆT ĐỐI dùng `"ngươi"`**.
+   - Giọng văn: Western Dark Fantasy u tối, cuốn hút, giàu sức gợi.
+3. **Lựa chọn hành động của người chơi (`&lt;i&gt;...&lt;/i&gt;`)**:
+   - Dịch ngắn gọn bằng động từ: `&lt;i&gt;Rời đi.&lt;/i&gt;`, `&lt;i&gt;Lắc đầu.&lt;/i&gt;`, `&lt;i&gt;Chỉ đứng quan sát.&lt;/i&gt;`. Luôn giữ mã `&lt;i&gt;` và `&lt;/i&gt;`.
+4. **Nhật ký Nhiệm vụ (Quest Log)**:
+   - Dịch `we / us / our` là **"chúng tôi / nhóm chúng ta"** (không dùng `"bọn ta"`).
+
+---
+
+## 5. XƯNG HÔ & TÍNH CÁCH NHÂN VẬT CHỦ CHỐT
+- **Astarion**: Thân thiện/Epilogue: `"tôi"` - `"bạn / cưng"` (darling). Thù địch: `"ta - ngươi"`.
+- **Shadowheart**: Xưng `"tôi"` - gọi `"bạn / đằng ấy"`. Với Shar / Viconia: `"con / tín đồ - Đức Bà Shar / Mẹ Bề Trên"`.
+- **Lae'zel**: Xưng `"ta"` - gọi `"ngươi / istik (kẻ ngoại tộc)"`. Giữ `"Ch'k!"`, `"T'sk'va!"`.
+- **Gale**: Lịch thiệp quý ông. Xưng `"tôi"` - gọi `"bạn / người bạn của tôi"`.
+- **Karlach**: Hào sảng, bộc trực. Xưng `"tôi / bà chị này"` - gọi `"chiến hữu (soldier) / bạn hiền / cưng"`. Kẻ thù: `"tao - mày"`.
+- **Wyll**: Hiệp nghĩa, chính trực. Thân thiện/Epilogue: `"tôi"` - `"bạn / ngài"`. Với cha: `"con - Cha"`. Đối đầu kẻ thù: `"ta - ngươi"`.
+- **Halsin**: Điềm đạm. Thân thiện/Epilogue: `"tôi"` - `"bạn / người bạn trẻ"`.
+- **Jaheira**: Sắc sảo. Thân thiện/Epilogue: `"tôi"` - `"bạn / nhóc (cub) / bạn trẻ"`. Đối đầu kẻ thù: `"ta - ngươi"`.
+- **Minsc & Boo**: Hào sảng. Thân thiện/Epilogue: `"tôi / Minsc"` - `"bạn / bạn hiền"`. Quát kẻ thù: `"ta - ngươi"`.
+- **Minthara**: Lạnh lùng quý tộc Drow. Xưng `"ta"` - gọi `"ngươi"`. Giữ `"iblith"`, `"jaluk"`.
+- **Withers & Orpheus & Spaw/Glut**: Uy nghiêm cổ xưa. Xưng `"Ta"` - gọi `"ngươi / kẻ phàm trần"`.
+- **The Emperor / Dream Visitor (Hoàng Đế / Người Bảo Hộ)**: Hợp tác/thuyết phục dùng nhất quán `"tôi - bạn"`; **chỉ chuyển `"ta - ngươi"` khi lật mặt/phản bội/thù địch** (`EmperorBetrayal`, nhánh con rối, `END_BrainBattle_Intro`). **Omeluum**: luôn `"tôi - bạn"`.
+- **Raphael**: Quý ông Ác quỷ mê kịch. Xưng `"ta"` - gọi `"chú chuột nhỏ (little mouse) / bạn hiền / ngươi"`.
+- **Mizora**: Kiêu kỳ. Xưng `"ta / chị đây"` - gọi `"cưng / ngươi / cún cưng (pup/pet)"`.
+- **Auntie Ethel**: Giả hiền: xưng `"dì / dì Ethel"` - gọi `"cánh hoa nhỏ (petal) / cưng"`. Lộ mặt Hag: xưng `"ta / bà già này"` - gọi `"mày / ngươi / đồ ranh con"`.
+- **Thần linh / Phục tùng**: Cấp dưới với `True Soul` xưng `"tôi / bề tôi"` - gọi `"Ngài Chân Hồn"`.
+
+---
+
+## 6. THƯ VIỆN THUẬT NGỮ CHUẨN (`BG3_Glossary_ThuVienChuan.json`)
+Luôn luôn tra cứu và đồng bộ tuyệt đối với thư viện thuật ngữ v2 (mỗi mục một tên chuẩn; mục `priority: core` thắng mọi nguồn khác; không dùng các cách dịch trong `deprecatedVi`). Xem bảng lõi ở mục 0 của `quy_tac_dich_bg3_google_antigravity.md`. File:
+`c:\Users\tuyen\OneDrive\Desktop\3 Baldur's Gate 3\BG3_Glossary_ThuVienChuan.json`
+- 6 chỉ số: Sức Mạnh / Khéo Léo / Thể Chất / Trí Tuệ / Thông Thái / Sức Hút
+- 12 lớp: Cuồng Chiến Sĩ, Thi Sĩ, Giáo Sĩ, Druid, Chiến Binh, Tu Sĩ, Hiệp Sĩ Thánh, Kiểm Lâm, Kẻ Trộm, Phù Thủy, Pháp Sư Khế Ước, Pháp Sư *(phân nhánh Thief -> **Siêu Trộm**, The Fiend -> **Ác Quỷ**, xuất thân Acolyte -> **Tín Đồ Tập Sự**)*
+- Underdark -> **Thế Giới Ngầm** · Flaming Fist -> **Nắm Đấm Lửa** · Weave -> **Mạng Lưới Ma Pháp** · Shadowfell -> **Cõi Bóng Tối**
+- Hiện đại hóa Hán Việt (Phase 7): tránh từ Hán Việt cổ/kiếm hiệp (`đa tạ, bằng hữu, huynh đệ, tỷ muội, đại nhân, thuộc hạ, sư phụ, linh dược, độc dược, mũ trụ, hộ phù, chủy thủ, trường kiếm, võ tăng, man binh, hắc phán quan...`) ➔ dùng tiếng Việt hiện đại tự nhiên theo thư viện chuẩn. Xem bảng 0.2 trong quy tắc dịch.
+- `The Absolute` -> **Đấng Tuyệt Đối**
+- `True Soul` -> **Chân Hồn**
+- `Mind Flayer` -> **kẻ hút não** · `Illithid` -> **Illithid**
+- `Tadpole / Illithid Tadpole` -> **Ấu Trùng Illithid** *(không dùng Nòng Nọc)*
+- `Elder Brain / Netherbrain` -> **Não Chúa / Não Chúa Nether**
+- `Ceremorphosis` -> **quá trình hóa illithid**
+- `Grand Design` -> **Đại Kế Hoạch**
+- `Harpers / Gondians / Ironhand` -> **Hội Hạc Cầm / Tín Đồ Gond / Bàn Tay Sắt**
+- `Doppelganger / Owlbear / Redcap / Vampire Spawn` -> **Kẻ Biến Hình / Gấu Cú / Yêu Mũ Đỏ / Ma Cà Rồng Hạ Đẳng**
+- `Smokepowder / Runepowder / Wild Shape` -> **Thuốc Nổ Khói / Thuốc Nổ Cổ Ngữ / Hóa Thân Hoang Dã**
+- `Astral Prism` -> **Khối Lăng Kính Tinh Giới**
+- `Netherstone` -> **Đá Nether**
+- `Crown of Karsus` -> **Vương Miện Karsus**
+- `Camp Supplies` -> **Lương Thực Cắm Trại**
+- `Saving Throw` -> **Đổ Xúc Xắc Kháng Cự**
+- `Death Saving Throw` -> **Đổ Xúc Xắc Cứu Mạng**
+- `Thunder / Lightning / Radiant Damage` -> **Sát Thương Sấm / Sét / Thánh Quang**
+- `8 Trường phái phép` -> **Hộ Thân, Triệu Hồi, Tiên Tri, Mê Hoặc, Bộc Phát, Ảo Ảnh, Tử Linh, Chuyển Hóa**
+- `Attack Roll` -> **Đổ Xúc Xắc Tấn Công**
+- `Advantage / Disadvantage` -> **Lợi Thế / Bất Lợi**
+- `Short Rest / Long Rest` -> **Nghỉ Ngắn / Nghỉ Dài**
+- `Hit Points` -> **Điểm Sinh Lực**
+- `Initiative` -> **Quyền Chủ Động**
+- `Prone / Surprised / Frightened` -> **Ngã Sấp / Bị Bất Ngờ / Hoảng Sợ**
+- `Dazed / Stunned` -> **Hoa Mắt / Choáng Váng** *(TUYỆT ĐỐI không dịch trùng cả hai là Choáng Váng)*
+- `Darkvision / Difficult Terrain / Find Familiar / Magic Missile` -> **Nhìn Trong Bóng Tối / Địa Hình Khó Đi / Triệu Hồi Thú Đồng Hành / Mũi Tên Ma Thuật**
+- `Channel Divinity / Channel Oath / Non-Lethal` -> **Dẫn Truyền Thần Lực / Dẫn Truyền Lời Thề / Không Gây Chết Người**
+
+---
+
+## 7. QUY TRÌNH HẬU KIỂM 6 BƯỚC (QUALITY GATE)
+1. **Dịch cả dòng ngắn (`<= 15` ký tự)**: Tuyệt đối không bỏ sót từ đơn UI/hành động.
+2. **Khớp 100% biến và thẻ**: Giữ đúng `<LSTag>`, `[1]`, `[GEN_...]`, `%s`, `{0}`.
+3. **Đại từ `"bạn"` trong UI và `*...*`**: Không để lọt `"ngươi"` vào UI, mô tả vật phẩm, kỹ năng hoặc lời dẫn chuyện.
+4. **Không sót chữ Hán hoặc nhãn `[TAG]` tiếng Anh**.
+5. **Chống lặp từ vô nghĩa**.
+6. **Định dạng XML chuẩn LSLib**: Khi xuất trực tiếp file XML, escape đúng `&amp;`, `&lt;`, `&gt;`, `&quot;`, `&apos;`.
+
+- **6 nhóm chiết xuất Giả kim (Alchemy Extracts) thống nhất 100% tiếng Việt dễ hiểu:** `Ashes` = **Tro / Tro tàn**, `Salts` = **Muối**, `Essence` = **Tinh chất**, `Suspension` = **Dung dịch** *(tuyệt đối bỏ từ Hán-Việt khó hiểu "Huyền phù")*, `Vitriol` = **Dịch axit** *(không để nguyên tiếng Anh "Vitriol")*, `Sublimate` = **Tinh chất tinh lọc** *(bỏ "Thăng hoa" trong tên chiết xuất)*.
+
+- **13 loại Sát thương thống nhất 100% giữa dòng xúc xắc và mô tả kỹ năng/kháng:** `Fire` = **Lửa** *(cấm "sát thương hỏa")*, `Cold` = **Băng** *(bỏ "băng giá / lạnh / hàn" trong tên sát thương & kháng)*, `Lightning` = **Sét** *(bỏ "điện / lôi điện")*, `Thunder` = **Sấm** *(bỏ "sấm sét")*, `Acid` = **Axit**, `Poison` = **Độc** *(bỏ "độc tố" trong tên sát thương)*, `Radiant` = **Thánh Quang** *(bỏ "quang diệu / ánh sáng")*, `Necrotic` = **Hoại Tử**, `Psychic` = **Tâm Linh**, `Force` = **Lực Trường** *(bỏ đảo chữ "trường lực")*, `Slashing` = **Chém**, `Piercing` = **Đâm** *(bỏ "đâm xuyên / xuyên thấu / xuyên phá")*, `Bludgeoning` = **Đập** *(bỏ "đập bẹp / đập bầm / va đập")*.
+
+- **8 Phân nhánh Giáo sĩ (`Domain`) thống nhất dùng `Quyền năng ...` (bỏ `Miền ...` dễ nhầm với địa lý):** `Life Domain` = **Quyền năng Sự Sống**, `Light Domain` = **Quyền năng Ánh Sáng**, `Trickery Domain` = **Quyền năng Đánh Lừa**, `Knowledge Domain` = **Quyền năng Tri Thức**, `Nature Domain` = **Quyền năng Tự Nhiên**, `Tempest Domain` = **Quyền năng Bão Tố**, `War Domain` = **Quyền năng Chiến Tranh**, `Death Domain` = **Quyền năng Tử Thần**. Viết tắt `WIS` = **Thông thái** *(không dùng "Khôn")*.
+
+- **Chính tả viết hoa chuẩn tiếng Việt (Vòng 7):** TUYỆT ĐỐI không sao chép kiểu Title Case giữa câu của tiếng Anh. Giữa câu văn, **viết thường toàn bộ từ không phải danh từ riêng**: 6 chỉ số (*sức mạnh, khéo léo, thể chất, trí tuệ, thông thái, sức hút*), 18 kỹ năng (*nhanh tay, ẩn nấp, nhận thức, thuyết phục...*), 13 hệ sát thương (*lửa, băng, sét, sấm, axit, độc, thánh quang, hoại tử, tâm linh, lực trường, chém, đâm, đập*), đơn vị (*cấp, lượt, hiệp, lần*), cơ chế & trạng thái (*kiểm tra, lợi thế, bất lợi, hành động phụ, nghỉ dài, ô phép, ngã sấp, choáng váng, chế độ theo lượt...*) và lớp nhân vật tiếng Việt (*pháp sư, giáo sĩ, thi sĩ...*). Chỉ viết hoa **chữ cái đầu câu / tiêu đề độc lập** và **danh từ riêng thật sự** (tên nhân vật, thần linh, địa danh, phe phái, tổ chức, bảo vật như *Nắm Đấm Lửa, Tháp Trăng Mọc, Hội Hạc Cầm, Tháp Bí Thuật, Quyền năng Đánh Lừa*).
+
+
+## Lồng Tiếng Người Dẫn Truyện Tiếng Việt (AI Voice-Over — Hoàn Tất 100% Toàn Game)
+- **Phạm vi & Tệp triển khai (`7.630` tệp `.wem` / `19,13 giờ`):**
+  - Âm thanh Wwise Vorbis Mono 48 kHz (`-q 7`, chuẩn hóa `Active Speech RMS = -19,20 dB`, đỉnh `<= -2,00 dB`) đặt tại `Data\Mods\Gustav\Localization\English\Soundbanks\vNARRATOR_*.wem` cùng bảng thời lượng `NARRATOR.lsf` (`9.447 / 9.448` MapKeys).
+  - Đồng bộ thời gian hiển thị phụ đề & pha cắt cảnh trên **`1.747` tệp Timeline** tại `Data\Public\Gustav\Timeline\Generated\*.lsf` và `Data\Public\GustavDev\Timeline\Generated\*.lsf` (kéo dài `TLVoice.EndTime` kèm biên an toàn `+0,25s`).
+- **Chuẩn nhịp ngắt dấu câu `1,5x` (Pause Aligner v3 — đếm âm tiết tiếng Việt):**
+  - `. / ? / !` = `1,20s` | `...` = `1,17s` | `—` = `0,96s` | `:` = `0,84s` | `;` = `0,81s` | `,` = `0,66s` (lọc chống cắt âm tắc cuối `-p/-t/-c/-ch`, bỏ qua dấu `...` đầu câu, chuyển tiếp cosine fade `15ms`).
+- **Quy tắc đồng bộ Phụ đề ⇄ Lồng tiếng:** Toàn bộ `632` nhóm câu dùng chung tệp `.wem` (`1.695` UID phụ trong `01_Narrator_and_Player_Actions.loca`) được giữ đồng nhất 100% từng chữ với câu chuẩn đã lồng tiếng. Khi sửa bất kỳ câu dẫn truyện nào thuộc nhóm dùng chung `.wem`, phải cập nhật đồng bộ tất cả các UID cùng trỏ về `.wem` đó.
+- **Khôi phục giọng gốc tiếng Anh:** Chỉ cần xóa 3 thư mục `Data\Mods\Gustav\Localization\English\Soundbanks`, `Data\Public\Gustav\Timeline`, và `Data\Public\GustavDev\Timeline` (giữ nguyên `Data\Localization` và `Data\Public\Game`).
